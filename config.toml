@@ -1,4 +1,5 @@
 baseURL = ""
+relativeURLS = true
 title   = "Mahasemesta"
 languageCode = "en-us"
 theme = "hello-friend-ng"
