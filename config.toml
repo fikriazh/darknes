@@ -142,11 +142,22 @@ disableHugoGeneratorInject = false
     weight    = 1
 
   [menu]
-  [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "about/"
-  [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "posts/"
+[[menu.main]]
+identifier = "about"
+name = "Brief"
+url = "brief/"
+
+[[menu.main]]
+identifier = "journey"
+name = "Journey"
+url = "journey/"
+
+[[menu.main]]
+identifier = "contact"
+name = "Contact"
+url = "contact/"
+
+[[menu.main]]
+identifier = "article"
+name = "Article"
+url = "article/"
