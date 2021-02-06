@@ -12,18 +12,6 @@ series:
 - Hugo 101
 ---
 
-{{< rawhtml >}}
-
-<div align="center">
-
-<script src="/lottie.js"></script>
-                    
-<lottie-player src="/therapy.json"  background="transparent"  speed="0.5"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
-
-</div>
-
-{{< /rawhtml >}}
-
 
 ## Introduction
 
