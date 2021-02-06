@@ -146,18 +146,22 @@ disableHugoGeneratorInject = false
 identifier = "about"
 name = "Brief"
 url = "brief/"
+weight = "1"
 
 [[menu.main]]
 identifier = "journey"
 name = "Journey"
 url = "journey/"
+weight = "2"
 
 [[menu.main]]
 identifier = "contact"
 name = "Contact"
 url = "contact/"
+weight = "4"
 
 [[menu.main]]
 identifier = "article"
 name = "Article"
 url = "article/"
+weight = "3"
