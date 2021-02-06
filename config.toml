@@ -1,5 +1,5 @@
 baseURL = ""
-title   = "Hello Friend NG"
+title   = "Mahasemesta"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
@@ -10,7 +10,7 @@ paginate  = 10
 rssLimit  = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
-# googleAnalytics = ""
+googleAnalytics = "G-YNRC5F8LG5"
 # disqusShortname = ""
 
 archetypeDir = "archetypes"
@@ -28,7 +28,7 @@ enableRobotsTXT = true
 enableGitInfo   = false
 enableEmoji     = true
 enableMissingTranslationPlaceholders = false
-disableRSS     = false
+disableRSS     = true
 disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
@@ -37,7 +37,7 @@ disableHugoGeneratorInject = false
   posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = "Jane Doe"
+  name = "Mahasemesta"
 
 [blackfriday]
   hrefTargetBlank = true
@@ -55,11 +55,11 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   # 
-  description = "Nice theme for homepages and blogs"
-  keywords = ""
-  images = [""]
+  # description = "Hypnotherapy"
+  # keywords = ""
+  # images = [""]
 
-  homeSubtitle = "Hello Friend NG"
+  # homeSubtitle = ""
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
@@ -78,13 +78,13 @@ disableHugoGeneratorInject = false
   # generate the buttons here: https://sharingbuttons.io
   # and add them into your own `layouts/partials/sharing-buttons.html`
   #
-  enableSharingButtons = true
+  # enableSharingButtons = false
 
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
   #
   customCSS = []
-  customJS  = []
+  customJS  = ["/lottie.js"]
 
   # Commento is more than just a comments widget you can embed — 
   # it’s a return to the roots of the internet. 
@@ -98,7 +98,7 @@ disableHugoGeneratorInject = false
 
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
   #
-  justifyContent = false  # Set "text-align: justify" to .post-content.
+  # justifyContent = true  # Set "text-align: justify" to .post-content.
 
   # Default theme "light" or "dark"
   #
@@ -119,8 +119,8 @@ disableHugoGeneratorInject = false
     theme = "#1b1c1d"
 
   [params.logo]
-    logoMark     = ">"
-    logoText     = "$ cd /home/"
+    logoMark     = "$>"
+    logoText     = "mahasemesta/"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
@@ -136,39 +136,12 @@ disableHugoGeneratorInject = false
   #   alt      = "Portrait"
   #   maxWidth = "50px"
 
-  # Social icons
-  [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/"
-
-  [[params.social]]
-    name = "email"
-    url  = "mailto:nobody@example.com"
-
-  [[params.social]]
-    name = "github"
-    url  = "https://github.com/"
-
-  [[params.social]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/"
-
-  [[params.social]]
-    name = "stackoverflow"
-    url  = "https://www.stackoverflow.com/"
-
-[languages]
+  [languages]
   [languages.en]
-    subtitle  = "Hello Friend NG Theme"
+    subtitle  = "Hypnotherapy"
     weight    = 1
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-  [languages.fr]
-    subtitle  = "Hello Friend NG Theme"
-    weight    = 2
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-
-[menu]
+  [menu]
   [[menu.main]]
     identifier = "about"
     name       = "About"

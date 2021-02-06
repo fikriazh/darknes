@@ -1,24 +1,19 @@
-{{ define "body" }}
-    <body class="{{ if ne $.Site.Params.defaultTheme "light" -}} dark-theme {{- end -}} {{ if .Site.Params.background_image }} background-image" style="background-image: url('{{ .Site.Params.backgroundImage }}');" {{ else }}"{{ end }}>
-{{ end }}
-
 {{ define "main" }}
-    <main aria-role="main">
-        <div>
-            {{ if .Site.Params.Portrait.Path }}
-               <img src="{{ .Site.Params.Portrait.Path }}" class="circle" alt="{{ .Site.Params.Portrait.Alt }}" style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
-            {{ end }}
+    <main>
+        <div align="Center">
 
-            <h1>{{ .Site.Title }}</h1>
-            {{- with .Site.Params.homeSubtitle }}
-                <p>{{.}}</p>
-            {{- end }}
+            <lottie-player src="cat.json"  background="transparent"  speed="0.5"  style="width: 150px; height: 150px;"  loop  autoplay></lottie-player>
 
-            {{- with .Site.Params.social }}
-                <div>
-                    {{ partial "social-icons.html" . }}
-                </div>
-            {{- end }}
+            <p>
+                Life between Lives Hypnotherapy
+                <br>
+                Heal your past to embrace your future
+            
+            </p>
+    
+            <button>Begin here</button>
+
         </div>
-    </main>
+
+     </main>
 {{ end }}
