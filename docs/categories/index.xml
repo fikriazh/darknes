@@ -2,54 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Mahasemesta</title>
-    <link>https://mahasemesta.xyz/categories/</link>
+    <link>https://fikriazh.github.io/darknes/categories/</link>
     <description>Recent content in Categories on Mahasemesta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://mahasemesta.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://fikriazh.github.io/darknes/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo</title>
-      <link>https://mahasemesta.xyz/categories/hugo/</link>
+      <link>https://fikriazh.github.io/darknes/categories/hugo/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://mahasemesta.xyz/categories/hugo/</guid>
+      <guid>https://fikriazh.github.io/darknes/categories/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Development</title>
-      <link>https://mahasemesta.xyz/categories/development/</link>
+      <link>https://fikriazh.github.io/darknes/categories/development/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://mahasemesta.xyz/categories/development/</guid>
+      <guid>https://fikriazh.github.io/darknes/categories/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Go</title>
-      <link>https://mahasemesta.xyz/categories/go/</link>
+      <link>https://fikriazh.github.io/darknes/categories/go/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://mahasemesta.xyz/categories/go/</guid>
+      <guid>https://fikriazh.github.io/darknes/categories/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>golang</title>
-      <link>https://mahasemesta.xyz/categories/golang/</link>
+      <link>https://fikriazh.github.io/darknes/categories/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://mahasemesta.xyz/categories/golang/</guid>
+      <guid>https://fikriazh.github.io/darknes/categories/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jekyll</title>
-      <link>https://mahasemesta.xyz/categories/jekyll/</link>
+      <link>https://fikriazh.github.io/darknes/categories/jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://mahasemesta.xyz/categories/jekyll/</guid>
+      <guid>https://fikriazh.github.io/darknes/categories/jekyll/</guid>
       <description></description>
     </item>
     

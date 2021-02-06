@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on Mahasemesta</title>
-    <link>https://mahasemesta.xyz/series/</link>
+    <link>https://fikriazh.github.io/darknes/series/</link>
     <description>Recent content in Series on Mahasemesta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://mahasemesta.xyz/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://fikriazh.github.io/darknes/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo 101</title>
-      <link>https://mahasemesta.xyz/series/hugo-101/</link>
+      <link>https://fikriazh.github.io/darknes/series/hugo-101/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://mahasemesta.xyz/series/hugo-101/</guid>
+      <guid>https://fikriazh.github.io/darknes/series/hugo-101/</guid>
       <description></description>
     </item>
     

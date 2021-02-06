@@ -10,7 +10,7 @@ This document is a brief primer on using Go templates." />
 <meta name="keywords" content=", go, golang, templates, themes, development" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="#1b1c1d" />
-<link rel="canonical" href="https://mahasemesta.xyz/posts/2014/04/hugo-template-primer/" />
+<link rel="canonical" href="https://fikriazh.github.io/darknes/posts/2014/04/hugo-template-primer/" />
 
 
     <title>
@@ -26,17 +26,17 @@ This document is a brief primer on using Go templates." />
 
 
 
-<link rel="stylesheet" href="https://mahasemesta.xyz/main.154a87e0ff720e102948892a8eb80881aa81a4faf37376f3093be219f6296c3d.css">
+<link rel="stylesheet" href="https://fikriazh.github.io/darknes/main.154a87e0ff720e102948892a8eb80881aa81a4faf37376f3093be219f6296c3d.css">
 
 
 
 
-    <link rel="apple-touch-icon" sizes="180x180" href="https://mahasemesta.xyz/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://mahasemesta.xyz/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://mahasemesta.xyz/favicon-16x16.png">
-    <link rel="manifest" href="https://mahasemesta.xyz/site.webmanifest">
-    <link rel="mask-icon" href="https://mahasemesta.xyz/safari-pinned-tab.svg" color="#1b1c1d">
-    <link rel="shortcut icon" href="https://mahasemesta.xyz/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://fikriazh.github.io/darknes/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://fikriazh.github.io/darknes/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://fikriazh.github.io/darknes/favicon-16x16.png">
+    <link rel="manifest" href="https://fikriazh.github.io/darknes/site.webmanifest">
+    <link rel="mask-icon" href="https://fikriazh.github.io/darknes/safari-pinned-tab.svg" color="#1b1c1d">
+    <link rel="shortcut icon" href="https://fikriazh.github.io/darknes/favicon.ico">
     <meta name="msapplication-TileColor" content="#1b1c1d">
     <meta name="theme-color" content="#1b1c1d">
 
@@ -65,9 +65,9 @@ This document is a brief primer on using Go templates."/>
 <meta property="og:description" content="Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
 This document is a brief primer on using Go templates." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://mahasemesta.xyz/posts/2014/04/hugo-template-primer/" />
+<meta property="og:url" content="https://fikriazh.github.io/darknes/posts/2014/04/hugo-template-primer/" />
 <meta property="article:published_time" content="2014-04-02T00:00:00+00:00" />
-<meta property="article:modified_time" content="2014-04-02T00:00:00+00:00" /><meta property="og:see_also" content="https://mahasemesta.xyz/article/creating-a-new-theme/" /><meta property="og:see_also" content="https://mahasemesta.xyz/journey/creating-a-new-theme/" /><meta property="og:see_also" content="https://mahasemesta.xyz/posts/2014/09/creating-a-new-theme/" /><meta property="og:see_also" content="https://mahasemesta.xyz/journey/migrate-from-jekyll/" /><meta property="og:see_also" content="https://mahasemesta.xyz/posts/2014/03/migrate-to-hugo-from-jekyll/" /><meta property="og:see_also" content="https://mahasemesta.xyz/journey/goisforlovers/" />
+<meta property="article:modified_time" content="2014-04-02T00:00:00+00:00" /><meta property="og:see_also" content="https://fikriazh.github.io/darknes/article/creating-a-new-theme/" /><meta property="og:see_also" content="https://fikriazh.github.io/darknes/journey/creating-a-new-theme/" /><meta property="og:see_also" content="https://fikriazh.github.io/darknes/posts/2014/09/creating-a-new-theme/" /><meta property="og:see_also" content="https://fikriazh.github.io/darknes/journey/migrate-from-jekyll/" /><meta property="og:see_also" content="https://fikriazh.github.io/darknes/posts/2014/03/migrate-to-hugo-from-jekyll/" /><meta property="og:see_also" content="https://fikriazh.github.io/darknes/journey/goisforlovers/" />
 
 
 
@@ -97,7 +97,7 @@ This document is a brief primer on using Go templates." />
         <div class="container">
             <header class="header">
     <span class="header__inner">
-        <a href="https://mahasemesta.xyz/" style="text-decoration: none;">
+        <a href="https://fikriazh.github.io/darknes/" style="text-decoration: none;">
     <div class="logo">
         
             <span class="logo__mark">$&gt;</span>
@@ -115,7 +115,7 @@ This document is a brief primer on using Go templates." />
         <span class="header__right">
             
                 <nav class="menu">
-    <ul class="menu__inner"><li><a href="https://mahasemesta.xyz/article/">Article</a></li><li><a href="https://mahasemesta.xyz/brief/">Brief</a></li><li><a href="https://mahasemesta.xyz/contact/">Contact</a></li><li><a href="https://mahasemesta.xyz/journey/">Journey</a></li>
+    <ul class="menu__inner"><li><a href="https://fikriazh.github.io/darknes/article/">Article</a></li><li><a href="https://fikriazh.github.io/darknes/brief/">Brief</a></li><li><a href="https://fikriazh.github.io/darknes/contact/">Contact</a></li><li><a href="https://fikriazh.github.io/darknes/journey/">Journey</a></li>
     </ul>
 </nav>
 
@@ -156,7 +156,7 @@ This document is a brief primer on using Go templates." />
 
     <article>
       <h1 class="post-title">
-        <a href="https://mahasemesta.xyz/posts/2014/04/hugo-template-primer/">(Hu)go Template Primer</a>
+        <a href="https://fikriazh.github.io/darknes/posts/2014/04/hugo-template-primer/">(Hu)go Template Primer</a>
       </h1>
 
       
@@ -201,7 +201,7 @@ functions.</p>
 <p>Each Go template has a struct (object) made available to it. In hugo each
 template is passed either a page or a node struct depending on which type of
 page you are rendering. More details are available on the
-<a href="https://mahasemesta.xyz/layout/variables">variables</a> page.</p>
+<a href="https://fikriazh.github.io/darknes/layout/variables">variables</a> page.</p>
 <p>A variable is accessed by referencing the variable name.</p>
 <pre><code>&lt;title&gt;{{ .Title }}&lt;/title&gt;
 </code></pre>
@@ -212,7 +212,7 @@ page you are rendering. More details are available on the
 <h2 id="functions">Functions</h2>
 <p>Go template ship with a few functions which provide basic functionality. The Go
 template system also provides a mechanism for applications to extend the
-available functions with their own. <a href="https://mahasemesta.xyz/layout/functions">Hugo template
+available functions with their own. <a href="https://fikriazh.github.io/darknes/layout/functions">Hugo template
 functions</a> provide some additional functionality we believe
 are useful for building websites. Functions are called by using their name
 followed by the required parameters separated by spaces. Template
@@ -343,7 +343,7 @@ type (supported by your front matter/config format) and use them however
 you want to inside of your templates.</p>
 <h2 id="using-content-page-parameters">Using Content (page) Parameters</h2>
 <p>In each piece of content you can provide variables to be used by the
-templates. This happens in the <a href="https://mahasemesta.xyz/content/front-matter">front matter</a>.</p>
+templates. This happens in the <a href="https://fikriazh.github.io/darknes/content/front-matter">front matter</a>.</p>
 <p>An example of this is used in this documentation site. Most of the pages
 benefit from having the table of contents provided. Sometimes the TOC just
 doesn&rsquo;t make a lot of sense. We&rsquo;ve defined a variable in our front matter
@@ -408,11 +408,11 @@ so, such as in this example:</p>
     <p>
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
 
-        <span class="tag"><a href="https://mahasemesta.xyz/tags/go/">go</a></span>
-        <span class="tag"><a href="https://mahasemesta.xyz/tags/golang/">golang</a></span>
-        <span class="tag"><a href="https://mahasemesta.xyz/tags/templates/">templates</a></span>
-        <span class="tag"><a href="https://mahasemesta.xyz/tags/themes/">themes</a></span>
-        <span class="tag"><a href="https://mahasemesta.xyz/tags/development/">development</a></span>
+        <span class="tag"><a href="https://fikriazh.github.io/darknes/tags/go/">go</a></span>
+        <span class="tag"><a href="https://fikriazh.github.io/darknes/tags/golang/">golang</a></span>
+        <span class="tag"><a href="https://fikriazh.github.io/darknes/tags/templates/">templates</a></span>
+        <span class="tag"><a href="https://fikriazh.github.io/darknes/tags/themes/">themes</a></span>
+        <span class="tag"><a href="https://fikriazh.github.io/darknes/tags/development/">development</a></span>
         
     </p>
 
@@ -420,8 +420,8 @@ so, such as in this example:</p>
     <p>
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder meta-icon"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
 
-        <span class="tag"><a href="https://mahasemesta.xyz/categories/development/">Development</a></span>
-        <span class="tag"><a href="https://mahasemesta.xyz/categories/golang/">golang</a></span>
+        <span class="tag"><a href="https://fikriazh.github.io/darknes/categories/development/">Development</a></span>
+        <span class="tag"><a href="https://fikriazh.github.io/darknes/categories/golang/">golang</a></span>
         
     </p>
 
@@ -464,7 +464,7 @@ so, such as in this example:</p>
         <div class="pagination__buttons">
           
             <span class="button previous">
-              <a href="https://mahasemesta.xyz/posts/2014/09/cr%C3%A9ation-dun-nouveau-th%C3%A8me/">
+              <a href="https://fikriazh.github.io/darknes/posts/2014/09/cr%C3%A9ation-dun-nouveau-th%C3%A8me/">
                 <span class="button__icon">←</span>
                 <span class="button__text">Création d&#39;un nouveau thème</span>
               </a>
@@ -473,7 +473,7 @@ so, such as in this example:</p>
 
           
             <span class="button next">
-              <a href="https://mahasemesta.xyz/posts/2014/04/d%C3%A9buter-avec-hugo/">
+              <a href="https://fikriazh.github.io/darknes/posts/2014/04/d%C3%A9buter-avec-hugo/">
                 <span class="button__text">Débuter avec Hugo</span>
                 <span class="button__icon">→</span>
               </a>
@@ -509,7 +509,7 @@ so, such as in this example:</p>
 
 
 
-<script type="text/javascript" src="https://mahasemesta.xyz/bundle.min.9dd6c4fd1eb55000d257db1269676cdb26bfcc9ab1b1dc8885a54f94b97fa86e6d72e435907d76f8662e0f65472e78ab8ad69c36624d8d4a96c04c42e029d957.js" integrity="sha512-ndbE/R61UADSV9sSaWds2ya/zJqxsdyIhaVPlLl/qG5tcuQ1kH12&#43;GYuD2VHLniritacNmJNjUqWwExC4CnZVw=="></script>
+<script type="text/javascript" src="https://fikriazh.github.io/darknes/bundle.min.9dd6c4fd1eb55000d257db1269676cdb26bfcc9ab1b1dc8885a54f94b97fa86e6d72e435907d76f8662e0f65472e78ab8ad69c36624d8d4a96c04c42e029d957.js" integrity="sha512-ndbE/R61UADSV9sSaWds2ya/zJqxsdyIhaVPlLl/qG5tcuQ1kH12&#43;GYuD2VHLniritacNmJNjUqWwExC4CnZVw=="></script>
     
 <script type="application/javascript">
 var doNotTrack = false;
@@ -527,7 +527,7 @@ if (!doNotTrack) {
 
 
     
-        <script src="https://mahasemesta.xyz/lottie.js"></script>
+        <script src="https://fikriazh.github.io/darknes/lottie.js"></script>
     
 
 
