@@ -24,40 +24,6 @@ function myFunction() {
 
 <style>
 
-input {
-    color:#a9a9b3;
-    text-align:center;
-    border:none;
-    border-bottom: 2px solid #a9a9b3;
-    background-color: transparent;
-    resize: none;
-    outline: none;
-}
-
-textarea { 
-    color:#a9a9b3;
-    text-align:center;
-    border:none;
-    border-bottom: 2px solid #a9a9b3;
-    background-color: transparent;
-    height:60px;
-    resize: none;
-    outline: none;
-}
-
-select { 
-    appearance: none;
-    color:#a9a9b3;
-    text-align:center;
-    text-align-last:center;
-    -moz-text-align-last: center;
-    border:none;
-    border-bottom: 2px solid #a9a9b3;
-    background-color: transparent;
-    resize: none;
-    outline: none;
-}
-
 .responsive-iframe {
   position: realtive;
   top: 0;
@@ -86,31 +52,5 @@ select {
 <p>
 <button onclick="myFunction()">Let's talk deeper !</button>
 </p>
-
-<br>
-
-You can also write at below here<br>    
-Be free to tell us your ideas...
-
-<br>
-
-
-<form name="Hello" method="POST" data-netlify="true" action="/thank">
-    <p><label><input type="text" name="name" placeholder="Name" required /></label></p>
-    <p><input type="text" name="phone" placeholder="Phone or Email" required /></label></p>
-    <p><label for="need">What's your needs?</label><br>
-        <select name="need" id="need" clas="cmb">
-            <option value="Chat">Just some talks</option>
-            <option value="Consultation">Consultation</option>
-            <option value="Therapy">Therapy</option>
-            <option value="Testimonial">Testimonial</option>
-        </select>
-    </p>
-    <p><textarea name="message" placeholder="Message" required></textarea></label></p>
-    <p><button type="submit">Let us know !</button></p>
-</form>
-<br>
-<p>We portect your privacy, stored on safe place</p>
-</div>
 
  {{< /rawhtml >}}
