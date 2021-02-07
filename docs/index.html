@@ -124,10 +124,22 @@
             <div class="content">
                 
 
-<lottie-player src="cat.json"  background="transparent"  speed="0.5"  style="width: 150px; height: 150px;"  loop  autoplay></lottie-player>
+<script src="./typeit.min.js"></script>
 
-<p>Life between Lives Hypnotherapy<br>Heal your past to embrace your future</p>
-<button onclick="location.href='brief/'">Let's begin...</button>
+<div onclick="location.href='brief/';" style="cursor: pointer;">
+<lottie-player src="cat.json"  background="transparent"  speed="0.5"  style="width: 150px; height: 150px;"  loop  autoplay></lottie-player>
+</div>
+
+<p id="myElement">Welcome to Mahasemesta<br /><br>Touch the pussy to begin...</p>
+
+<script>
+
+new TypeIt("#myElement", {
+  speed: 200,
+  waitUntilVisible: false
+}).go();
+
+</script>
 
 
             </div>
@@ -135,9 +147,9 @@
             
                 <footer class="footer">
     <div class="footer__inner">
-        <div class="footer__content">
+        <div class="footer__content" style="font-size:small;">
             <span>&copy; 2021</span>
-            <span>Mahasemesta Hypnotherapy</span>
+            <span>Mahasemesta</span>
         </div>
     </div>
 </footer>
