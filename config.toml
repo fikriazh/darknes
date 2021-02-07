@@ -144,9 +144,9 @@ disableHugoGeneratorInject = false
 
   [menu]
 [[menu.main]]
-identifier = "brief"
-name = "Brief"
-url = "brief/"
+identifier = "services"
+name = "Services"
+url = "services/"
 weight = "1"
 
 [[menu.main]]
