@@ -132,7 +132,7 @@ là-dedans. Avec Jekylll, l&rsquo;arborescence ressemblant à ceci :
             
         <span title="Let's go to the source">
           <Script>src="../../lottie.js"</Script>
-          <lottie-player src="../../circle.json"  background="transparent"  speed="0.5"  style="width:40px; height:40px"  loop  autoplay></lottie-player>
+          <lottie-player src="../../circle.json"  background="transparent"  speed="0.1"  style="width:40px; height:40px"  loop  autoplay></lottie-player>
         </span>
         
         &nbsp;
@@ -167,7 +167,7 @@ this.queue = []
 for (let i = 0; i < length; i++) {
   const from = oldText[i] || ''
   const to = newText[i] || ''
-  const start = Math.floor(Math.random() * 100)
+  const start = Math.floor(Math.random() * 300)
   const end = start + Math.floor(Math.random() * 100)
   this.queue.push({ from, to, start, end })
 }
@@ -185,7 +185,7 @@ for (let i = 0, n = this.queue.length; i < n; i++) {
     complete++
     output += to
   } else if (this.frame >= start) {
-    if (!char || Math.random() < 0.3) {
+    if (!char || Math.random() < 0.2) {
       char = this.randomChar()
       this.queue[i].char = char
     }
@@ -257,7 +257,7 @@ next()
             
 
             <span class="theme-toggle unselectable" title="Evil or Angel?" style="cursor: none;"><Script>src="../../lottie.js"</Script>
-<lottie-player src="../../toggle.json"  background="transparent"  speed="0.5"  style="width:50px; height:50px"  loop  autoplay></lottie-player></span>
+<lottie-player src="../../toggle.json"  background="transparent"  speed="0.1"  style="width:50px; height:50px"  loop  autoplay></lottie-player></span>
         </span>
     </span>
 </header>
