@@ -65,8 +65,17 @@ I inspired from Michael Newton and Dolores Cannon with the same purpose, to conn
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>/contact/</guid>
-      <description>function myFunction() {var txt;if (confirm(&#34;You&#39;ll be directed to WhatsApp&#34;)) {window.open(&#34;https://wa.link/do79yu&#34;);} else {txt = &#34;&#34;;}}.responsive-iframe {position: realtive;top: 0;left: 0;bottom: 0;right: 0;width: 90%;height: 300px;border: none;Hey, as you arrived here, I assume we&#39;ll get to connect our energy, right?So here&#39;s our locations, wanna have some tea together?
+      <description>function myFunction() {var txt;if (confirm(&#34;You&#39;ll be directed to WhatsApp&#34;)) {window.open(&#34;https://wa.link/do79yu&#34;);} else {txt = &#34;&#34;;}}.responsive-iframe {position: realtive;top: 0;left: 0;bottom: 0;right: 0;width: 90%;height: 300px;border: none;}Hey, as you arrived here, I assume we&#39;ll get to connect our energy, right?So here&#39;s our locations, wanna have some tea together?
 Jl.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/hello/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/hello/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -103,20 +112,6 @@ appropriée à votre système d&amp;rsquo;exploitation et votre architecture.&lt
 l&amp;rsquo;étape suivante.&lt;/p&gt;
 &lt;p&gt;Des informations plus complètes sont disponibles sur la page
 &lt;a href=&#34;./overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>/journey/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/journey/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at Install Hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
     </item>
     
   </channel>

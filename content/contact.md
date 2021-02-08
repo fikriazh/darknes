@@ -33,6 +33,7 @@ function myFunction() {
   width: 90%;
   height: 300px;
   border: none;
+}
 
 </style>
 
@@ -57,5 +58,7 @@ Jl. Nusa Indah 44 Condongcatur - Yogyakarta
 <button onclick="myFunction()">Let's talk deeper</button> or 
 <button onclick="location.href='mailto:fikriazh@gmail.com'">Mail me</button>
 </p>
+
+
 
  {{< /rawhtml >}}

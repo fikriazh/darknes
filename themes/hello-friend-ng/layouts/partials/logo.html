@@ -13,7 +13,12 @@
             <img src="{{ .Site.Params.Logo.path }}" alt="{{ .Site.Params.Logo.alt }}" />
         {{ else }}
             
-        <span title="Nice icon right?">&#128511;</span> &nbsp;
+        <span title="Let's go to the source">
+          <Script>src="/lottie.js"</Script>
+          <lottie-player src="/circle.json"  background="transparent"  speed="0.5"  style="width:40px; height:40px"  loop  autoplay></lottie-player>
+        </span>
+        
+        &nbsp;
             <span class="text" title="You found me, booo..."></span>
             
             <span class="logo__cursor" style=
