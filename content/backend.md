@@ -36,8 +36,9 @@ aliases = ["about-us","about-hugo","contact"]
 
 ## Material
 
-1. Framewok is from [Hugo](https://gohugo.io "Hugo : The best SSG (Static Site Generator) platform")
-2. Theme is from [Hello Fiend NG](https://github.com/rhazdon/hugo-theme-hello-friend-ng "Theme that covers all of the essentials. All you have to do is start typing!")
-3. Animation and Script is from [Lottie](https://lottiefiles.com/ "Lottie : The new standar for web animation")
-4. RawHTML shortcode is from [Anulin.org](https://anaulin.org/blog/hugo-raw-html-shortcode/ "Simple Shortcode to Insert Raw HTML in Hugo")
-5. Hosted on [GitHub](https://github.com/), organized by [Stackbit App](https://stackbit.com/), deployed on [Netlify](https://netlify.com/), CMS by [Foresty](https://forestry,io/), domain by [RumahWeb](https://https://www.rumahweb.com/)
+1. Web Framewok by [Hugo](https://gohugo.io "Hugo : The best SSG (Static Site Generator) platform")
+2. Theme by [Hello Fiend NG](https://github.com/rhazdon/hugo-theme-hello-friend-ng "Theme that covers all of the essentials. All you have to do is start typing!")
+3. Animation and Script by [Lottie](https://lottiefiles.com/ "Lottie : The new standar for web animation")
+4. RawHTML shortcode by [Anulin.org](https://anaulin.org/blog/hugo-raw-html-shortcode/ "Simple Shortcode to Insert Raw HTML in Hugo")
+5. Logo typing animation [Justin Windle](https://codepen.io/soulwire/pen/mErPAK)
+6. Hosted on [GitHub](https://github.com/), domain by [RumahWeb](https://www.rumahweb.com/)

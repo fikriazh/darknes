@@ -13,8 +13,8 @@
             <img src="{{ .Site.Params.Logo.path }}" alt="{{ .Site.Params.Logo.alt }}" />
         {{ else }}
             
-            $>&nbsp;
-            <span class="text"></span>
+        <span title="Nice icon right?">&#128511;</span> &nbsp;
+            <span class="text" title="You found me, booo..."></span>
             
             <span class="logo__cursor" style=
                   "{{ with.Site.Params.Logo.logoCursorDisabled }}visibility:hidden;{{ end }}
@@ -34,7 +34,7 @@
 class TextScramble {
 constructor(el) {
 this.el = el
-this.chars = '!<>-_\\/[]{}—=+*^?#________'
+this.chars = 'qazwsxedcrfvtgbyhnujmikolp1234567890`~!@#$%^&*()_+=-'
 this.update = this.update.bind(this)
 }
 setText(newText) {
@@ -45,8 +45,8 @@ this.queue = []
 for (let i = 0; i < length; i++) {
   const from = oldText[i] || ''
   const to = newText[i] || ''
-  const start = Math.floor(Math.random() * 40)
-  const end = start + Math.floor(Math.random() * 40)
+  const start = Math.floor(Math.random() * 100)
+  const end = start + Math.floor(Math.random() * 100)
   this.queue.push({ from, to, start, end })
 }
 cancelAnimationFrame(this.frameRequest)
@@ -63,7 +63,7 @@ for (let i = 0, n = this.queue.length; i < n; i++) {
     complete++
     output += to
   } else if (this.frame >= start) {
-    if (!char || Math.random() < 0.28) {
+    if (!char || Math.random() < 0.3) {
       char = this.randomChar()
       this.queue[i].char = char
     }

@@ -110,13 +110,13 @@ This document is a brief primer on using Go templates." />
     <div class="logo">
         
             
-            $>&nbsp;
-            <span class="text"></span>
+        <span title="Nice icon right?">&#128511;</span> &nbsp;
+            <span class="text" title="You found me, booo..."></span>
             
             <span class="logo__cursor" style=
                   "
-                   
-                   ">
+                   background-color:#A9A9A9;
+                   animation-duration:3s;">
             </span>
         
     </div>
@@ -131,7 +131,7 @@ This document is a brief primer on using Go templates." />
 class TextScramble {
 constructor(el) {
 this.el = el
-this.chars = '!<>-_\\/[]{}—=+*^?#________'
+this.chars = 'qazwsxedcrfvtgbyhnujmikolp1234567890`~!@#$%^&*()_+=-'
 this.update = this.update.bind(this)
 }
 setText(newText) {
@@ -142,8 +142,8 @@ this.queue = []
 for (let i = 0; i < length; i++) {
   const from = oldText[i] || ''
   const to = newText[i] || ''
-  const start = Math.floor(Math.random() * 40)
-  const end = start + Math.floor(Math.random() * 40)
+  const start = Math.floor(Math.random() * 100)
+  const end = start + Math.floor(Math.random() * 100)
   this.queue.push({ from, to, start, end })
 }
 cancelAnimationFrame(this.frameRequest)
@@ -160,7 +160,7 @@ for (let i = 0, n = this.queue.length; i < n; i++) {
     complete++
     output += to
   } else if (this.frame >= start) {
-    if (!char || Math.random() < 0.28) {
+    if (!char || Math.random() < 0.3) {
       char = this.randomChar()
       this.queue[i].char = char
     }
@@ -223,7 +223,7 @@ next()
     </ul>
 </nav>
 
-                <span class="menu-trigger">
+                <span class="menu-trigger" title="Dark or Light?" style="cursor: grabbing;">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                         <path d="M0 0h24v24H0z" fill="none"/>
                         <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
@@ -528,7 +528,7 @@ so, such as in this example:</p>
     <div class="footer__inner">
         <div class="footer__content" style="font-size:small;">
             <span>&copy; 2021</span>
-            <span>Mahasemesta</span>
+            <a href="../../" style="text-decoration:none;">Mahasemesta</a>
         </div>
     </div>
 </footer>
