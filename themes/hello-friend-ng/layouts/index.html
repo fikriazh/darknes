@@ -1,22 +1,18 @@
 {{ define "main" }}
 
-<script src="/typeit.min.js"></script>
-
 <div onclick="location.href='brief/';" style="cursor: pointer;" title="Meoow, touch me to begin our journey">
 <lottie-player src="cat.json"  background="transparent"  speed="0.5"  style="width: 150px; height: 150px;"  loop  autoplay></lottie-player>
 </div>
 
-<div>
-<span class="multipleStrings"></span>
+<div align="Center">
+
+Mahasemesta Hypnotherapy
+<br>
+Heal you past to embrace your future
+<br>
+<br>
+<button style="font-size: small;">TOUCH THE CAT TO BEGIN</button>
+
 </div>
-
-<script>
-
-new TypeIt(".multipleStrings", {
-  strings: ["Welcome to Mahasemesta", "The universe is in your hand", " ", "Touch the cat to begin"],
-  speed: 150,
-  waitUntilVisible: true
-}).go();
-</script>
 
 {{ end }}
