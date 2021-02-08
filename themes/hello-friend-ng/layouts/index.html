@@ -2,19 +2,21 @@
 
 <script src="/typeit.min.js"></script>
 
-<div onclick="location.href='brief/';" style="cursor: pointer;">
+<div onclick="location.href='brief/';" style="cursor: pointer;" title="Meoow, touch me to begin our journey">
 <lottie-player src="cat.json"  background="transparent"  speed="0.5"  style="width: 150px; height: 150px;"  loop  autoplay></lottie-player>
 </div>
 
-<p id="myElement">Welcome to Mahasemesta<br /><br>Touch the pussy to begin...</p>
+<div>
+<span class="multipleStrings"></span>
+</div>
 
 <script>
 
-new TypeIt("#myElement", {
-  speed: 200,
-  waitUntilVisible: false
+new TypeIt(".multipleStrings", {
+  strings: ["Welcome to Mahasemesta", "The universe is in your hand", " ", "Touch the cat to begin"],
+  speed: 150,
+  waitUntilVisible: true
 }).go();
-
 </script>
 
 {{ end }}
