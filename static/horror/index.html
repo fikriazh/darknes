@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+
+<link rel="mask-icon" type="" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
+
+
+  <meta charset="utf-8">
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+  <title>CodePen - Silent Movie Text Effect</title>
+
+  <link rel="stylesheet" media="screen" href="https://cpwebassets.codepen.io/assets/fullpage/fullpage-4de243a40619a967c0bf13b95e1ac6f8de89d943b7fc8710de33f681fe287604.css" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,700,700italic,900,900italic&display=swap" rel="stylesheet" />
+
+  
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+
+<link rel="mask-icon" type="" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
+
+
+
+
+  <title>CodePen - Silent Movie Text Effect</title>
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+  <style>
+    html { font-size: 15px; }
+    html, body { margin: 0; padding: 0; min-height: 100%; }
+    body { height:100%; display: flex; flex-direction: column; }
+    .referer-warning {
+      background: black;
+      box-shadow: 0 2px 5px rgba(0,0,0, 0.5);
+      padding: 0.75em;
+      color: white;
+      text-align: center;
+      font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+      line-height: 1.2;
+      font-size: 1rem;
+      position: relative;
+      z-index: 2;
+    }
+    .referer-warning h1 { font-size: 1.2rem; margin: 0; }
+    .referer-warning a { color: #56bcf9; } /* $linkColorOnBlack */
+  </style>
+</head>
+
+<body class="">
+  
+
+  <div id="result-iframe-wrap" role="main">
+
+    <iframe
+      id="result"
+      srcdoc="
+<!DOCTYPE html>
+<html lang=&quot;en&quot; >
+
+<head>
+
+  <meta charset=&quot;UTF-8&quot;>
+  
+<link rel=&quot;apple-touch-icon&quot; type=&quot;image/png&quot; href=&quot;https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png&quot; />
+<meta name=&quot;apple-mobile-web-app-title&quot; content=&quot;CodePen&quot;>
+
+<link rel=&quot;shortcut icon&quot; type=&quot;image/x-icon&quot; href=&quot;https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico&quot; />
+
+<link rel=&quot;mask-icon&quot; type=&quot;&quot; href=&quot;https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg&quot; color=&quot;#111&quot; />
+
+
+  <title>CodePen - Silent Movie Text Effect</title>
+  <link href=&quot;https://fonts.googleapis.com/css?family=Bellefair&quot; rel=&quot;stylesheet&quot;>
+  <link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css&quot;>
+
+  
+  
+<style>
+.main-content {
+  overflow:hidden;
+    position: relative;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    
+    height: 100vh;
+    
+    background: linear-gradient(to right, rgba(36,31,31,1) 0%, rgba(36,31,31,1) 32%, rgba(74,71,70,1) 100%);
+    color: #fff;
+    text-align: center;
+}
+
+.vignette{
+  position:absolute;
+  width:100%; height:100%;
+  box-shadow:inset 0px 0px 150px 20px black;
+  mix-blend-mode: multiply;
+  -webkit-animation: vignette-anim 3s infinite; /* Safari 4+ */
+  -moz-animation:    vignette-anim 3s infinite; /* Fx 5+ */
+  -o-animation:      vignette-anim 3s infinite; /* Opera 12+ */
+  animation:         vignette-anim 3s infinite; /* IE 10+, Fx 29+ */
+}
+
+.noise {
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    height: 100%;
+    
+    pointer-events: none;
+    opacity: .15;
+}
+
+.line{
+  position:absolute;
+  height:100%; width:1px;
+  opacity:0.1;
+  background-color:#000;
+}
+
+.titleCont{position:relative;}
+
+.main-title {
+    padding: .3em 1em .25em;    
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+    font-family: 'Bellefair', serif;
+    position:relative;
+    line-height:1.3;
+    white-spacing:
+}
+
+.overTitle{
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.dot{
+  width:3px;
+  height:2px;
+  background-color:white;
+  position:absolute;
+  opacity:0.3;
+}
+
+
+@-webkit-keyframes vignette-anim {
+  0%   , 100%{ opacity: 1; }
+  50% { opacity: 0.7; }
+}
+@-moz-keyframes vignette-anim {
+  0%   , 100%{ opacity: 1; }
+  50% { opacity: 0.7; }
+}
+@-o-keyframes vignette-anim {
+  0%   , 100%{ opacity: 1; }
+  50% { opacity: 0.7; }
+}
+@keyframes vignette-anim {
+  0%   , 100%{ opacity: 1; }
+  50% { opacity: 0.7; }
+}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage(&quot;resize&quot;, &quot;*&quot;);
+  }
+</script>
+
+
+</head>
+
+<body translate=&quot;no&quot; >
+  <main role=&quot;main&quot; class=&quot;main-content&quot; id=&quot;main-content&quot;>
+    <div class=&quot;titleCont&quot;>
+        <h1 class=&quot;main-title&quot; id=&quot;main-title&quot;>
+            &quot;Here, in the new universe,<br><span style=&quot;padding-left:100px&quot;>all alone,</span><br><span style=&quot;padding-right:110px&quot;>The all new journey,</span><br><span style=&quot;padding-left:-20px&quot;>ready is the only way.&quot;</span>
+        </h1>
+    </div>
+    <canvas id=&quot;noise&quot; class=&quot;noise&quot;></canvas>
+  <div class=&quot;vignette&quot;></div>
+</main>
+    <script src=&quot;https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js&quot;></script>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js'></script>
+<script src='https://codepen.io/mimikos/pen/GvpJYQ.js'></script>
+<script src='https://codepen.io/mimikos/pen/rzOOgG.js'></script>
+      <script id=&quot;rendered-js&quot; >
+// embeded two forks of
+
+//Ibe's Pen Background Noise - Canvas.
+//https://codepen.io/IbeVanmeenen/full/vZzgvg/
+
+//and
+
+// Diaco M.Lotfollahi's Pen GSAP Old Movie Style.
+//https://codepen.io/MAW/full/rxqqQG/
+//# sourceURL=pen.js
+    </script>
+
+  
+
+  <script src=&quot;https://cpwebassets.codepen.io/assets/editor/iframe/iframeRefreshCSS-bb9a2ba1f03f6147732cb3cd52ac86c6b24524aa87a05ed0b726f11e46d7e277.js&quot;></script>
+</body>
+
+</html>
+ 
+"
+      sandbox="allow-downloads allow-forms allow-modals allow-pointer-lock allow-popups allow-presentation  allow-scripts allow-top-navigation-by-user-activation" allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; microphone; midi; payment; vr" allowTransparency="true"
+      allowpaymentrequest="true" allowfullscreen="true" class="result-iframe">
+      </iframe>
+
+  </div>
+</body>
+</html>

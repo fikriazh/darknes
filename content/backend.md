@@ -42,3 +42,15 @@ aliases = ["about-us","about-hugo","contact"]
 4. RawHTML shortcode by [Anulin.org](https://anaulin.org/blog/hugo-raw-html-shortcode/ "Simple Shortcode to Insert Raw HTML in Hugo")
 5. Logo typing animation [Justin Windle](https://codepen.io/soulwire/pen/mErPAK)
 6. Hosted on [GitHub](https://github.com/), domain by [RumahWeb](https://www.rumahweb.com/)
+
+* * *
+
+## Developer Page
+
+1. [404](/404.html)
+2. [Meditation](/meditation)
+3. [Glass](/glass)
+4. [Hexagon](/hexagon)
+5. [Horror](/horror)
+6. [Parallax](/parallax)
+7. [Star](/star)
