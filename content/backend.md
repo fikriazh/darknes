@@ -1,9 +1,4 @@
 +++
-title = ""
-date = "2014-04-09"
-aliases = ["about-us","about-hugo","contact"]
-[ author ]
-  name = "Hugo Authors"
 +++
 
 {{< rawhtml >}}
@@ -49,8 +44,5 @@ aliases = ["about-us","about-hugo","contact"]
 
 1. [404](/404.html)
 2. [Meditation](/meditation)
-3. [Glass](/glass)
-4. [Hexagon](/hexagon)
-5. [Horror](/horror)
-6. [Parallax](/parallax)
-7. [Star](/star)
+3. [Loading](/loading)
+4. [Typing](/typing)

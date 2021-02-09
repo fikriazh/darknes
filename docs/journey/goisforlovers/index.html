@@ -147,8 +147,8 @@ this.queue = []
 for (let i = 0; i < length; i++) {
   const from = oldText[i] || ''
   const to = newText[i] || ''
-  const start = Math.floor(Math.random() * 300)
-  const end = start + Math.floor(Math.random() * 100)
+  const start = Math.floor(Math.random() * 100)
+  const end = start + Math.floor(Math.random() * 50)
   this.queue.push({ from, to, start, end })
 }
 cancelAnimationFrame(this.frameRequest)
@@ -165,7 +165,7 @@ for (let i = 0, n = this.queue.length; i < n; i++) {
     complete++
     output += to
   } else if (this.frame >= start) {
-    if (!char || Math.random() < 0.2) {
+    if (!char || Math.random() < 0.3) {
       char = this.randomChar()
       this.queue[i].char = char
     }
@@ -192,18 +192,18 @@ return this.chars[Math.floor(Math.random() * this.chars.length)]
 
 
 const phrases = [
-'/mahasemesta',
-'',
+'.mahasemesta',
+'.',
 '.hypnotherapy',
-'',
-'/life_regression',
-'',
-'/mesmerism',
-'',
-'/soul_healing',
-'',
-'/meditation',
-''
+'.',
+'.life_regression',
+'.',
+'.mesmerism',
+'.',
+'.soul_healing',
+'.',
+'.meditation',
+'.'
 ]
 
 const el = document.querySelector('.text')
@@ -212,7 +212,7 @@ const fx = new TextScramble(el)
 let counter = 0
 const next = () => {
 fx.setText(phrases[counter]).then(() => {
-setTimeout(next, 1000)
+setTimeout(next, 2000)
 })
 counter = (counter + 1) % phrases.length
 }

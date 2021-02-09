@@ -1,0 +1,14 @@
+{{ define "main" }}
+    <main class="post" style="margin:0px;">
+
+        <article>
+            <h2 class="post-title" style="text-align: center;">
+            <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
+
+            <div class="post-content">
+                {{ .Content }}
+            </div>
+        </article>
+
+    </main>
+{{ end }}
