@@ -1,5 +1,5 @@
-baseURL = "https://mahasemesta.xyz"
-# relativeURLS = true
+baseURL = ""
+relativeURLS = true
 title   = "Mahasemesta"
 languageCode = "en-us"
 theme = "hello-friend-ng"
