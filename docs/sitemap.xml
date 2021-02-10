@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/categories/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/hugo/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/hugo/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/journey/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url>
@@ -13,7 +28,12 @@
   </url>
   
   <url>
-    <loc>/journey/migrate-from-jekyll/</loc>
+    <loc>/tags/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/journey/tag-testing/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -30,10 +50,6 @@
   </url>
   
   <url>
-    <loc>/categories/</loc>
-  </url>
-  
-  <url>
     <loc>/contact/</loc>
   </url>
   
@@ -43,10 +59,6 @@
   
   <url>
     <loc>/services/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
   </url>
   
 </urlset>

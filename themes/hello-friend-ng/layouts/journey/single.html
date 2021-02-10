@@ -1,17 +1,54 @@
 {{ define "main" }}
-
-    </Style>
-
-    <main class="post" style="margin:0px;">
+    
+    <main class="post">
 
         <article>
-            <h2 class="post-title" style="text-align: center;">
-            <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
+            <h3 class="post-title">
+            <a href="{{ .Permalink }}" >{{ .Title | markdownify }}</a></h3>
 
             <div class="post-content" style="text-align: justify; text-indent: 5%;">
                 {{ .Content }}
             </div>
         </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+            {{ partial "categories.html" . }}{{ partial "date.html" . }}
+            
+                
+
+            {{ if and (not $.Site.Params.DisableReadOtherPosts) (or .NextInSection .PrevInSection) }}
+            <div class="pagination">
+              <div class="pagination__title">
+                <span class="pagination__title-h">{{ .Site.Params.ReadOtherPosts }}</span>
+                <hr />
+              </div>
+      
+              <div class="pagination__buttons">
+                {{ if .NextInSection }}
+                  <span class="button previous">
+                    <a href="{{ .NextInSection.Permalink }}">
+                      <span class="button__icon">←</span>
+                      <span class="button__text">{{ .NextInSection.Title }}</span>
+                    </a>
+                  </span>
+                {{ end }}
+      
+                {{ if .PrevInSection }}
+                  <span class="button next">
+                    <a href="{{ .PrevInSection.Permalink }}">
+                      <span class="button__text">{{ .PrevInSection.Title }}</span>
+                      <span class="button__icon">→</span>
+                    </a>
+                  </span>
+                {{ end }}
+              </div>
+            </div>
+          {{ end }}
+
+        </div>
 
     </main>
 {{ end }}

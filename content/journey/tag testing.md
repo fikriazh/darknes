@@ -1,13 +1,9 @@
 ---
 date: 2014-03-10
-title: Migrate to Hugo from Jekyll
+title: Tags Testing
+categories: ["Hugo"]
+tags: ["Hugo"]
 ---
-
-{{< rawhtml >}}
-<div align="center">
-<lottie-player src="/404.json"  background="transparent"  speed="0.5"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
-</div>
- {{< /rawhtml >}}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Erat imperdiet sed euismod nisi porta. Senectus et netus et malesuada fames ac turpis. Viverra justo nec ultrices dui. Mattis molestie a iaculis at erat pellentesque. Luctus venenatis lectus magna fringilla urna. Congue eu consequat ac felis donec et odio. Non arcu risus quis varius quam quisque id. Ut tellus elementum sagittis vitae et. Nunc congue nisi vitae suscipit. Lobortis mattis aliquam faucibus purus in massa tempor nec. Cras tincidunt lobortis feugiat vivamus at augue eget arcu. At imperdiet dui accumsan sit amet. Feugiat pretium nibh ipsum consequat nisl vel pretium lectus. Semper feugiat nibh sed pulvinar proin. Justo eget magna fermentum iaculis eu non. Vivamus at augue eget arcu. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec.
 

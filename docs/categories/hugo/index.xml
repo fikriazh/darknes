@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Journeys on Mahasemesta</title>
-    <link>/journey/</link>
-    <description>Recent content in Journeys on Mahasemesta</description>
+    <title>Hugo on Mahasemesta</title>
+    <link>/categories/hugo/</link>
+    <description>Recent content in Hugo on Mahasemesta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Mar 2014 00:00:00 +0000</lastBuildDate><atom:link href="/journey/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Mar 2014 00:00:00 +0000</lastBuildDate><atom:link href="/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tags Testing</title>
       <link>/journey/tag-testing/</link>
