@@ -47,3 +47,5 @@ title = "Backend"
 2. [Meditation](/meditation)
 3. [Loading](/loading)
 4. [Typing](/typing)
+5. [Story](/story)
+6. [Fallout](/fallout)
