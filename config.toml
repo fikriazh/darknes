@@ -1,5 +1,5 @@
-baseURL = ""
-relativeURLS = true
+baseURL = "https://mahasemesta.xyz"
+# relativeURLS = true
 title   = "Mahasemesta"
 languageCode = "en-us"
 theme = "hello-friend-ng"
@@ -31,9 +31,6 @@ disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
 
-[permalinks]
-  posts = "/journey/:year/:month/:title/"
-
 [author]
   name = "Mahasemesta"
 
@@ -41,10 +38,8 @@ disableHugoGeneratorInject = false
   hrefTargetBlank = true
 
 [taxonomies]
-  tag      = "tags"
   category = "categories"
-  series   = "series"
-
+  
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
