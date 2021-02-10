@@ -32,7 +32,7 @@ disable404     = false
 disableHugoGeneratorInject = false
 
 [permalinks]
-  posts = "/posts/:year/:month/:title/"
+  posts = "/journey/:year/:month/:title/"
 
 [author]
   name = "Mahasemesta"
