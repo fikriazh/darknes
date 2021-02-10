@@ -18,6 +18,10 @@
   </url>
   
   <url>
+    <loc>/hello/</loc>
+  </url>
+  
+  <url>
     <loc>/backend/</loc>
   </url>
   
@@ -26,23 +30,19 @@
   </url>
   
   <url>
-    <loc>/contact/</loc>
-  </url>
-  
-  <url>
-    <loc>/hello/</loc>
-  </url>
-  
-  <url>
-    <loc>/services/</loc>
-  </url>
-  
-  <url>
     <loc>/categories/</loc>
   </url>
   
   <url>
+    <loc>/contact/</loc>
+  </url>
+  
+  <url>
     <loc>/series/</loc>
+  </url>
+  
+  <url>
+    <loc>/services/</loc>
   </url>
   
   <url>

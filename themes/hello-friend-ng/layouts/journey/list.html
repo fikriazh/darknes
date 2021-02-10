@@ -1,20 +1,17 @@
 {{ define "main" }}
     
+{{ $paginator := .Paginate .Data.Pages }}
+    
 <div align="center">
 
     <script src="/lottie.js"></script>
                         
-    <lottie-player src="/read.json"  background="transparent"  speed="0.5"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+    <lottie-player src="/meditation.json"  background="transparent"  speed="0.5"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
     
 </div>
-    
-{{ $paginator := .Paginate .Data.Pages }}
-    
-    <main class="posts" style="margin:0px;">
 
-        {{ if .Content }}
-            <div class="content">{{ .Content }}</div>
-        {{ end }}
+    <main class="posts" style="margin:0px;">
+           
 
         {{ range $paginator.Pages.GroupByDate "2006" }}
             <div class="posts-group">

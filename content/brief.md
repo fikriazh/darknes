@@ -1,4 +1,5 @@
 +++
+title = "Brief"
 +++
 
 {{< rawhtml >}}
@@ -22,13 +23,3 @@ I put all of my material source on [**Backend Page**](/backed)
 
 
 Interested enough? Let's jump to contact page, here the link [**Contact us**](/contact). Or wanna continue reading my brief story? You decide...
-
-{{< rawhtml >}}
-
-<div align="center">
-
-<lottie-player src="/meditation.json"  background="transparent"  speed="0.5"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
-
-</div>
-
-{{< /rawhtml >}}
