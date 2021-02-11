@@ -3,6 +3,7 @@ relativeURLS = true
 title   = "Mahasemesta"
 languageCode = "en-us"
 theme = "hello-friend-ng"
+summaryLength = 10
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
