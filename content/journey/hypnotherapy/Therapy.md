@@ -2,7 +2,7 @@
 date: 2021-02-11
 title: "Therapy"
 categories: ["Hypnotherapy"]
-summary: Arcu ac tortor dignissim convallis aenean et tortor at.
+description:  Such a nice apple to be enjoy with our weekend.
 ---
 
 {{< rawhtml >}}

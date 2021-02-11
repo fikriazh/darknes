@@ -13,13 +13,13 @@
         </span>
         {{ end }}
         
-        {{ range $paginator.Pagers }}
-            <span class="button previous">
-                <a href="{{ .URL }}">
-                    <span>{{ .PageNumber }}</span>
+        
+            <span class="button previous" style="cursor: context-menu;">
+                <a>
+                    <span>{{.Paginator.PageNumber}} of {{.Paginator.TotalPages}}</span>
                 </a>
             </span>
-        {{ end }}
+        
 
         {{ if .Paginator.HasNext }}
             <span class="button next">

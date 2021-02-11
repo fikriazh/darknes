@@ -32,6 +32,19 @@ function myFunction() {
   border: none;
 }
 
+
+.accordion {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.panel {
+ display: none;
+  overflow: hidden;
+}
+
 </style>
 
 <div align="center">
@@ -52,7 +65,7 @@ Jl. Nusa Indah 44 Condongcatur - Yogyakarta
 
 <p>Wanna directly connect to us?</p>
 
-<div>
+<span>
 
 <button onclick="myFunction()" style="display: flex; flex-direction: column; align-items: center;">
   <i class="fab fa-whatsapp fa-2x"></i>
@@ -68,8 +81,41 @@ or
   Give me E-mail
 </button>
 
+</span>
+
+</br>
+<p>Wanna fill our contact form?</p>
+
+<span>
+<button class="accordion" style="display: flex; flex-direction: column; align-items: center;">
+<i class="far fa-file-alt fa-2x"></i>
+<br />
+    Contact Form
+</button>
+<div class="panel">
+  <div align="center">
+
+    <lottie-player src="/lottie/contact.json"  background="transparent"  speed="0.5"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
+
+  <div>
 </div>
+</span>
 
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
 
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
 
  {{< /rawhtml >}}
