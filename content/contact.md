@@ -17,6 +17,8 @@ function myFunction() {
 
 </script>
 
+<script src="/fa.js" crossorigin="anonymous"></script>
+
 <style>
 
 .responsive-iframe {
@@ -49,10 +51,24 @@ Jl. Nusa Indah 44 Condongcatur - Yogyakarta
 <br>
 
 <p>Wanna directly connect to us?</p>
-<p>
-<button onclick="myFunction()">Let's talk deeper</button> or 
-<button onclick="location.href='mailto:fikriazh@gmail.com'">Mail me</button>
-</p>
+
+<div>
+
+<button onclick="myFunction()" style="display: flex; flex-direction: column; align-items: center;">
+  <i class="fab fa-whatsapp fa-2x"></i>
+  <br />
+  Let's talk deeper
+</button>
+
+or
+
+<button onclick="location.href='mailto:fikriazh@gmail.com'" style="display: flex; flex-direction: column; align-items: center;">
+  <i class="far fa-envelope fa-2x"></i>
+  <br />
+  Give me E-mail
+</button>
+
+</div>
 
 
 

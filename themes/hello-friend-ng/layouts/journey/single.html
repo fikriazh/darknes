@@ -11,7 +11,12 @@
             <a href="{{ .Permalink }}" >{{ .Title | markdownify }}</a></h3>
 
               <div class="post-info">
-               {{ partial "categories.html" . }}&nbsp;{{ partial "date.html" . }}
+               {{ partial "categories.html" . }}
+               <a href="/categories/">categories</a>
+               &nbsp;
+               at
+               &nbsp;
+               {{ partial "date.html" . }}
               </div>
 
             </di>
