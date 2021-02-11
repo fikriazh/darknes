@@ -15,7 +15,7 @@ function typeEffect(element, speed) {
 
 
 // application
-var speed = 100;
+var speed = 10;
 var h1 = document.querySelector('h1');
 var p = document.querySelector('p');
 var delay = h1.innerHTML.length * speed + speed;

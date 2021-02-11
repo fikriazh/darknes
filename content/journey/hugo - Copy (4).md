@@ -1,8 +1,7 @@
 ---
-date: 2014-03-10
-title: Tags Testing
+date: 2018-09-19
+title: Organizing Content
 categories: ["Hugo"]
-tags: ["Hugo"]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Erat imperdiet sed euismod nisi porta. Senectus et netus et malesuada fames ac turpis. Viverra justo nec ultrices dui. Mattis molestie a iaculis at erat pellentesque. Luctus venenatis lectus magna fringilla urna. Congue eu consequat ac felis donec et odio. Non arcu risus quis varius quam quisque id. Ut tellus elementum sagittis vitae et. Nunc congue nisi vitae suscipit. Lobortis mattis aliquam faucibus purus in massa tempor nec. Cras tincidunt lobortis feugiat vivamus at augue eget arcu. At imperdiet dui accumsan sit amet. Feugiat pretium nibh ipsum consequat nisl vel pretium lectus. Semper feugiat nibh sed pulvinar proin. Justo eget magna fermentum iaculis eu non. Vivamus at augue eget arcu. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec.
