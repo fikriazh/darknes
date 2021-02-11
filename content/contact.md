@@ -4,21 +4,6 @@ title = "Contact"
 
 {{< rawhtml >}}
 
-<script>
-
-function myFunction() {
-    var txt;
-        if (confirm("You'll be directed to WhatsApp")) {
-        window.open("https://wa.link/do79yu");
-        } else {
-        txt = "";
-        }
-}
-
-</script>
-
-<script src="/fa.js" crossorigin="anonymous"></script>
-
 <style>
 
 .responsive-iframe {
@@ -63,45 +48,76 @@ Jl. Nusa Indah 44 Condongcatur - Yogyakarta
 <br>
 <br>
 
-<p>Wanna directly connect to us?</p>
+<p>Contact to us directly</p>
 
 <span>
 
-<button onclick="myFunction()" style="display: flex; flex-direction: column; align-items: center;">
-  <i class="fab fa-whatsapp fa-2x"></i>
-  <br />
-  Let's talk deeper
-</button>
-
-or
-
-<button onclick="location.href='mailto:fikriazh@gmail.com'" style="display: flex; flex-direction: column; align-items: center;">
-  <i class="far fa-envelope fa-2x"></i>
-  <br />
-  Give me E-mail
-</button>
-
+  <button onclick="wa()" style="display: flex; flex-direction: column; align-items: center;">
+    <i class="fab fa-whatsapp fa-2x"></i>
+    <br />
+    WhatsApp
+  </button>
+  
 </span>
 
 </br>
-<p>Wanna fill our contact form?</p>
 
-<span>
-<button class="accordion" style="display: flex; flex-direction: column; align-items: center;">
-<i class="far fa-file-alt fa-2x"></i>
-<br />
-    Contact Form
-</button>
-<div class="panel">
-  <div align="center">
+<p>Or fill our contact form</p>
 
-    <lottie-player src="/lottie/contact.json"  background="transparent"  speed="0.5"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
+<div>
 
-  <div>
+  <button class="accordion" style="display: flex; flex-direction: column; align-items: center;">
+  <i class="far fa-file-alt fa-2x"></i>
+  <br />
+      Contact Form
+  </button>
+
+  <div class="panel">
+    
+    <div align="center">
+
+      <br>
+      
+      <p>Please fill completely</p>
+      
+      <form name="Hello" method="POST" data-netlify="true" action="/">
+
+        <p>
+          <label>Desired name
+          <br>
+          <input type="text" name="Name" required style="text-align: center;"/></label>   
+        </p>
+
+        <p>
+          <label>Phone or Email
+          <br>
+          <input type="text" name="ID" required style="text-align: center;"/></label>
+        </p>
+
+        <p>
+          <label>Message
+          <br>
+          <textarea name="Message" required></textarea></label>
+        </p>
+
+        <p>
+          <button type="submit" onclick="alert('Your form has been submited')">
+            <i class="far fa-share-square"></i>
+            &nbsp;
+            Send
+          </button>
+        </p>
+
+      </form>
+
+    </div>
+
+  </div>
+
 </div>
-</span>
 
 <script>
+
 var acc = document.getElementsByClassName("accordion");
 var i;
 
@@ -116,6 +132,22 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
 </script>
 
- {{< /rawhtml >}}
+<script>
+
+function wa() {
+    var txt;
+        if (confirm("You'll be directed to WhatsApp")) {
+        window.open("https://wa.link/do79yu");
+        } else {
+        txt = "";
+        }
+}
+
+</script>
+
+<script src="/fa.js" crossorigin="anonymous"></script>
+
+{{< /rawhtml >}}

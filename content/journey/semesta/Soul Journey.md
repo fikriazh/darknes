@@ -2,7 +2,7 @@
 date: 2020-05-12
 title: Soul Journey
 categories: ["Semesta"]
-descriptiontiontiontiontiontiontiontiontiontiontiontiontiontiontiontiontiontiontion: Id semper risus in hendrerit gravida rutrum quisque.
+description: Id semper risus in hendrerit gravida rutrum quisque.
 ---
 
 Id semper risus in hendrerit gravida rutrum quisque. Pellentesque elit eget gravida cum sociis natoque penatibus et. Nunc mattis enim ut tellus. Quisque id diam vel quam elementum pulvinar. Mauris in aliquam sem fringilla. Enim eu turpis egestas pretium aenean pharetra magna ac placerat. Metus dictum at tempor commodo. Ultricies mi quis hendrerit dolor magna eget est lorem ipsum. Condimentum lacinia quis vel eros donec ac odio. Tellus cras adipiscing enim eu turpis egestas pretium. Cursus risus at ultrices mi tempus. Cursus in hac habitasse platea dictumst quisque sagittis.
