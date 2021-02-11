@@ -36,7 +36,7 @@ function myFunction() {
 
 <div align="center">
 
-<lottie-player src="/contact.json"  background="transparent"  speed="0.5"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
+<lottie-player src="/lottie/contact.json"  background="transparent"  speed="0.5"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
 
 <p>Hey, as you arrived here, I assume we'll get to connect our energy, right?
 

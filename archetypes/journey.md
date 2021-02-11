@@ -1,9 +1,7 @@
 ---
+date: {{ .Date }}
 title: "{{ replace .Name "-" " " | title }}"
+categories: [""]
+summary: 
 ---
 
-{{< rawhtml >}}
-
-
-
-{{< /rawhtml >}}

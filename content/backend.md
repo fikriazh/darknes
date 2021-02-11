@@ -4,7 +4,7 @@ title = "Backend"
 
 {{< rawhtml >}}
 <div align="center">
-<lottie-player src="/work.json"  background="transparent"  speed="0.5"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+<lottie-player src="/lottie/work.json"  background="transparent"  speed="0.5"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
 </div>
  {{< /rawhtml >}}
 
