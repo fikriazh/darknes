@@ -77,8 +77,10 @@ Jl. Nusa Indah 44 Condongcatur - Yogyakarta
   <br>
       
   <p>Please fill completely</p>
-      
-  <form name="Hello" method="POST" data-netlify="true" onsubmit="alert('Your form has been submited')" action="">
+
+   <!-- method="POST" data-netlify="true" -->
+
+  <form name="Hello" onsubmit="alert('Your form has been submited')" action="">
   <p>
     <label>Desired name
     <br>
