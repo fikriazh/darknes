@@ -6,7 +6,7 @@ title = "Contact"
 
 <style>
 
-.responsive-iframe {
+  .responsive-iframe {
   position: realtive;
   top: 0;
   left: 0;
@@ -17,7 +17,6 @@ title = "Contact"
   border: none;
   border-radius: 10px;
 }
-
 
 .accordion {
   cursor: pointer;
@@ -90,6 +89,14 @@ select::-ms-expand {
     text-align: center;
 }
 
+input[type="date"] {
+  height: 30px;
+  opacity: 0.75;
+  border: thin solid;
+  border-radius: 5px;
+  text-align-last:center;
+}
+
 </style>
 
 <div align="center" id="tabs" class="hideAll">
@@ -151,13 +158,29 @@ Jl. Nusa Indah 44 Condongcatur - Yogyakarta
 
   <label for="need">What's your needs?</label>
     <br />
-    <select id="need" name="list" form="Hello">
-      <option value="none" selected disabled hidden>Choose your need</option> 
-      <option value="consultation">Consultation</option>
-      <option value="therapy">Therapy</option>
-      <option value="testimony">Testimony</option>
-      <option value="hi">Just say hi...</option>
+    <select id="need" name="list" form="Hello" onchange="showDiv(this)">
+      <option id="none" selected disabled hidden>Choose your need</option> 
+      <option id="consultation">Consultation</option>
+      <option id="therapy">Therapy</option>
+      <option id="testimony">Testimony</option>
+      <option id="hi">Just say hi...</option>
     </select>
+
+ <div id="date_div" style="display: none;">
+  <p>
+  <label for="choose">Choose the date</label>
+  <br>
+  <input type="date" id="date_therapy" name="date_therapy">
+  </p>
+  </div>
+
+   <div id="code" style="display: none;">
+  <p>
+    <label>Session Code
+    <br>
+    <input type="text" name="Name" class="input" placeholder="Your session code..."/></label>   
+  </p>
+  </div>
 
   <p>
     <label>Message
@@ -178,6 +201,22 @@ Jl. Nusa Indah 44 Condongcatur - Yogyakarta
 </div>
 
 </div>
+
+<script>
+
+// toggle date
+
+function showDiv(elem){
+      if(elem.value == 'Therapy'){
+        document.getElementById('date_div').style.display = "block";
+       } 
+      else{ 
+        document.getElementById('date_div').style.display = "none";
+      }
+      
+    }
+
+</script>
 
 <script>
 
