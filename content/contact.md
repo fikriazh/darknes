@@ -72,47 +72,42 @@ Jl. Nusa Indah 44 Condongcatur - Yogyakarta
       Contact Form
   </button>
 
-  <div class="panel">
+  <div class="panel" align="Center">
     
-    <div align="center">
-
-      <br>
+  <br>
       
-      <p>Please fill completely</p>
+  <p>Please fill completely</p>
       
-      <form name="Hello" method="POST" data-netlify="true" onsubmit="alert('Your form has been submited')" action="/">
+  <form name="Hello" method="POST" data-netlify="true" onsubmit="alert('Your form has been submited')" action="">
+  <p>
+    <label>Desired name
+    <br>
+    <input type="text" name="Name" required style="text-align: center;"/></label>   
+  </p>
 
-        <p>
-          <label>Desired name
-          <br>
-          <input type="text" name="Name" required style="text-align: center;"/></label>   
-        </p>
+  <p>
+    <label>Phone or Email
+    <br>
+    <input type="text" name="ID" required style="text-align: center;"/></label>
+  </p>
 
-        <p>
-          <label>Phone or Email
-          <br>
-          <input type="text" name="ID" required style="text-align: center;"/></label>
-        </p>
+  <p>
+    <label>Message
+    <br>
+    <textarea name="Message" required style="resize: none; width: 220px; height: 100px;"></textarea></label>
+  </p>
 
-        <p>
-          <label>Message
-          <br>
-          <textarea name="Message" required style="reaize: none; resize: vertical; height: 300px;"></textarea></label>
-        </p>
+  <p>
+    <button type="submit">
+      <i class="far fa-share-square"></i>
+      &nbsp;
+      Send
+    </button>
+  </p>
 
-        <p>
-          <button type="submit">
-            <i class="far fa-share-square"></i>
-            &nbsp;
-            Send
-          </button>
-        </p>
+  </form>
 
-      </form>
-
-    </div>
-
-  </div>
+</div>
 
 </div>
 
