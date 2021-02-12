@@ -5,10 +5,8 @@
         <article>
             
             <div style="text-align: center;">
-            <div style="display:inline-block;">
-           
-            <h3 class="post-title">
-            <a href="{{ .Permalink }}" >{{ .Title | markdownify }}</a></h3>
+            
+              <h3 class="post-title" style="display: initial;">{{ .Title | markdownify }}</h3>
 
               <div class="post-info">
                {{ partial "categories.html" . }}
@@ -17,9 +15,8 @@
               </div>
 
             </div>
-            </div>
 
-           <div class="post-content" style="text-align: justify;">
+           <div class="post-content" style="text-align: justify; hyphens: auto;">
                 {{ .Content }}
             </div>
         </article>
