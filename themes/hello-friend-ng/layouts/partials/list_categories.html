@@ -27,18 +27,18 @@
 
     </style>
 
-    <!--
+
     <div class="wrapper">
         <ul class="posts-list">
-            {{ range .Pages }}
+            {{ range .Site.Taxonomies.categories }}
                 <li class="post-item">
-                    <a href="{{ .Permalink }}" style="padding-bottom: 0px; padding-top: 15px;">
-                        <span class="post-title">{{.Title}}</span>
+                    <a href="{{ .Page.Permalink }}" style="padding-bottom: 0px; padding-top: 15px;">
+                        <span class="post-title">{{.Page.Title}}</span>
                     </a>
                         <span class="count">
 
                             #
-                            
+                            {{ .Count }}
                             stories
                         
                         </span>
@@ -47,10 +47,11 @@
             {{ end }}
         </ul>  
     </div>
-    -->
-
+    
+    <!--
     <ul>
         {{ range .Site.Taxonomies.categories }}
                 <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}</li>
         {{ end }}
     </ul>
+    -->
