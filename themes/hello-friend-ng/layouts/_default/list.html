@@ -1,47 +1,36 @@
 {{ define "main" }}
-    {{ $paginator := .Paginate .Data.Pages }}
-    
+
     <main class="posts" style="margin: 0px;">
  
         <div align="center">
             <script src="/lottie/lottie.js"></script>
-            <lottie-player src="/lottie/meditation.json"  background="transparent"  speed="0.3"  style="width:200px;height:200px"  loop  autoplay></lottie-player>
+            <lottie-player src="/lottie/{{if ne .Title "Categories"}}meditation{{else}}list{{end}}.json"  background="transparent"  speed="0.3"  style="width:200px;height:200px"  loop  autoplay></lottie-player>
         </div>
 
         <div class="content" style="text-align: center;">
-            <div class="inner" style="display:inline-block;">
-                <h2 style="text-align: center;">{{ .Title }}</h2>
+            <div class="inner" style="display:inline-block; margin-bottom: {{ if ne .Title "Categories"}}30{{else}}10{{end}}px;">
+                <h2 style="text-align: center; margin-bottom: 0px;">{{ .Title }}</h2>
+
+                {{ if ne .Title "Categories"}}
+                <a href="/categories">
+                <span class="post-info">List of Categories</span>
+                </a>
+                {{ else }}
+                <a href="/journey">
+                <span class="post-info">List of Journey</span>
+                </a>
+                {{end}}
+
             </div>
         </div>
 
-        {{ if .Content }}
-            <div class="content">
-             
-            </div>
-        {{ end }}
-
-        {{ range $paginator.Pages.GroupByDate "2006" }}
-            <div class="posts-group">
-                <div class="post-year">{{ .Key }}</div>
-
-                <ul class="posts-list">
-                    {{ range .Pages }}
-                        <li class="post-item">
-                            <a href="{{.Permalink}}">
-                                <span class="post-title">{{.Title}}</span>
-                                <span class="post-day">
-                                    {{ .Date.Format "2 Jan"}}
-                                </span>
-                            </a>
-                            {{ with .Params.Description }}
-                            <span class="post-info">{{ . }}</span>
-                            {{ end }}
-                            <!--<span class="post-info" style="font-size: .8rem;">{{ .Summary }}</span>-->
-                        </li>
+                    {{ if ne .Title "Categories"}}
+                        {{ partial "list_journey.html" . }}
+                    {{ else }}
+                        {{ partial "list_categories.html" .}}
                     {{ end }}
-                </ul>
-            </div>
-        {{ end }}
-    {{ partial "pagination.html" . }}
+
+                    {{ partial "pagination.html" . }}
+                    
     </main>
 {{ end }}

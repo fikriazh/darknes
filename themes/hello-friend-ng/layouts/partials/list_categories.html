@@ -1,0 +1,50 @@
+{{ $paginator := .Paginate .Data.Pages }}
+
+    <style type="text/css">
+
+        .wrapper {
+            text-align: center;
+        }
+
+        .wrapper ul {
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .wrapper li {
+            padding: 5px;
+        }
+
+        .posts .post-item a {
+            display: block;
+        }
+
+       .count {
+            font-size: .8rem;
+            opacity: .6;
+        }
+
+    </style>
+
+    <div class="wrapper">
+        <ul class="posts-list">
+            {{ range .Site.Taxonomies.categories }}
+                <li class="post-item">
+                    <a href="{{ .Page.Permalink }}" style="padding-bottom: 0px; padding-top: 15px;">
+                        <span class="post-title">{{.Page.Title}}</span>
+                    </a>
+                        <span class="count">
+
+                            #
+
+                            {{ .Count }}
+
+                            stories
+                        
+                        </span>
+
+                </li>
+            {{ end }}
+        </ul>  
+    </div>

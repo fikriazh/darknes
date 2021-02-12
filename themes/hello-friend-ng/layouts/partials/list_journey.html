@@ -1,0 +1,24 @@
+        {{ $paginator := .Paginate .Data.Pages }}
+
+        {{ range $paginator.Pages.GroupByDate "2006" }}
+            <div class="posts-group">
+                <div class="post-year" style="text-align: center;">{{ .Key }}</div>
+
+                <ul class="posts-list">
+                    {{ range .Pages }}
+                        <li class="post-item">
+                            <a href="{{.Permalink}}" style="padding-bottom: 0px;">
+                                <span class="post-title">{{.Title}}</span>
+                                <span class="post-day">
+                                    {{ .Date.Format "2 Jan"}}
+                                </span>
+                            </a>
+                            {{ with .Params.Description }}
+                            <span class="post-info">{{ . }}</span>
+                            {{ end }}
+                            <!--<span class="post-info" style="font-size: .8rem;">{{ .Summary }}</span>-->
+                        </li>
+                    {{ end }}
+                </ul>
+            </div>
+        {{ end }}
