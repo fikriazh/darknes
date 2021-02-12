@@ -97,7 +97,7 @@ Jl. Nusa Indah 44 Condongcatur - Yogyakarta
         <p>
           <label>Message
           <br>
-          <textarea name="Message" required></textarea></label>
+          <textarea name="Message" required style="reaize: none; resize: vertical; height: 300px;"></textarea></label>
         </p>
 
         <p>
