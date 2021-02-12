@@ -15,6 +15,7 @@ title = "Contact"
   width: 90%;
   height: 300px;
   border: none;
+  border-radius: 10px;
 }
 
 
@@ -23,16 +24,75 @@ title = "Contact"
   border: none;
   outline: none;
   transition: 0.4s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
 }
 
 .panel {
- display: none;
+  display: none;
   overflow: hidden;
+  border: thin solid;
+  margin: 25px;
+  width: 270px;
+  border-radius: 10px;
+}
+
+.input {
+  resize: none;
+  width: 220px;
+  height: 30px;
+  border: thin solid;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0.75;
+}
+
+.message {
+  resize: none;
+  width: 220px;
+  height: 100px;
+  border: thin solid;
+  border-radius: 5px;
+  opacity: 0.75;
+}
+
+/* disable dropdown icon */
+
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  padding: 5px;
+  margin: 5px;
+  opacity: 0.75;
+  border: thin solid;
+  border-radius: 5px;
+  text-align-last:center;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+/* center placeholder textarea */
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+:-moz-placeholder {
+    text-align: center;
+}
+::-moz-placeholder {
+    text-align: center;
+}
+:-ms-input-placeholder {
+    text-align: center;
 }
 
 </style>
 
-<div align="center">
+<div align="center" id="tabs" class="hideAll">
 
 <lottie-player src="/lottie/contact.json"  background="transparent"  speed="0.5"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
 
@@ -52,7 +112,7 @@ Jl. Nusa Indah 44 Condongcatur - Yogyakarta
 
 <span>
 
-  <button onclick="wa()" style="display: flex; flex-direction: column; align-items: center;">
+  <button onclick="wa()" class="accordion">
     <i class="fab fa-whatsapp fa-2x"></i>
     <br />
     WhatsApp
@@ -64,39 +124,45 @@ Jl. Nusa Indah 44 Condongcatur - Yogyakarta
 
 <p>Or fill our contact form</p>
 
-<div>
+<div align="Center">
 
-  <button class="accordion" style="display: flex; flex-direction: column; align-items: center;">
+  <button class="accordion">
   <i class="far fa-file-alt fa-2x"></i>
   <br />
       Contact Form
   </button>
 
-  <div class="panel" align="Center">
+  <div class="panel">
     
-  <br>
-      
-  <p>Please fill completely</p>
+  <!-- method="POST" data-netlify="true" -->
 
-   <!-- method="POST" data-netlify="true" -->
-
-  <form name="Hello" onsubmit="alert('Your form has been submited')" action="">
+  <form name="Hello" onsubmit="alert('Thanks! We have received your data')" action="">
   <p>
-    <label>Desired name
+    <label>Full Name
     <br>
-    <input type="text" name="Name" required style="text-align: center;"/></label>   
+    <input type="text" name="Name" required class="input" placeholder="Your name..."/></label>   
   </p>
 
   <p>
-    <label>Phone or Email
+    <label>ID (Phone / Mail)
     <br>
-    <input type="text" name="ID" required style="text-align: center;"/></label>
+    <input type="text" name="ID" required class="input" placeholder="Your ID..."/></label>
   </p>
+
+  <label for="need">What's your needs?</label>
+    <br />
+    <select id="need" name="list" form="Hello">
+      <option value="none" selected disabled hidden>Choose your need</option> 
+      <option value="consultation">Consultation</option>
+      <option value="therapy">Therapy</option>
+      <option value="testimony">Testimony</option>
+      <option value="hi">Just say hi...</option>
+    </select>
 
   <p>
     <label>Message
     <br>
-    <textarea name="Message" required style="resize: none; width: 220px; height: 100px;"></textarea></label>
+    <textarea name="Message" required class="message" placeholder="Your message..."></textarea></label>
   </p>
 
   <p>
@@ -114,6 +180,8 @@ Jl. Nusa Indah 44 Condongcatur - Yogyakarta
 </div>
 
 <script>
+
+// form toggle
 
 var acc = document.getElementsByClassName("accordion");
 var i;
@@ -134,9 +202,11 @@ for (i = 0; i < acc.length; i++) {
 
 <script>
 
+// whatsapp button
+
 function wa() {
     var txt;
-        if (confirm("You'll be directed to WhatsApp")) {
+        if (confirm("You'll be directed to our WhatsApp")) {
         window.open("https://wa.link/do79yu");
         } else {
         txt = "";
@@ -145,6 +215,6 @@ function wa() {
 
 </script>
 
-<script src="/fa.js" crossorigin="anonymous"></script>
+<script src="/fa.js" crossorigin="anonymous"> // fontawesome </script>
 
 {{< /rawhtml >}}
