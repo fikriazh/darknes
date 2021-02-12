@@ -80,7 +80,7 @@ Jl. Nusa Indah 44 Condongcatur - Yogyakarta
       
       <p>Please fill completely</p>
       
-      <form name="Hello" method="POST" data-netlify="true" action="/">
+      <form name="Hello" method="POST" data-netlify="true" onsubmit="alert('Your form has been submited')" action="/">
 
         <p>
           <label>Desired name
@@ -101,7 +101,7 @@ Jl. Nusa Indah 44 Condongcatur - Yogyakarta
         </p>
 
         <p>
-          <button type="submit" onclick="alert('Your form has been submited')">
+          <button type="submit">
             <i class="far fa-share-square"></i>
             &nbsp;
             Send
