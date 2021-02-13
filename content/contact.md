@@ -66,6 +66,16 @@ select {
   text-align-last:center;
 }
 
+.date {
+  padding: 5px;
+  margin: 5px;
+  opacity: 0.75;
+  border: thin solid;
+  border-radius: 5px;
+  text-align-last:center;
+  height: 30px;
+}
+
 </style>
 
 <div align="center" id="tabs" class="hideAll">
@@ -139,22 +149,14 @@ Jl. Nusa Indah 44 Condongcatur - Yogyakarta
   <p>
   <label for="choose">Choose the date</label>
   <br>
-  <input type="date" id="date_therapy" name="date_therapy">
-  </p>
-  </div>
-
-   <div id="code" style="display: none;">
-  <p>
-    <label>Session Code
-    <br>
-    <input type="text" name="Name" class="input" placeholder="Your session code..."/></label>   
+  <input type="date" id="date_therapy" name="date_therapy" class="date">
   </p>
   </div>
 
   <p>
     <label>Message
     <br>
-    <textarea name="Message" required class="message" placeholder="Your message..."></textarea></label>
+    <textarea name="Message" required class="message" ></textarea></label>
   </p>
 
   <p>
