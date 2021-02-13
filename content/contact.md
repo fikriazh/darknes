@@ -57,40 +57,9 @@ title = "Contact"
   opacity: 0.75;
 }
 
-/* disable dropdown icon */
-
 select {
-  -moz-appearance: none;
-  -webkit-appearance: none;
   padding: 5px;
   margin: 5px;
-  opacity: 0.75;
-  border: thin solid;
-  border-radius: 5px;
-  text-align-last:center;
-}
-
-select::-ms-expand {
-  display: none;
-}
-
-/* center placeholder textarea */
-
-::-webkit-input-placeholder {
-    text-align: center;
-}
-:-moz-placeholder {
-    text-align: center;
-}
-::-moz-placeholder {
-    text-align: center;
-}
-:-ms-input-placeholder {
-    text-align: center;
-}
-
-input[type="date"] {
-  height: 30px;
   opacity: 0.75;
   border: thin solid;
   border-radius: 5px;
