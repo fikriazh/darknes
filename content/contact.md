@@ -4,6 +4,8 @@ title = "Contact"
 
 {{< rawhtml >}}
 
+<span id="schedule"></span>
+
 <style>
 
   .responsive-iframe {
@@ -78,13 +80,12 @@ select {
 
 </style>
 
-<div align="center" id="tabs" class="hideAll">
+<div align="center">
 
-<lottie-player src="/lottie/contact.json"  background="transparent"  speed="0.5"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
+<lottie-player onClick="window.open('https://calendar.google.com/calendar/embed?src=fikriazh%40gmail.com&ctz=Asia%2FJakarta');"  src="/lottie/contact.json"  background="transparent"  speed="0.5"  style="width: 200px; height: 200px; cursor: grab; margin-bottom: -30px"  loop  autoplay></lottie-player>
+<span class="post-info">Touch to see schedule</span>
 
-<p>Hey, as you arrived here, I assume we'll get to connect our energy, right?
-
-<p>So here's our locations, wanna have some tea together?</p>
+<p>Hey, as you arrived here, I assume we'll get to connect our energy, right?</p>
 
 <div>
 <iframe class="responsive-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.3023469240125!2d110.4067709143761!3d-7.757723579079995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a599c06dcbe05%3A0x6d8d95b17734ad62!2sJl.%20Nusa%20Indah%20No.44%2C%20Ngringin%2C%20Condongcatur%2C%20Kec.%20Depok%2C%20Kabupaten%20Sleman%2C%20Daerah%20Istimewa%20Yogyakarta%2055281!5e0!3m2!1sen!2sid!4v1612567300984!5m2!1sen!2sid"></iframe>
@@ -94,7 +95,7 @@ Jl. Nusa Indah 44 Condongcatur - Yogyakarta
 <br>
 <br>
 
-<p>Contact to us directly</p>
+<p>Contact us directly</p>
 
 <span>
 
@@ -122,7 +123,7 @@ Jl. Nusa Indah 44 Condongcatur - Yogyakarta
     
   <!-- method="POST" data-netlify="true" -->
 
-  <form name="Hello" onsubmit="alert('Thanks! We have received your data')" action="">
+  <form name="Hello" method="POST" onsubmit="alert('Thanks! We have received your data')" action="/">
   <p>
     <label>Full Name
     <br>
@@ -130,9 +131,9 @@ Jl. Nusa Indah 44 Condongcatur - Yogyakarta
   </p>
 
   <p>
-    <label>ID (Phone / Mail)
+    <label>ID ( Phone / Mail )
     <br>
-    <input type="text" name="ID" required class="input" placeholder="Your ID..."/></label>
+    <input type="text" name="ID" required class="input" placeholder="Or put session ID"/></label>
   </p>
 
   <label for="need">What's your needs?</label>
@@ -150,6 +151,8 @@ Jl. Nusa Indah 44 Condongcatur - Yogyakarta
   <label for="choose">Choose the date</label>
   <br>
   <input type="date" id="date_therapy" name="date_therapy" class="date">
+  <br />
+  <span class="post-info"><a href="#schedule">See schedule</a></span>
   </p>
   </div>
 
