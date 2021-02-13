@@ -152,7 +152,7 @@ Jl. Nusa Indah 44 Condongcatur - Yogyakarta
   <br>
   <input type="date" id="date_therapy" name="date_therapy" class="date">
   <br />
-  <span class="post-info"><a href="#schedule">See schedule</a></span>
+  <label for="need" class="post-info"><a href="#schedule">See schedule</a></label>
   </p>
   </div>
 
