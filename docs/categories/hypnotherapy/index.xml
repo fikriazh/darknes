@@ -2,62 +2,62 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hypnotherapy on Mahasemesta</title>
-    <link>https://mahasemesta.xyz/categories/hypnotherapy/</link>
+    <link>/categories/hypnotherapy/</link>
     <description>Recent content in Hypnotherapy on Mahasemesta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mahasemesta.xyz/categories/hypnotherapy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/hypnotherapy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Therapy</title>
-      <link>https://mahasemesta.xyz/journey/hypnotherapy/therapy/</link>
+      <link>/journey/hypnotherapy/therapy/</link>
       <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mahasemesta.xyz/journey/hypnotherapy/therapy/</guid>
+      <guid>/journey/hypnotherapy/therapy/</guid>
       <description>Egestas fringilla phasellus faucibus scelerisque eleifend. Quam nulla porttitor massa id neque aliquam vestibulum morbi blandit.</description>
     </item>
     
     <item>
       <title>Consciousness</title>
-      <link>https://mahasemesta.xyz/journey/hypnotherapy/consciousness/</link>
+      <link>/journey/hypnotherapy/consciousness/</link>
       <pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://mahasemesta.xyz/journey/hypnotherapy/consciousness/</guid>
+      <guid>/journey/hypnotherapy/consciousness/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
     </item>
     
     <item>
       <title>Mesmerism</title>
-      <link>https://mahasemesta.xyz/journey/hypnotherapy/mesmerism/</link>
+      <link>/journey/hypnotherapy/mesmerism/</link>
       <pubDate>Fri, 18 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://mahasemesta.xyz/journey/hypnotherapy/mesmerism/</guid>
+      <guid>/journey/hypnotherapy/mesmerism/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
     </item>
     
     <item>
       <title>Delta Theta</title>
-      <link>https://mahasemesta.xyz/journey/hypnotherapy/delta-theta/</link>
+      <link>/journey/hypnotherapy/delta-theta/</link>
       <pubDate>Tue, 11 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://mahasemesta.xyz/journey/hypnotherapy/delta-theta/</guid>
+      <guid>/journey/hypnotherapy/delta-theta/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
     </item>
     
     <item>
       <title>Brain Wave</title>
-      <link>https://mahasemesta.xyz/journey/hypnotherapy/brain-wave/</link>
+      <link>/journey/hypnotherapy/brain-wave/</link>
       <pubDate>Mon, 13 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://mahasemesta.xyz/journey/hypnotherapy/brain-wave/</guid>
+      <guid>/journey/hypnotherapy/brain-wave/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
     </item>
     
     <item>
       <title>Inductoin Phase</title>
-      <link>https://mahasemesta.xyz/journey/hypnotherapy/induction-phase/</link>
+      <link>/journey/hypnotherapy/induction-phase/</link>
       <pubDate>Thu, 12 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://mahasemesta.xyz/journey/hypnotherapy/induction-phase/</guid>
+      <guid>/journey/hypnotherapy/induction-phase/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
     </item>
     

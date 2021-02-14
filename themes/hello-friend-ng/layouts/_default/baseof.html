@@ -2,11 +2,11 @@
 <html lang="{{ .Site.Language }}">
     <head>
         {{ partial "head.html" . }}
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.js"></script>
     </head>
-
+    
     {{ block "body" . }}
         <body class="{{ if ne $.Site.Params.defaultTheme "light" -}} dark-theme {{- end -}}">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.js"></script>
     {{ end }}
     
         <div class="container">
