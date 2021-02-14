@@ -123,7 +123,7 @@ Jl. Nusa Indah 44 Condongcatur - Yogyakarta
     
   <!-- method="POST" data-netlify="true" -->
 
-  <form name="Hello" method="POST" onsubmit="alert('Thanks! We have received your data')" action="/">
+  <form name="Hello" onsubmit="alert('Thanks! We have received your data')" action="/">
   <p>
     <label>Full Name
     <br>
@@ -153,6 +153,12 @@ Jl. Nusa Indah 44 Condongcatur - Yogyakarta
   <input type="date" id="date_therapy" name="date_therapy" class="date">
   <br />
   <label for="need" class="post-info"><a href="#schedule">See schedule</a></label>
+  </p>
+  </div>
+
+  <div id="akasha" style="display: none;">
+  <p>
+  <label for="choose">Choose the date</label>
   </p>
   </div>
 

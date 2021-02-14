@@ -5,6 +5,13 @@ languageCode = "en-us"
 theme = "hello-friend-ng"
 summaryLength = 10
 
+# comment support https://utteranc.es/
+# owner = Your GitHub ID, repo = The repo to store comments
+
+[params.utterances]       
+    owner = "fikriazh"             
+    repo = "darknes"              
+
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
