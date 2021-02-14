@@ -2,6 +2,20 @@
 <hr />
 <br>
 
+<!-- disqus -->
+{{ if .Site.DisqusShortname }}
+{{ if not (eq .Params.Comments "false") }}
+  <div id="comments">
+    {{ template "_internal/disqus.html" . }}
+  </div>
+{{ end }}
+{{ end }}
+
+<!-- commento 
+<script defer src="https://cdn.commento.io/js/commento.js"></script>
+<div id="commento"></div>
+-->
+
 <!-- utterances -->
 {{- if .Site.Params.utterances.owner}}
 <script src="https://utteranc.es/client.js"

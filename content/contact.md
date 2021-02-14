@@ -4,6 +4,7 @@ title = "Contact"
 
 {{< rawhtml >}}
 
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 <span id="schedule"></span>
 
 <style>
@@ -123,7 +124,7 @@ Jl. Nusa Indah 44 Condongcatur - Yogyakarta
     
   <!-- method="POST" data-netlify="true" -->
 
-  <form name="Hello" onsubmit="alert('Thanks! We have received your data')" action="/">
+  <form method="post" action="?" onsubmit="alert('Thanks, your form is submited')">
   <p>
     <label>Full Name
     <br>

@@ -233,15 +233,6 @@
     </item>
     
     <item>
-      <title>Brief</title>
-      <link>/thanks/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/thanks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Contact</title>
       <link>/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -257,6 +248,15 @@
       
       <guid>/services/</guid>
       <description>Mahasemesta serves various type of therapy, including hypnotherapy and mesmerism.</description>
+    </item>
+    
+    <item>
+      <title>Thanks</title>
+      <link>/thanks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/thanks/</guid>
+      <description></description>
     </item>
     
   </channel>
