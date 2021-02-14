@@ -6,8 +6,7 @@ theme = "hello-friend-ng"
 summaryLength = 10
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
-  page = ["HTML", "RSS"]
+    home = ["HTML", "RSS", "JSON"]
 
 disqusShortname = "https-mahasemesta-xyz"
 
