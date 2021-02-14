@@ -93,15 +93,15 @@ function search(searchQuery)
                 if (firstIndexOf !== 0) { summary = "...".concat(summary); }
                 if (lastIndexOf !== value.content.length - 1) { summary = summary.concat("..."); }
 
-                let div = "".concat("<div class="post-item" id=\"search-summary-", key, "\">")
-                    .concat("<span class=\"post-title\"><a href=\"", value.permalink, "\">", value.title, "</a></h4>")
-                    .concat("<span class="post-info>", summary, "</span>")
+                let div = "".concat("<div id=\"search-summary-", key, "\">")
+                    .concat("<h4 class=\"post-title\"><a href=\"", value.permalink, "\">", value.title, "</a></h4>")
+                    .concat("<p>", summary, "</p>")
                     .concat("</div>");
                 searchResults.appendChild(htmlToElement(div));
 
                 // optionaly highlight the search query in excerpts using mark.js
-                // new Mark(document.getElementById("search-summary-" + key))
-                //    .mark(searchQuery, { "separateWordSearch": false });
+                new Mark(document.getElementById("search-summary-" + key))
+                    .mark(searchQuery, { "separateWordSearch": false });
             });
         }
         else
