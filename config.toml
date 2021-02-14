@@ -7,6 +7,7 @@ summaryLength = 10
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "RSS"]
 
 disqusShortname = "https-mahasemesta-xyz"
 
