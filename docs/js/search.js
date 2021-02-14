@@ -100,8 +100,8 @@ function search(searchQuery)
                 searchResults.appendChild(htmlToElement(div));
 
                 // optionaly highlight the search query in excerpts using mark.js
-                new Mark(document.getElementById("search-summary-" + key))
-                    .mark(searchQuery, { "separateWordSearch": false });
+                // new Mark(document.getElementById("search-summary-" + key))
+                //    .mark(searchQuery, { "separateWordSearch": false });
             });
         }
         else
