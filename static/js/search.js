@@ -93,9 +93,9 @@ function search(searchQuery)
                 if (firstIndexOf !== 0) { summary = "...".concat(summary); }
                 if (lastIndexOf !== value.content.length - 1) { summary = summary.concat("..."); }
 
-                let div = "".concat("<div id=\"search-summary-", key, "\">")
-                    .concat("<h4 class=\"post-title\"><a href=\"", value.permalink, "\">", value.title, "</a></h4>")
-                    .concat("<p>", summary, "</p>")
+                let div = "".concat("<div class="post-item" id=\"search-summary-", key, "\">")
+                    .concat("<span class=\"post-title\"><a href=\"", value.permalink, "\">", value.title, "</a></h4>")
+                    .concat("<span class="post-info>", summary, "</span>")
                     .concat("</div>");
                 searchResults.appendChild(htmlToElement(div));
 
