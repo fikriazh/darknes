@@ -6,7 +6,6 @@
     
     {{ block "body" . }}
         <body class="{{ if ne $.Site.Params.defaultTheme "light" -}} dark-theme {{- end -}}">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.js"></script>
     {{ end }}
     
         <div class="container">
@@ -22,6 +21,5 @@
         </div>
 
         {{ partial "javascript.html" . }}
-        <script src="/js/search.js"></script>
     </body>
 </html>
