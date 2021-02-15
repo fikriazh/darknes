@@ -10,20 +10,3 @@
   </div>
 {{ end }}
 {{ end }}
-
-<!-- commento 
-<script defer src="https://cdn.commento.io/js/commento.js"></script>
-<div id="commento"></div>
--->
-
-<!-- utterances -->
-{{- if .Site.Params.utterances.owner}}
-<script src="https://utteranc.es/client.js"
-        repo="{{ .Site.Params.utterances.owner }}/{{ .Site.Params.utterances.repo }}"
-        issue-term="pathname"
-        theme="preferred-color-scheme"
-        crossorigin="anonymous"
-        async>
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://github.com/utterance">comments powered by utterances.</a></noscript>
-{{- end }}

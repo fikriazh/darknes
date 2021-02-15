@@ -1,9 +1,0 @@
-+++
-title = "Thanks"
-+++
-
-{{< rawhtml >}}
-
-
-
-{{< /rawhtml >}}

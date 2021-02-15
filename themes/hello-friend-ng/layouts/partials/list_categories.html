@@ -1,33 +1,5 @@
 {{ $paginator := .Paginate .Data.Pages }}
-
-    <style type="text/css">
-
-        .wrapper {
-            text-align: center;
-        }
-
-        .wrapper ul {
-            display: inline-block;
-            margin: 0;
-            padding: 0;
-        }
-        
-        .wrapper li {
-            padding: 5px;
-        }
-
-        .posts .post-item a {
-            display: block;
-        }
-
-       .count {
-            font-size: .8rem;
-            opacity: .6;
-        }
-
-    </style>
-
-
+   
     <div class="wrapper">
         <ul class="posts-list">
             {{ range .Site.Taxonomies.categories }}
@@ -47,11 +19,3 @@
             {{ end }}
         </ul>  
     </div>
-    
-    <!--
-    <ul>
-        {{ range .Site.Taxonomies.categories }}
-                <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}</li>
-        {{ end }}
-    </ul>
-    -->

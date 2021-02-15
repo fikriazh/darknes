@@ -3,15 +3,8 @@ relativeURLS = true
 title   = "Mahasemesta"
 languageCode = "en-us"
 theme = "hello-friend-ng"
-summaryLength = 10
 
 disqusShortname = "https-mahasemesta-xyz"
-
-# comment support https://utteranc.es/
-# owner = Your GitHub ID, repo = The repo to store comments
-#[params.utterances]       
-#    owner = "fikriazh"             
-#    repo = "darknes"              
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
@@ -50,67 +43,56 @@ disableHugoGeneratorInject = false
   category = "categories"
   
 [params]
+
+  home1 = "Mahasemesta Hypnotherapy"
+  home2 = "Heal you past to embrace your future"
+  home_button = "TOUCH THE CAT TO BEGIN"
+
+  footer = "Mahasemesta"
+
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
   
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  #
   disableReadOtherPosts = false
 
-  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
-  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
-  #
-  customCSS = []
-  customJS  = ["/lottie/lottie.js"]
+  customCSS = ["style", "contact", "categories"]
+  customJS  = ["lottie", "fa", "jquery", "typeit", "logo", "contact"]
 
-  # Default theme "light" or "dark"
-  #
   defaultTheme = "dark"
   themeColor = "#1b1c1d"
 
-  # Colors for favicons
-  #
   [params.favicon.color]
     mask = "#1b1c1d"
     msapplication = "#1b1c1d"
     theme = "#1b1c1d"
 
   [params.logo]
-    # Set true to remove the logo cursor entirely.
-    
-    # Set to a valid CSS color to change the cursor in the logo.
     logoCursorColor    = "#A9A9A9"
-    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
     logoCursorAnimate  = "3s"
 
-  [languages]
-  [languages.en]
-    subtitle  = "Hypnotherapy"
-    weight    = 1
-
   [menu]
-[[menu.main]]
-identifier = "services"
-name = "Services"
-url = "services/"
-weight = "1"
+    [[menu.main]]
+    identifier = "services"
+    name = "Services"
+    url = "services/"
+    weight = "1"
 
-[[menu.main]]
-identifier = "journey"
-name = "Journey"
-url = "journey/"
-weight = "2"
+    [[menu.main]]
+    identifier = "journey"
+    name = "Journey"
+    url = "journey/"
+    weight = "2"
 
-[[menu.main]]
-identifier = "contact"
-name = "Contact"
-url = "contact/"
-weight = "3"
+    [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "contact/"
+    weight = "3"
 
-[[menu.main]]
-identifier = "backend"
-name = "Backend"
-url = "backend/"
-weight = "4"
+    [[menu.main]]
+    identifier = "backend"
+    name = "Backend"
+    url = "backend/"
+    weight = "4"

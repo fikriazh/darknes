@@ -44,8 +44,8 @@ title = "Backend"
 ## Developer Page
 
 1. [404](/404.html)
-2. [Meditation](/meditation)
-3. [Loading](/loading)
-4. [Typing](/typing)
-5. [Story](/story)
-6. [Fallout](/fallout)
+2. [Meditation](dev/meditation)
+3. [Loading](dev/loading)
+4. [Typing](dev/typing)
+5. [Story](dev/story)
+6. [Fallout](dev/fallout)
