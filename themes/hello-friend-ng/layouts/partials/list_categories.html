@@ -4,7 +4,7 @@
         <ul class="posts-list">
             {{ range .Site.Taxonomies.categories }}
                 <li class="post-item">
-                    <a href="{{ .Page.Permalink }}" style="padding-bottom: 0px; padding-top: 15px;">
+                    <a href="{{ .Page.Permalink }}" style="padding-bottom: 0px; padding-top: 15px; display: block;">
                         <span class="post-title">{{.Page.Title}}</span>
                     </a>
                         <span class="count">
