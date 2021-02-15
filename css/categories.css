@@ -12,10 +12,6 @@
     padding: 5px;
 }
 
-.posts .post-item a {
-    display: block;
-}
-
 .count {
     font-size: .8rem;
     opacity: .6;
