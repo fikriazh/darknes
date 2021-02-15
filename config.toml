@@ -79,7 +79,7 @@ disableHugoGeneratorInject = false
 
   [params.logo]
     # Set true to remove the logo cursor entirely.
-    # logoCursorDisabled = false
+    
     # Set to a valid CSS color to change the cursor in the logo.
     logoCursorColor    = "#A9A9A9"
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
