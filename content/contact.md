@@ -124,7 +124,7 @@ Jl. Nusa Indah 44 Condongcatur - Yogyakarta
     
   <!-- method="POST" data-netlify="true" -->
 
-  <form method="post" action="?" onsubmit="alert('Thanks, your form is submited')">
+  <form action="/" onsubmit="alert('Thanks, your form is submited')">
   <p>
     <label>Full Name
     <br>
