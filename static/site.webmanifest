@@ -6,11 +6,11 @@
     "theme_color": "#1b1c1d",
     "background_color": "#1b1c1d",
     "display": "standalone",
-    "start_url": "https://akashaa.xyz/",
+    "start_url": "https://mahasemesta.xyz/",
     "orientation": "any",
     "related_applications": [],
-    "prefer_related_applications": "false",
-    "url": "https://akashaa.xyz",
+    "prefer_related_applications": false,
+    "url": "https://mahasemesta.xyz",
     "generated": true,
     "icons": [
         {
