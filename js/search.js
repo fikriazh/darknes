@@ -1,4 +1,4 @@
-// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&dn=gpl-3.0.txt GPL-v3-or-Later
+
 // How many characters to include on either side of match keyword
 const summaryInclude=60;
 
@@ -33,8 +33,10 @@ let searchQuery = getUrlParameter('q');
 if(searchQuery){
   document.getElementById("search-query").value = searchQuery;
   executeSearch(searchQuery);
-} else {
-  document.getElementById('search-results').innerHTML = "<p class=\"no-results\">Please enter a word or phrase above</p>";
+} 
+
+else {
+  document.getElementById('search-results').innerHTML = "<p class=\"no-results\">Search Title, Content etc.</p>";
 }
 
 function executeSearch(searchQuery) {
@@ -61,7 +63,7 @@ function populateResults(result){
     let snippetHighlights=[];
     snippetHighlights.push(searchQuery);
     if(snippet.length<1){
-      snippet += contents.substring(0,summaryInclude*2);
+      snippet += contents.substring(0,summaryInclude*1.75);
     }
     snippet += "…";
 
