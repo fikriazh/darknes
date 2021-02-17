@@ -12,14 +12,20 @@
 }
 
 #search-title {
-  font-size: 1rem;
+  font-size: 1.2rem;
   
 }
 
 #search-summary {
   font-size: .8rem;
   
+}
 
+mark {
+  border-radius: 3px;
+  padding:2px;
+  color:black ;
+  background-color:orange;
 }
 
 </style>
@@ -42,7 +48,7 @@
 </div>
 
 <template id="search-result-template">
-  <div class="search_summary" style="border-bottom: 1px grey dashed; margin: 20px 7.5px 0 7.5px; max-width: 400px;">
+  <div class="search_summary" style="border-bottom: 1px grey dashed; margin: 20px 5% 0 5%; max-width: 400px;">
 
     <span id="search-title" class="post-title no-text-decoration"><a class="search_link search_title" href=""></a></span>
     <small>
@@ -53,7 +59,7 @@
       </table>
       </div>
     </small>
-    <p style="margin-bottom: -5px"><em id="search-summary" class="search_snippet"></em></p>
+    <p style="margin-bottom: -5px"><em id="search-summary" class="search_snippet" style="font-style: normal;"></em></p>
     
   </div>
 </template>

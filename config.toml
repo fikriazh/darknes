@@ -92,7 +92,7 @@ disableHugoGeneratorInject = false
     weight = "3"
 
     [[menu.main]]
-    identifier = "backend"
-    name = "Backend"
-    url = "backend/"
+    identifier = "search"
+    name = "Search"
+    url = "search/"
     weight = "4"
