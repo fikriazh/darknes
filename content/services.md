@@ -6,7 +6,7 @@ title = "Services"
 
 <div align="center">
 
-<lottie-player src="/lottie/therapy.json"  background="transparent"  speed="0.5"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+<lottie-player src="/lottie/therapy.json"  background="transparent"  speed="0.5"  style="width: 300px; height: 300px; margin: -30px;"  loop  autoplay></lottie-player>
 
 </div>
 
