@@ -33,8 +33,10 @@ let searchQuery = getUrlParameter('q');
 if(searchQuery){
   document.getElementById("search-query").value = searchQuery;
   executeSearch(searchQuery);
-} else {
-  document.getElementById('search-results').innerHTML = "<p class=\"no-results\">Please enter keywords</p>";
+} 
+
+else {
+  document.getElementById('search-results').innerHTML = "<p class=\"no-results\">Search Title, Content etc.</p>";
 }
 
 function executeSearch(searchQuery) {
@@ -61,7 +63,7 @@ function populateResults(result){
     let snippetHighlights=[];
     snippetHighlights.push(searchQuery);
     if(snippet.length<1){
-      snippet += contents.substring(0,summaryInclude*2);
+      snippet += contents.substring(0,summaryInclude*1.75);
     }
     snippet += "…";
 
