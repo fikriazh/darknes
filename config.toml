@@ -57,8 +57,8 @@ disableHugoGeneratorInject = false
   
   disableReadOtherPosts = false
 
-  customCSS = ["style", "contact", "categories"]
-  customJS  = ["lottie", "fa", "jquery", "typeit", "logo", "contact"]
+  customCSS = ["categories"]
+  customJS  = ["lottie", "fa", "jquery", "typeit", "logo"]
 
   defaultTheme = "dark"
   themeColor = "#1b1c1d"
