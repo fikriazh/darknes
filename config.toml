@@ -2,7 +2,7 @@ baseURL = ""
 relativeURLS = true
 title   = "Mahasemesta"
 languageCode = "en-us"
-theme = "hello-friend-ng"
+theme = ["hello-friend-ng", "hugo-search-fuse-js"]
 
 disqusShortname = "https-mahasemesta-xyz"
 

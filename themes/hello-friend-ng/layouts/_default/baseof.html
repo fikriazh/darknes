@@ -21,5 +21,35 @@
         </div>
 
         {{ partial "javascript.html" . }}
+
+        {{if eq .Page.Title "Search"}}
+        
+        <script type="text/javascript">
+            
+            if (window.navigator.userAgent.indexOf('Trident/') > 0) {
+              let urls = [
+                {{ "js/libs/iecompat/promises.min.js" | absURL }},
+                {{ "js/libs/iecompat/fetch.min.js" | absURL }},
+                {{ "js/libs/iecompat/template.min.js" | absURL }},
+                {{ "js/libs/iecompat/remove.min.js" | absURL }}
+              ];
+              let head = document.getElementsByTagName("head")[0];
+              urls.forEach(function(url) {
+                let script = document.createElement("script");
+                script.src = url;
+                head.appendChild(script);
+              });
+            }
+            
+        </script>
+        
+        <script src={{ "js/libs/fuse.js/3.2.1/fuse.min.js" | absURL }}></script>
+        <script src={{ "js/libs/mark.js/9.0.0/mark.min.js" | absURL }}></script>
+    
+        {{ $search_js_md5 := (readFile "themes/hugo-search-fuse-js/static/js/search.js" | md5) }}
+        <script src={{ printf "%s?%s" ("js/search.js" | absURL) $search_js_md5 }}></script>
+
+        {{end}}
+
     </body>
 </html>
