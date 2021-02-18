@@ -25,12 +25,21 @@
 
         <div class="post-info">
 
+          <div align="center">
+            Share on : <br><br>
+            {{ partial "share.html" . }}
+          </div>
+
+          <br />
+
+          
           <div align="Center" style="text-align: center;">
             <span class="post-info"><a href="/journey">List of Journey</a></span>
             &nbsp;
             <span class="post-info"><a href="/categories">List of Categories</a></span>
             &nbsp;
           </div>
+          
 
            {{ if and (not $.Site.Params.DisableReadOtherPosts) (or .NextInSection .PrevInSection) }}
             <div class="pagination">
@@ -61,7 +70,7 @@
           {{ end }}
 
         </div>
-
+        
         {{ partial "comments.html" . }}
 
     </main>
