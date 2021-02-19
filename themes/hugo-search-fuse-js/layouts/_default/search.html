@@ -23,7 +23,7 @@
 
 mark {
   border-radius: 3px;
-  padding:2px;
+  padding:2px 5px;
   color:black ;
   background-color:orange;
 }
@@ -54,7 +54,6 @@ mark {
     <small>
       <div align="center">
       <table style="margin-bottom: -15px;">
-        <tr class="search_iftags"><td><strong>Tags</strong></td><td class="search_tags"></td></tr>
         <tr class="search_ifcategories"><td>#</td><td class="search_categories"></td></tr>
       </table>
       </div>
@@ -83,10 +82,8 @@ mark {
   
 </script>
 
-
 <script src={{ "js/fuse.min.js" | relLangURL }}></script>
 <script src={{ "js/mark.min.js" | relLangURL }}></script>
-
 
 {{ $search_js_md5 := (readFile "themes/hugo-search-fuse-js/static/js/search.js" | md5) }}
 <script src={{ printf "%s?%s" ("js/search.js" | relLangURL) $search_js_md5 }}></script>
