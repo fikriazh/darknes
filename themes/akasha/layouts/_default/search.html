@@ -63,7 +63,7 @@ mark {
   </div>
 </template>
 
-{{ $search_js_md5 := (readFile "themes/akasha/assets/js/search.js" | md5) }}
-<script src={{ printf "%s?%s" ("js/search.js" | relLangURL) $search_js_md5 }}></script>
+{{ $search_js_md5 := (readFile "themes/akasha/static/search.js" | md5) }}
+<script src={{ printf "%s?%s" ("/search.js" | relLangURL) $search_js_md5 }}></script>
 
 {{ end }}
