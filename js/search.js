@@ -15,7 +15,6 @@ let fuseOptions = {
   minMatchCharLength: 3,
   keys: [
     {name:"title",weight:0.8},
-    {name:"tags",weight:0.5},
     {name:"categories",weight:0.5},
     {name:"contents",weight:0.4}
   ]
@@ -79,12 +78,6 @@ function populateResults(result){
     frag.querySelector(".search_link").setAttribute("href", value.item.permalink);
     frag.querySelector(".search_title").textContent = value.item.title;
     frag.querySelector(".search_snippet").textContent = decoded;
-    let tags = value.item.tags;
-    if (tags) {
-      frag.querySelector(".search_tags").textContent = tags;
-    } else {
-      frag.querySelector(".search_iftags").remove();
-    }
     let categories = value.item.categories;
     if (categories) {
       frag.querySelector(".search_categories").textContent = categories;
@@ -98,4 +91,3 @@ function populateResults(result){
     document.getElementById("search-results").appendChild(frag);
   });
 }
-// @license-end
