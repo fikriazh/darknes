@@ -2,7 +2,7 @@ baseURL = ""
 relativeURLS = true
 title   = "Mahasemesta"
 languageCode = "en-us"
-theme = ["akasha", "hugo-search-fuse-js"]
+theme = "akasha"
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
