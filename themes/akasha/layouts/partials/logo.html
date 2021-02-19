@@ -1,0 +1,19 @@
+<a href="{{ if .Site.Params.Logo.LogoHomeLink }}{{ .Site.Params.Logo.LogoHomeLink }}{{else}}{{ .Site.BaseURL | relLangURL }}{{ end }}" style="text-decoration: none;">
+    <div class="logo">
+        
+        <span>
+            <lottie-player src="/lottie/circle.json"  background="transparent"  speed="0.05"  style="width:30px; height:30px"  loop  autoplay></lottie-player>
+        </span>
+
+        &nbsp;
+
+        <span class="text"></span>
+
+        <span class="logo__cursor" style=
+                "{{ with.Site.Params.Logo.logoCursorDisabled }}visibility:hidden;{{ end }}
+                {{ with.Site.Params.Logo.logoCursorColor    }}background-color:{{ . }};{{ end }}
+                {{ with.Site.Params.Logo.logoCursorAnimate  }}animation-duration:{{ . }};{{ end }}">
+        </span>
+        
+    </div>
+</a>

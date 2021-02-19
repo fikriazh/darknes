@@ -1,9 +1,0 @@
----
-title: "{{ replace .Name "-" " " | title }}"
----
-
-{{< rawhtml >}}
-
-
-
-{{< /rawhtml >}}

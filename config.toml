@@ -2,15 +2,14 @@ baseURL = ""
 relativeURLS = true
 title   = "Mahasemesta"
 languageCode = "en-us"
-theme = ["hello-friend-ng", "hugo-search-fuse-js"]
-
-disqusShortname = "https-mahasemesta-xyz"
+theme = ["akasha", "hugo-search-fuse-js"]
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
 paginate  = 10
 
+disqusShortname = "https-mahasemesta-xyz"
 googleAnalytics = "G-YNRC5F8LG5"
 
 archetypeDir = "archetypes"
@@ -33,6 +32,9 @@ disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
 
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
 [author]
   name = "Mahasemesta"
 
@@ -44,21 +46,19 @@ disableHugoGeneratorInject = false
   
 [params]
 
+  footer = "Mahasemesta"
   home1 = "Mahasemesta Hypnotherapy"
   home2 = "Heal you past to embrace your future"
   home_button = "TOUCH THE CAT TO BEGIN"
-
-  footer = "Mahasemesta"
 
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
-  
-  disableReadOtherPosts = false
 
-  customCSS = ["categories", "style"]
-  customJS  = ["lottie", "fa", "jquery", "typeit", "logo"]
+  homeSubtitle = "Hello Friend NG"
+  disableReadOtherPosts = false
+  enableSharingButtons = false
 
   defaultTheme = "dark"
   themeColor = "#1b1c1d"
@@ -69,10 +69,10 @@ disableHugoGeneratorInject = false
     theme = "#1b1c1d"
 
   [params.logo]
-    logoCursorColor    = "#A9A9A9"
-    logoCursorAnimate  = "3s"
+    logoCursorColor    = "#67a2c9"
+    logoCursorAnimate  = "2s"
 
-  [menu]
+[menu]
     [[menu.main]]
     identifier = "services"
     name = "Services"

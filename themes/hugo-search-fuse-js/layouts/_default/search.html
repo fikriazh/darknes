@@ -18,7 +18,7 @@
 
 #search-summary {
   font-size: .8rem;
-  
+   
 }
 
 mark {
@@ -55,13 +55,40 @@ mark {
       <div align="center">
       <table style="margin-bottom: -15px;">
         <tr class="search_iftags"><td><strong>Tags</strong></td><td class="search_tags"></td></tr>
-        <tr class="search_ifcategories"><td><strong>#</strong></td><td class="search_categories"></td></tr>
+        <tr class="search_ifcategories"><td>#</td><td class="search_categories"></td></tr>
       </table>
       </div>
     </small>
-    <p style="margin-bottom: 5px; opacity:.75;"><em id="search-summary" class="search_snippet" style="font-style: normal;"></em></p>
+    <p style="margin-bottom: 5px; opacity:.65;"><em id="search-summary" class="search_snippet" style="font-style: normal;"></em></p>
     
   </div>
 </template>
+
+<script type="text/javascript">
+            
+  if (window.navigator.userAgent.indexOf('Trident/') > 0) {
+    let urls = [
+      {{ "js/libs/iecompat/promises.min.js" | relLangURL }},
+      {{ "js/libs/iecompat/fetch.min.js" | relLangURL }},
+      {{ "js/libs/iecompat/template.min.js" | relLangURL }},
+      {{ "js/libs/iecompat/remove.min.js" | relLangURL }}
+    ];
+    let head = document.getElementsByTagName("head")[0];
+    urls.forEach(function(url) {
+      let script = document.createElement("script");
+      script.src = url;
+      head.appendChild(script);
+    });
+  }
+  
+</script>
+
+
+<script src={{ "js/fuse.min.js" | relLangURL }}></script>
+<script src={{ "js/mark.min.js" | relLangURL }}></script>
+
+
+{{ $search_js_md5 := (readFile "themes/hugo-search-fuse-js/static/js/search.js" | md5) }}
+<script src={{ printf "%s?%s" ("js/search.js" | relLangURL) $search_js_md5 }}></script>
 
 {{ end }}
