@@ -1,19 +1,7 @@
 {{ define "main" }}
     <main aria-role="main">
-        <div align="Center">
-            
-            <lottie-player style="cursor:grabbing" onclick="location.href='brief';" class="lottie" src="/lottie/cat.json"  background="transparent"  speed="0.3" loop  autoplay></lottie-player>
-            
-            {{.Site.Params.home1}}
-            <br>
-            {{.Site.Params.home2}}
-            <br>
-            <br>
-
-            <button style="font-size: small; cursor: default" title="Meow meow meow !">
-            {{.Site.Params.home_button}}
-            </button>
-            
-        </div>
+        
+        {{ partial "home/hero.html" . }}
+        
     </main>
 {{ end }}
