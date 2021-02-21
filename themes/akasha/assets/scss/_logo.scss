@@ -20,12 +20,12 @@
 
   &__cursor {
     display: inline-block;
-    width: 10px;
-    height: 1rem;
+    width: 4px;
+    height: 1.3rem;
     background: #fe5186;
     margin-left: 5px;
-    border-radius: 1px;
-    animation: cursor 1s infinite;
+    border-radius: 3px;
+    animation: cursor 2s infinite;
   }
 
   @media (prefers-reduced-motion: reduce) {

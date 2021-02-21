@@ -1,19 +1,27 @@
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+.logo {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+</style>
+
 <a href="{{ if .Site.Params.Logo.LogoHomeLink }}{{ .Site.Params.Logo.LogoHomeLink }}{{else}}{{ .Site.BaseURL | relLangURL }}{{ end }}" style="text-decoration: none;">
     <div class="logo">
         
-        <span>
-            <lottie-player src="/lottie/circle.json"  background="transparent"  speed="0.05"  style="width:30px; height:30px"  loop  autoplay></lottie-player>
+        <span class="logo__cursor" style=
+        "{{ with.Site.Params.Logo.logoCursorDisabled }}visibility:hidden;{{ end }}
+        {{ with.Site.Params.Logo.logoCursorColor    }}background-color:{{ . }};{{ end }}
+        {{ with.Site.Params.Logo.logoCursorAnimate  }}animation-duration:{{ . }};{{ end }}">
         </span>
 
         &nbsp;
 
-        <span class="text"></span>
-
-        <span class="logo__cursor" style=
-                "{{ with.Site.Params.Logo.logoCursorDisabled }}visibility:hidden;{{ end }}
-                {{ with.Site.Params.Logo.logoCursorColor    }}background-color:{{ . }};{{ end }}
-                {{ with.Site.Params.Logo.logoCursorAnimate  }}animation-duration:{{ . }};{{ end }}">
-        </span>
+        <span class="logo">{{ .Site.Title }}</span>
         
     </div>
 </a>

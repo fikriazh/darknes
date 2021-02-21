@@ -46,7 +46,6 @@ disableHugoGeneratorInject = false
   
 [params]
 
-  footer = "Mahasemesta"
   home1 = "Mahasemesta Hypnotherapy"
   home2 = "Heal you past to embrace your future"
   home_button = "TOUCH THE CAT TO BEGIN"
@@ -70,7 +69,7 @@ disableHugoGeneratorInject = false
 
   [params.logo]
     logoCursorColor    = "#67a2c9"
-    logoCursorAnimate  = "2s"
+    logoCursorAnimate  = "5s"
 
 [menu]
     [[menu.main]]
