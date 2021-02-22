@@ -6,7 +6,7 @@
     <div class="pagination__buttons">
         
         {{ if $paginator.HasPrev }}
-        <span class="button previous">
+        <span class="button previous" id="tombol">
             <a href="{{ .Paginator.Prev.URL }}">
                 <span>←</span>
             </a>
@@ -22,7 +22,7 @@
         
 
         {{ if .Paginator.HasNext }}
-            <span class="button next">
+            <span class="button next" id="tombol">
                 <a href="{{ .Paginator.Next.URL }}">
                     <span>→</span>
                 </a>
