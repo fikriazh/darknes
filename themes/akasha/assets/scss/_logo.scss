@@ -20,24 +20,31 @@
 
   &__cursor {
     display: inline-block;
-    width: 4px;
-    height: 1.3rem;
-    background: #fe5186;
-    margin-left: 5px;
+    width: 5px;
+    height: 1.5rem;
+    background: #4698e4;
+    margin-right: 7.5px;
     border-radius: 3px;
-    animation: cursor 2s infinite;
+    animation: cursor 5s infinite;
+    box-shadow: 0 0 5px #4698e4,
+              0 0 25px #4698e4,
+              0 0 50px #4698e4,
+              0 0 100px #4698e4,
+              0 0 125px #4698e4,
+              0 0 150px #4698e4;
   }
 
-  @media (prefers-reduced-motion: reduce) {
-    &__cursor {
-        animation: none;
-    }
-  }
+  // @media (prefers-reduced-motion: reduce) {
+  //   &__cursor {
+  //       animation: none;
+  //   }
+  // }
 
 }
 
 @keyframes cursor {
   0% { opacity: 0; }
+  30% { opacity: 1; }
   50% { opacity: 1; }
   100% { opacity: 0; }
 }

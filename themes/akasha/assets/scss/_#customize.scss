@@ -25,6 +25,17 @@
 }
 
 /* contact */
+
+#tombol:hover{
+    font-weight:bold;
+    background: #135ca1;
+    color: #fff;
+    box-shadow: 0 0 5px #135ca1,
+              0 0 25px #135ca1,
+              0 0 50px #135ca1,
+              0 0 100px #135ca1;
+}
+
 .responsive-iframe {
     position: realtive;
     max-width: 600px;
