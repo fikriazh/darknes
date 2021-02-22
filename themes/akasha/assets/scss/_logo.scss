@@ -22,17 +22,16 @@
     display: inline-block;
     width: 5px;
     height: 1.5rem;
-    background: #4698e4;
+    background: #7b7bc7;
     margin-right: 7.5px;
     border-radius: 3px;
     animation: cursor 5s infinite;
-    box-shadow: 0 0 5px #4698e4,
-              0 0 25px #4698e4,
-              0 0 50px #4698e4,
-              0 0 100px #4698e4,
-              0 0 125px #4698e4,
-              0 0 150px #4698e4;
+    box-shadow: 0 0 7.5px #7b7bc7,
+              0 0 15px #7b7bc7,
+
   }
+
+  //#4698e4
 
   // @media (prefers-reduced-motion: reduce) {
   //   &__cursor {
