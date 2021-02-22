@@ -13,9 +13,15 @@
             
             {{ partial "header.html" . }}
 
-            <div class="content">
-                {{ block "main" . }}{{ end }}
-            </div>
+            {{ if .IsHome }}
+                <div class="content" style="display: block;">
+                    {{ block "main" . }}{{ end }}
+                </div>
+            {{ else }}
+                <div class="content">
+                    {{ block "main" . }}{{ end }}
+                </div>
+            {{ end }}
 
             {{ block "footer" . }}
                 {{ partial "footer.html" . }}

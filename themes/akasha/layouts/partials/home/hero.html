@@ -1,1 +1,93 @@
-x
+<script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+
+<style>
+  .hero {
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://source.unsplash.com/1600x900/?forest);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+.hero-inner {
+  
+  text-align: center;
+  max-width: 600px;
+}
+
+h1,
+h2 {
+  font-family: Inter UI;
+  margin: 0;
+  color: white;
+  opacity: 0;
+  transform: translateY(40px);
+  text-shadow: 1px 1px 8px #212121;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0 0 2rem;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.animate-normal {
+  -webkit-animation: animateIn 1000ms ease forwards;
+          animation: animateIn 1000ms ease forwards;
+}
+
+.animate-delay {
+  -webkit-animation: animateIn 1000ms ease 300ms forwards;
+          animation: animateIn 1000ms ease 300ms forwards;
+}
+
+@-webkit-keyframes animateIn {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes animateIn {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+</style>
+
+<header class="hero" id="hero">
+  <div class="hero-inner"> 
+    <h1 class="animate-normal" id="element"></h1>
+    <h2 class="animate-delay">Marley was dead: to begin with. There is no doubt whatever about that.</h2>
+  </div>
+</header>
+
+<script>
+  new TypeIt("#element", {
+  speed: 200
+})
+  .type("Welcome!", {delay: 2000})
+  .delete(null, {delay: 1000})
+  .type("Hero arival")
+  .go();
+</script>
