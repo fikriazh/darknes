@@ -1,8 +1,28 @@
+<style>
+
+@media screen and (max-width: 684px) {
+#theme_toggle{
+/* margin-top:10px; */
+} 
+
+#pemisah {
+display: none;
+}
+
+}
+
+</style>
+
 <nav class="menu">
     <ul class="menu__inner">
         {{- $currentPage := . -}}
         {{ range .Site.Menus.main -}}
             <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
         {{- end }}
+       
+        <span id="pemisah"> &nbsp;|</span>
+
+        <li id="theme_toggle" class="theme-toggle unselectable">{{ partial "theme-icon.html" . }}</li>
+
     </ul>
 </nav>

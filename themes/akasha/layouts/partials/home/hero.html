@@ -1,25 +1,31 @@
-<script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
-
 <style>
   .hero {
-  height: 85vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 #hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://source.unsplash.com/1600x900/?forest);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://source.unsplash.com/1600x900/weekly?nature,green);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
   
 }
 
 .hero-inner {
-  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
   text-align: center;
-  max-width: 600px;
+  text-align: center;
+  max-width: 70%;
 }
 
 h1,
@@ -40,6 +46,29 @@ h1 {
 h2 {
   font-weight: 400;
   font-size: 2rem;
+}
+
+@media screen and (max-width: 684px) {
+
+h1 {
+  font-size: 1.75rem;
+  
+}  
+  
+h2 {
+  font-weight: 400;
+  font-size: 1rem;
+  /* padding: 0 10%; */
+}
+
+.hero-inner {
+  width:80%
+}
+
+.hero {
+  height: 75vh;
+  
+}
 }
 
 .animate-normal {
@@ -75,19 +104,12 @@ h2 {
 }
 </style>
 
-<header class="hero" id="hero">
-  <div class="hero-inner"> 
-    <h1 class="animate-normal" id="element"></h1>
-    <h2 class="animate-delay">Marley was dead: to begin with. There is no doubt whatever about that.</h2>
-  </div>
-</header>
+<div style="margin-bottom:2rem;">
 
-<script>
-  new TypeIt("#element", {
-  speed: 200
-})
-  .type("Welcome!", {delay: 2000})
-  .delete(null, {delay: 1000})
-  .type("Hero arival")
-  .go();
-</script>
+  <header class="hero" id="hero"></header>
+    <div class="hero-inner"> 
+      <h1 class="animate-normal">MAHASEMESTA</h1>
+      <h2 class="animate-delay">Hypnotherapy for life regression, recreational, past trauma and clinical illnes.</h2>
+    </div>
+
+</div>
