@@ -89,7 +89,7 @@ visibility: visible;
       
               <div class="pagination__buttons">
                 {{ if .NextInSection }}
-                  <span class="button previous">
+                  <span class="button previous" id="tombol">
                     <a href="{{ .NextInSection.Permalink }}">
                       <span class="button__icon">←</span>
                       <span class="button__text">{{ .NextInSection.Title }}</span>
@@ -98,7 +98,7 @@ visibility: visible;
                 {{ end }}
 
                 {{ if .PrevInSection }}
-                  <span class="button next">
+                  <span class="button next"  id="tombol">
                     <a href="{{ .PrevInSection.Permalink }}">
                       <span class="button__text">{{ .PrevInSection.Title }}</span>
                       <span class="button__icon">→</span>
