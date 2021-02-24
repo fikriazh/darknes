@@ -24,6 +24,7 @@ buildExpired = false
 canonifyURLs = true
 
 enableGitInfo = true
+gitUrl = "https://github.com/fikriazh/darknes/commits/main"
 
 enableRobotsTXT = true
 enableEmoji     = true
