@@ -23,8 +23,9 @@ buildFuture  = false
 buildExpired = false
 canonifyURLs = true
 
+enableGitInfo = true
+
 enableRobotsTXT = true
-enableGitInfo   = false
 enableEmoji     = true
 enableMissingTranslationPlaceholders = false
 disableRSS     = true
