@@ -1,9 +1,9 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="author" content="{{ if .Params.author }}{{ .Params.author }}{{ else }}{{ range .Site.Author }}{{ . }} {{ end }}{{ end }}">
+<meta name="author" content="Mahasemesta">
 <meta name="description" content="{{ if .IsHome }}Hypnotherapy{{ else }}{{ if .Params.Description }}{{ .Params.Description }}{{ else }}{{ .Summary | plainify }}{{ end }}{{ end }}" />
-<meta name="robots" content="noodp" />
+<meta name="robots" content="index, follow" />
 <meta name="theme-color" content="{{ .Site.Params.themeColor }}" />
 <link rel="canonical" href="{{ .Permalink }}" />
 
@@ -40,7 +40,6 @@
     type="application/json" title="{{ .Site.Title }}" />
 {{ end }}
 
-<link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
 
 <!-- Hotjar Tracking Code for mahasemesta.xyz -->
@@ -55,7 +54,7 @@
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-YNRC5F8LG5"></script>
 <script>
   window.dataLayer = window.dataLayer || [];

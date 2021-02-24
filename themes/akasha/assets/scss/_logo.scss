@@ -1,19 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
 .logo {
   display: flex;
   align-items: center;
   text-decoration: none;
-  font-display: auto;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
+  font-size: 1.3rem;
+  letter-spacing: 1.5px;
 
   &__cursor {
     display: inline-block;
-    width: 5px;
-    height: 1.3rem;
+    width: 3.5px;
+    height: 1.5rem;
     background: #5c5ca2;
-    margin-right: 5px;
+    margin-right: 7.5px;
     border-radius: 3px;
     animation: cursor 5s infinite;
     box-shadow: 0 0 7.5px #5c5ca2,

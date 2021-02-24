@@ -23,7 +23,7 @@ buildFuture  = false
 buildExpired = false
 canonifyURLs = true
 
-enableRobotsTXT = false
+enableRobotsTXT = true
 enableGitInfo   = false
 enableEmoji     = true
 enableMissingTranslationPlaceholders = false
@@ -55,21 +55,11 @@ disableHugoGeneratorInject = false
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
 
-  homeSubtitle = "Hello Friend NG"
   disableReadOtherPosts = false
   enableSharingButtons = false
 
   defaultTheme = "dark"
   themeColor = "#1b1c1d"
-
-  [params.favicon.color]
-    mask = "#1b1c1d"
-    msapplication = "#1b1c1d"
-    theme = "#1b1c1d"
-
-  [params.logo]
-    logoCursorColor    = "#67a2c9"
-    logoCursorAnimate  = "5s"
 
 [menu]
     [[menu.main]]
