@@ -2,11 +2,7 @@
 title = "Backend"
 +++
 
-{{< rawhtml >}}
-<div align="center">
-<lottie-player src="/lottie/work.json"  background="transparent"  speed="0.5"  style="width: 300px; height: 300px; margin: -15px;"  loop  autoplay></lottie-player>
-</div>
- {{< /rawhtml >}}
+{{< lottie work >}}
 
  On this page, I will explain everything that make us go world. So many material and help is used so this web can be shown to you. I say many thanks to the creator for the material used here. Many material is edited than it's original to fulfill our needs.
 

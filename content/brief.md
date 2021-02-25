@@ -2,15 +2,7 @@
 title = "Brief"
 +++
 
-{{< rawhtml >}}
-
-<div align="center" onclick="location.href='/meditation';">
-
-<lottie-player src="/lottie/hello.json"  background="transparent"  speed="0.5"  style="width: 300px; height: 300px; margin: -10px"  loop  autoplay></lottie-player>
-
-</div>
-
-{{< /rawhtml >}}
+{{< lottie hello >}}
 
 Hello, I'm Mahasemesta, I do hypnotherapy with focus on Past Life Regression and Life between Lives Hypnotherapy. With this methode, I can make you observe, even feel and live your previous memory from since your birth or even deepr into previous life (for those who believe in reincarnation).
 
