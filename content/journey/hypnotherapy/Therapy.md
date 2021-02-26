@@ -5,8 +5,6 @@ categories: ["Hypnotherapy"]
 description:  Such a nice apple to be enjoy with our weekend.
 ---
 
-{{< lottie cat >}}
-
 Egestas fringilla phasellus faucibus scelerisque eleifend. Quam nulla porttitor massa id neque aliquam vestibulum morbi blandit. Senectus et netus et malesuada fames ac turpis egestas.
 
 {{< youtube JDqRkMKnfvE >}}

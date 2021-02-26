@@ -13,9 +13,30 @@
                                     {{ .Date.Format "2 Jan"}}
                                 </span>
                             </a>
-                            {{ with .Params.Description }}
-                            <span class="post-info">{{ . }}</span>
+                            {{ with .Summary | plainify | safeHTML }}
+                            <span class="post-info" style="text-align: justify;">{{ . }}</span>
                             {{ end }}
+                            <span><a href="{{ .Permalink }}" class="post-info" style="display:inline; opacity:1;">Read More…</a></span>
+
+                            <div style="margin-top:5px">
+                            {{ with .Params.categories }}
+                            <span>
+                            {{ range . -}}
+                            <span><a href="{{ "categories/" | relLangURL }}{{ . | urlize }}" class="post-info" style="margin:0; opacity:0.9;display: inline;"># {{.}}</a></span>
+                            {{ end }}
+                            </span>
+                            {{ end }}    
+                            
+                            <Span class="post-info" style="display: inline; opacity: 0.9;">
+                            &nbsp; <i class="far fa-clock" style="opacity: 0.5;"></i> {{.Page.ReadingTime }} minutes
+                            </Span>
+
+                            <Span class="post-info" style="display: inline; opacity: 0.9;">
+                            &nbsp; <i class="far fa-bookmark" style="opacity: 0.5;"></i> {{.Page.WordCount}} words
+                            </Span>
+
+                            </div>
+
                         </li>
                     {{ end }}
                 </ul>

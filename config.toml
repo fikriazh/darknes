@@ -4,10 +4,11 @@ title   = "Mahasemesta"
 languageCode = "en-us"
 theme = "akasha"
 
+summaryLength = 20
+paginate  = 5
+
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
-
-paginate  = 10
 
 disqusShortname = "https-mahasemesta-xyz"
 googleAnalytics = "G-YNRC5F8LG5"
@@ -32,7 +33,7 @@ disable404     = false
 disableHugoGeneratorInject = false
 
 [permalinks]
-  posts = "/posts/:year/:month/:title/"
+  journey = "/journey/:title/"
 
 [author]
   name = "Mahasemesta"
