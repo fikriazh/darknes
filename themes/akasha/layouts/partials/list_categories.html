@@ -7,6 +7,7 @@
                     <a href="{{ .Page.Permalink }}" style="padding-bottom: 0px; padding-top: 15px; display: block;">
                         <span class="post-title">{{.Page.Title}}</span>
                     </a>
+
                         <span class="count">
 
                             #
@@ -15,6 +16,22 @@
                         
                         </span>
 
+                        <br>
+                        
+                            <span class="count" style="opacity:1">
+
+                                {{ if eq .Page.Title "Hugo" }}
+                                    Blogging tips
+                                {{else if eq .Page.Title "Hypnotherapy" }}
+                                    Therapy kinds
+                                {{else if eq .Page.Title "Semesta" }}
+                                    Universe wisdom
+                                {{else if eq .Page.Title "Soul" }}    
+                                    Soul Journey
+                                {{end}}
+
+                            </span>
+                        
                 </li>
             {{ end }}
         </ul>  
