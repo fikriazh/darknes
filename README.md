@@ -1,1 +1,1 @@
-[Mahasemesta](https://mahasemesta.xyz)
+website by hugo, theme by hello friend ng
