@@ -1,4 +1,5 @@
 <!-- list file js (update each added new file) -->
+{{ $scramble := resources.Get "js/scramble.js" }}
 {{ $top := resources.Get "js/top.js" }}
 {{ $fuse := resources.Get "js/fuse.min.js" }}
 {{ $mark := resources.Get "js/mark.min.js" }}
@@ -8,7 +9,7 @@
 {{ $theme := resources.Get "js/theme.js" }}
 
 <!-- bundle minify fingerprint-->
-{{ $secureJS := slice $top $fuse $mark $contact $menu $prism $theme | resources.Concat "bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}
+{{ $secureJS := slice $scramble $top $fuse $mark $contact $menu $prism $theme | resources.Concat "bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}
 
 <!-- snipet js-->
 <script type="text/javascript" src="{{ $secureJS.RelPermalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>

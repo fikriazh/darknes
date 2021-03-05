@@ -12,24 +12,49 @@
             </a>
         </span>
         {{ end }}
-        
-        
-            <span class="button previous" style="cursor: context-menu;">
-                <a>
-                    <span>{{.Paginator.PageNumber}} of {{.Paginator.TotalPages}}</span>
-                </a>
-            </span>
-        
+
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">{{.Paginator.PageNumber}} of {{.Paginator.TotalPages}}</button>
+                <div id="myDropdown" class="dropdown-content">
+                    {{ $halaman := .Paginator.PageNumber }}
+                    {{ range $paginator.Pagers }}
+                        <a href="{{ .URL }}" {{ if eq $halaman .PageNumber }}style="display:none;"{{end}}>{{ .PageNumber }}</a>
+                    {{end}}
+                  
+                </div>
+            </div>
 
         {{ if .Paginator.HasNext }}
             <span class="button next" id="tombol">
                 <a href="{{ .Paginator.Next.URL }}">
                     <span>→</span>
                 </a>
-            </span>
+            </span>            
         {{ end }}
 
     </div>
 </div>
+
+<script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
 
 {{ end }}
