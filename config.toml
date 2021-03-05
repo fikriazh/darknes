@@ -10,8 +10,8 @@ paginate  = 5
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
-disqusShortname = "https-mahasemesta-xyz"
-googleAnalytics = "G-YNRC5F8LG5"
+# disqusShortname = "https-mahasemesta-xyz"
+# googleAnalytics = "G-YNRC5F8LG5"
 
 archetypeDir = "archetypes"
 contentDir   = "content"

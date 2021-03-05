@@ -1,8 +1,9 @@
 
-<div class="malam"><i class="fa fa-moon faa-spin animated-hover" style="color:currentColor"></i></div>
+<div class="malam"><i class="fa fa-moon faa-spin animated-hover" style="color:currentColor" onclick="tema()" id="tema"></i></div>
 
 <script>
-$(".malam").click(function(){
-    $(this).find("i").toggleClass("fa-sun");
-});
+    function tema() {
+       var element = document.getElementById("tema");
+       element.classList.toggle("fa-sun");
+    }
 </script>

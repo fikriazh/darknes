@@ -1,9 +1,10 @@
 <div class="tugel">
-    <i class="fas fa-spa fa-lg" style="color:currentColor; position: relative; top: 2px;"></i>
+    <i class="fas fa-spa fa-lg" style="color:currentColor; position: relative; top: 2px;" onclick="menuu()" id="menuu"></i>
 </div>
 
 <script>
-$(".tugel").click(function(){
-    $(this).find("i").toggleClass("fa-times");
-});
+    function menuu() {
+       var element = document.getElementById("menuu");
+       element.classList.toggle("fa-times");
+    }
 </script>

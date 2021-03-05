@@ -6,7 +6,7 @@
     </head>
 
         {{ block "body" . }}
-    <body class="{{ if ne $.Site.Params.defaultTheme "light" -}} dark-theme {{- end -}}">
+    <body class="{{ if ne $.Site.Params.defaultTheme "light" -}} dark-theme {{- end -}}" id="top">
         {{ end }}
     
         <div class="container">

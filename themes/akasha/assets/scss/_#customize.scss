@@ -132,7 +132,7 @@ select {
     .malam{
       font-weight:bold;
       background: #5c5ca2;
-      color: #fff;
+      color: currentColor;
       box-shadow: 0 0 5px #5c5ca2,
               0 0 25px #5c5ca2,
               0 0 50px #5c5ca2,
@@ -146,3 +146,34 @@ select {
     iframe {
         border-radius: 15px;
     }
+
+// go to top
+
+.top-link {
+    visibility: hidden;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 99;
+    background: var(--tertiary);
+    width: 42px;
+    height: 42px;
+    padding: 12px;
+    border-radius: 64px;
+    transition: visibility .5s, opacity .8s linear
+}
+
+.footer a:hover,
+.top-link:hover {
+    background: #5c5ca2;
+    color: currentColor;
+    box-shadow: 0 0 5px #5c5ca2,
+              0 0 25px #5c5ca2,
+              0 0 50px #5c5ca2,
+              0 0 100px #5c5ca2;
+}
+
+.top-link:focus,
+#theme-toggle:focus {
+    outline: 0
+}
