@@ -58,9 +58,21 @@ visibility: visible;
                {{ partial "categories.html" . }}
                at
                {{ partial "date.html" . }}
-              </div>
+              </div>              
 
             </div>
+
+            {{ if .Params.Cover }}
+            <figure class="post-cover">
+
+              <img src="{{ .Params.Cover | absURL }}" alt="{{ .Title }}" style="border-radius: 10px;" />
+              
+              {{ with .Params.Description }}
+              <figcaption class="center">{{ . | markdownify }}</figcaption>
+              {{ end }}
+              
+            </figure>
+            {{ end }}
 
            <div class="post-content" style="text-align: justify; hyphens: auto;">
                 {{ .Content }}
