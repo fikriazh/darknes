@@ -46,9 +46,9 @@ disableHugoGeneratorInject = false
   
 [params]
 
-  home1 = "Mahasemesta Hypnotherapy"
-  home2 = "Heal you past to embrace your future"
-  home_button = "TOUCH THE CAT TO BEGIN"
+  homeSubtitle1 = "Mahasemesta Hypnotherapy"
+  homeSubtitle2 = "Heal you past to embrace your future"
+  homeButton = "TOUCH THE CAT TO BEGIN"
 
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
