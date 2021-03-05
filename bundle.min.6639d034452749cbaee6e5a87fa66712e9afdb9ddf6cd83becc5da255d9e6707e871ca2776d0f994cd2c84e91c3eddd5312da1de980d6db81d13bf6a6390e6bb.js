@@ -1,4 +1,37 @@
-window.onload=function(){if(localStorage.getItem("menu-scroll-position")){document.getElementById('menu').scrollLeft=localStorage.getItem("menu-scroll-position");}}
+class TextScramble{constructor(el){this.el=el
+this.chars='qazwsxedcrfvtgbyhnujmikolp1234567890`~!@#$%^&*()_+=-'
+this.update=this.update.bind(this)}
+setText(newText){const oldText=this.el.innerText
+const length=Math.max(oldText.length,newText.length)
+const promise=new Promise((resolve)=>this.resolve=resolve)
+this.queue=[]
+for(let i=0;i<length;i++){const from=oldText[i]||''
+const to=newText[i]||''
+const start=Math.floor(Math.random()*50)
+const end=start+Math.floor(Math.random()*50)
+this.queue.push({from,to,start,end})}
+cancelAnimationFrame(this.frameRequest)
+this.frame=0
+this.update()
+return promise}
+update(){let output=''
+let complete=0
+for(let i=0,n=this.queue.length;i<n;i++){let{from,to,start,end,char}=this.queue[i]
+if(this.frame>=end){complete++
+output+=to}else if(this.frame>=start){if(!char||Math.random()<0.3){char=this.randomChar()
+this.queue[i].char=char}
+output+=`<span class="dud">${char}</span>`}else{output+=from}}
+this.el.innerHTML=output
+if(complete===this.queue.length){this.resolve()}else{this.frameRequest=requestAnimationFrame(this.update)
+this.frame++}}
+randomChar(){return this.chars[Math.floor(Math.random()*this.chars.length)]}}
+const phrases=['Mahasemesta','Hypnotherapy','Life Regression','Mesmerism','Soul Healing','Meditation']
+const el=document.querySelector('.text')
+const fx=new TextScramble(el)
+let counter=0
+const next=()=>{fx.setText(phrases[counter]).then(()=>{setTimeout(next,7500)})
+counter=(counter+1)%phrases.length}
+next();window.onload=function(){if(localStorage.getItem("menu-scroll-position")){document.getElementById('menu').scrollLeft=localStorage.getItem("menu-scroll-position");}}
 document.querySelectorAll('a[href^="#"]').forEach(anchor=>{anchor.addEventListener("click",function(e){e.preventDefault();var id=this.getAttribute("href").substr(1);if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({behavior:"smooth"});}else{document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();}
 if(id==="top"){history.replaceState(null,null," ");}else{history.pushState(null,null,`#${id}`);}});});var mybutton=document.getElementById("top-link");window.onscroll=function(){if(document.body.scrollTop>800||document.documentElement.scrollTop>800){mybutton.style.visibility="visible";mybutton.style.opacity="1";}else{mybutton.style.visibility="hidden";mybutton.style.opacity="0";}};function menu_on_scroll(){localStorage.setItem("menu-scroll-position",document.getElementById('menu').scrollLeft);};/*!
 * Fuse.js v3.2.1 - Lightweight fuzzy-search (http://fusejs.io)
