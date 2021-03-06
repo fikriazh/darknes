@@ -43,6 +43,24 @@
                             </a>
 
                             <a href="{{.Permalink}}">
+                            <img src="{{ .Params.Cover | absURL }}" alt="{{ .Title }}" style="border-radius: 5px;" />
+                            </a>
+                            
+                                <div align="Center" class="post-meta">
+
+                                    {{ with .Params.categories }}
+                                    {{ range . -}}
+                                    <i class="fas fa-folder-open" style="color:currentColor"></i>&nbsp;<span class="tag">{{.}}</span>&nbsp;
+                                    {{ end }}
+                                    {{ end }}
+
+                                    <i class="fas fa-pen-nib" style="color:currentColor"></i>&nbsp;<span class="tag">{{.WordCount}} words</span>&nbsp;
+
+                                    <i class="fas fa-clock" style="color:currentColor"></i>&nbsp;<span class="tag">{{ math.Round (div (countwords .Content) 220.0) }} min read</span>&nbsp;
+
+                                </div>
+
+                            <a href="{{.Permalink}}">
                             {{ with .Summary | plainify | safeHTML }}
                             <div class="post-info">{{ . }}</div>
                             {{ end }}

@@ -1,0 +1,11 @@
+<i class="far fa-calendar-minus" style="color:currentColor"></i>&nbsp;<span>{{ dateFormat "2 Jan 2006" .Date.Local }}</span>&nbsp;
+
+{{ with .Params.categories }}
+    <span>
+        
+        {{ range . -}}
+        <i class="fas fa-folder-open" style="color:currentColor"></i>&nbsp;<span class="tag"><a href="{{ "categories/" | relLangURL }}{{ . | urlize }}" style="text-decoration: none;">{{.}}</a></span>
+        {{ end }}
+
+    </span>
+{{ end }}

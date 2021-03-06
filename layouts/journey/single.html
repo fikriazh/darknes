@@ -8,7 +8,7 @@
             
               <h3 class="post-title" style="display: initial;">{{ .Title | markdownify }}</h3>
 
-              <div class="post-info-single">{{- partial "date.html" . -}}{{- partial "categories.html" . -}}</div>              
+              <div class="post-info-single">{{- partial "post-info.html" . -}}</div>              
 
             </div>
 
@@ -22,7 +22,7 @@
               {{ end }}
               
             </figure>
-            {{ end }}
+            {{ end }}           
 
            <div class="post-content" style="text-align: justify; hyphens: auto;">
                 {{ .Content }}

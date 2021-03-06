@@ -3,6 +3,7 @@ date: 2021-02-11
 title: "Jiwa"
 categories: ["Soul"]
 description: Sesungguhnya semua ini hanyalah ilusi dari sang programer
+Cover: "https://source.unsplash.com/1600x900/?animal"
 ---
 
 Egestas fringilla phasellus faucibus scelerisque eleifend. Quam nulla porttitor massa id neque aliquam vestibulum morbi blandit.

@@ -8,7 +8,7 @@
 
         <div class="content" style="text-align: center;">
             <div class="inner" style="display:inline-block; margin-bottom: 10px;">
-                <h2 style="text-align: center; margin-bottom: 0px; margin-top: 0; display: block;"><i class="far fa-folder-open" style="color:currentColor">&nbsp;</i>{{ .Title }}</h2>
+                <h2 style="text-align: center; margin-bottom: 0px; margin-top: 0; display: block;">{{ .Title }}</h2>
 
                 <a href="/categories">
                 <span class="post-info">List of Categories</span>
@@ -39,6 +39,24 @@
                                 <span class="post-title">{{.Title}}</span>
                                 <span class="post-day">{{ .Date.Format "2 Jan"}}</span>
                             </a>
+
+                            <a href="{{.Permalink}}">
+                                <img src="{{ .Params.Cover | absURL }}" alt="{{ .Title }}" style="border-radius: 5px;" />
+                                </a>
+                                
+                                    <div align="Center" class="post-meta">
+    
+                                        {{ with .Params.categories }}
+                                        {{ range . -}}
+                                        <i class="fas fa-folder-open" style="color:currentColor"></i>&nbsp;<span class="tag">{{.}}</span>&nbsp;
+                                        {{ end }}
+                                        {{ end }}
+    
+                                        <i class="fas fa-pen-nib" style="color:currentColor"></i>&nbsp;<span class="tag">{{.WordCount}} words</span>&nbsp;
+    
+                                        <i class="fas fa-clock" style="color:currentColor"></i>&nbsp;<span class="tag">{{ math.Round (div (countwords .Content) 220.0) }} min read</span>&nbsp;
+    
+                                    </div>
 
                             <a href="{{.Permalink}}">
                             {{ with .Summary | plainify | safeHTML }}

@@ -243,7 +243,7 @@ select {
 // list post
 
 .posts .post-item {
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 .posts .post-item a {
@@ -255,8 +255,10 @@ select {
 }
 
 .post-info {
-    margin: 0;
+    text-align: justify;
+    margin: 0 10px;
     line-height: 20px;
+    opacity: .7;
 }
 
 // single post
@@ -268,4 +270,9 @@ select {
 
 .image-post {
     border-radius: 10px;
+}
+
+.post-meta {
+    font-size: .75rem;
+    margin:10px;
 }

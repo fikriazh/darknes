@@ -32,7 +32,7 @@ Suscipit adipiscing bibendum est ultricies integer quis. Turpis massa tincidunt 
 
 Sit amet massa vitae tortor. Scelerisque varius morbi enim nunc faucibus. Scelerisque purus semper eget duis at tellus at. Sed augue lacus viverra vitae congue. Id aliquet risus feugiat in.
 
-### Footnotes
+## Footnotes
 
 [^1]: In metus vulputate eu scelerisque [read more](https://wikipedia.org "Wikipedia page for this footnote").
 [^2]: Id aliquet risus feugiat in [read more](https://wikipedia.org "Wikipedia page for this footnote").
