@@ -1,0 +1,50 @@
+#search-query {
+    height: 30px;
+    border: thin solid;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0.75;
+  
+  }
+  
+  #search-title {
+    font-size: 1.2rem;
+    
+  }
+  
+  #search-summary {
+    font-size: .8rem;
+     
+  }
+  
+  mark {
+    border-radius: 3px;
+    padding:2px 5px;
+    color:black ;
+    background-color:orange;
+  }
+  
+  .lottie_search {
+    margin-bottom: -60px;
+    cursor: grab;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .search_header {
+    margin-bottom: -10px;
+  }
+  
+  .search_input {
+    margin-bottom: 30px;
+  }
+  
+  .search_summary {
+    border-bottom: 1px grey dashed;
+    margin: 20px 5% 0 5%;
+    max-width: 400px;
+  }
+  
+  .search_snippet {
+    font-style: normal;
+  }

@@ -2,7 +2,6 @@ baseURL = ""
 relativeURLS = true
 title   = "Mahasemesta"
 languageCode = "en-us"
-theme = "akasha"
 
 summaryLength = 20
 paginate  = 5

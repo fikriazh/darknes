@@ -2,21 +2,21 @@
 
         {{ range $paginator.Pages.GroupByDate "2006" }}
             <div class="posts-group">
-                <div class="post-year" style="text-align: center;">{{ .Key }}</div>
+                <div class="post-year">{{ .Key }}</div>
 
                 <ul class="posts-list">
                     {{ range .Pages }}
                         <li class="post-item">
-                            <a href="{{.Permalink}}" style="padding-bottom: 0px;display: flex;">
+                            <a href="{{.Permalink}}">
                                 <span class="post-title">{{.Title}}</span>
-                                <span class="post-day">
-                                    {{ .Date.Format "2 Jan"}}
-                                </span>
+                                <span class="post-day">{{ .Date.Format "2 Jan"}}</span>
                             </a>
 
+                            <a href="{{.Permalink}}">
                             {{ with .Summary | plainify | safeHTML }}
-                            <div class="post-info" style="margin-top:5px;">{{ . }}</div>
+                            <div class="post-info">{{ . }}</div>
                             {{ end }}
+                            </a>
 
                         </li>
                     {{ end }}

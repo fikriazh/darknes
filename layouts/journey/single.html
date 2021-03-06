@@ -8,11 +8,7 @@
             
               <h3 class="post-title" style="display: initial;">{{ .Title | markdownify }}</h3>
 
-              <div class="post-info">
-               {{ partial "categories.html" . }}
-               at
-               {{ partial "date.html" . }}
-              </div>              
+              <div class="post-info-single">{{- partial "date.html" . -}}{{- partial "categories.html" . -}}</div>              
 
             </div>
 

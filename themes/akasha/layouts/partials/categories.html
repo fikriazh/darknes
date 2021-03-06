@@ -1,9 +1,0 @@
-{{ with .Params.categories }}
-    <span>
-        
-        {{ range . -}}
-            <span class="tag"><a href="{{ "categories/" | relLangURL }}{{ . | urlize }}">{{.}}</a></span>
-        {{ end }}
-
-    </span>
-{{ end }}

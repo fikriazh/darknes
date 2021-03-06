@@ -1,0 +1,39 @@
+{{ define "main" }}
+
+<div align="center" onclick="location.href='/search';">
+  <lottie-player src="/lottie/list.json"  background="transparent"  speed="0.3"  loop  autoplay class="lottie_search"></lottie-player>
+</div>
+
+<div class="search">
+  <header class="search_header">
+    <h1>{{ .Title }}</h1>
+    {{/* partial "debugprint.html" (site.GetPage "/search") */}}
+  </header>
+
+  <form action="{{ .Permalink }}" class="search_input">
+    <input id="search-query" name="q" placeholder="Type and press enter..."></input>
+  </form>
+  
+  <div id="search-results"><strong> Search Results :</strong></div>
+</div>
+
+<template id="search-result-template">
+  <div class="search_summary">
+
+    <span id="search-title" class="post-title no-text-decoration"><a class="search_link search_title" href=""></a></span>
+    <small>
+      <div align="center">
+      <table style="margin-bottom: -15px;">
+        <tr class="search_ifcategories"><td>#</td><td class="search_categories"></td></tr>
+      </table>
+      </div>
+    </small>
+    <p style="margin-bottom: 5px; opacity:.65;"><em id="search-summary" class="search_snippet"></em></p>
+    
+  </div>
+</template>
+
+{{ $search_js_md5 := (readFile "/static/search.js" | md5) }}
+<script src={{ printf "%s?%s" ("/search.js" | relLangURL) $search_js_md5 }}></script>
+
+{{ end }}

@@ -12,16 +12,17 @@
             </a>
         </span>
         {{ end }}
-
+           
             <div class="dropdown">
                 <button onclick="myFunction()" class="dropbtn">{{.Paginator.PageNumber}} of {{.Paginator.TotalPages}}</button>
+                {{ if gt $paginator.TotalPages 2 }}
                 <div id="myDropdown" class="dropdown-content">
                     {{ $halaman := .Paginator.PageNumber }}
                     {{ range $paginator.Pagers }}
                         <a href="{{ .URL }}" {{ if eq $halaman .PageNumber }}style="display:none;"{{end}}>{{ .PageNumber }}</a>
                     {{end}}
-                  
                 </div>
+                {{ end }}
             </div>
 
         {{ if .Paginator.HasNext }}
@@ -55,6 +56,6 @@
         }
       }
     }
-    </script>
+</script>
 
 {{ end }}

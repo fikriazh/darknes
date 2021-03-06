@@ -210,8 +210,10 @@ select {
   .dropdown-content {
     display: none;
     position: absolute;
-    left: -50px;
-    bottom: 55px;
+    overflow-x: scroll;
+    max-width: 130px;
+    left: -30px;
+    bottom: 60px;
     background: $light-background-secondary;
     border-radius: 5px;    
     overflow: auto;
@@ -239,4 +241,34 @@ select {
   
   .show {
       display: flex;
+}
+
+// list post
+
+.posts .post-item {
+    margin: 5px 0;
+}
+
+.posts .post-item a {
+    padding: 5px 0;
+}
+
+.post-year {
+    text-align: center;
+}
+
+.post-info {
+    margin: 0;
+    line-height: 20px;
+}
+
+// single post
+
+.post-info-single {
+    margin: 10px 0;
+    font-size: .8rem;
+}
+
+.image-post {
+    border-radius: 10px;
 }
