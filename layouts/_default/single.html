@@ -1,10 +1,24 @@
 {{ define "main" }}
     <main class="post" style="margin:0px;">
 
-        <article>
+        <article>            
             
             <div class="post-content" style="margin-top:0px; text-align: justify; hyphens: auto;">
+
+                <div align="center" style="margin: 10px;">
+
+                    <lottie-player src="/lottie/{{ .Page.Params.lottie }}.json"  background="transparent"  speed="0.5"  style="width: 300px;"  loop  autoplay></lottie-player>
+                
+                </div>
+                
+                <div style="text-align:center; margin:20px 0;">
+                            
+                    <h3 class="post-title" style="display: initial;">{{ .Page.Title }}</h3>
+                
+                </div>
+
                 {{ .Content }}
+                
             </div>
             
         </article>

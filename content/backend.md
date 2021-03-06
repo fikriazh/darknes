@@ -1,8 +1,7 @@
 +++
 title = "Backend"
+lottie = "work"
 +++
-
-{{< lottie work >}}
 
  On this page, I will explain everything that make us go world. So many material and help is used so this web can be shown to you. I say many thanks to the creator for the material used here. Many material is edited than it's original to fulfill our needs.
 
@@ -34,14 +33,3 @@ title = "Backend"
 4. RawHTML shortcode by [Anulin.org](https://anaulin.org/blog/hugo-raw-html-shortcode/ "Simple Shortcode to Insert Raw HTML in Hugo")
 5. Logo typing animation [Justin Windle](https://codepen.io/soulwire/pen/mErPAK)
 6. Hosted on [GitHub](https://github.com/), domain by [RumahWeb](https://www.rumahweb.com/)
-
-* * *
-
-## Developer Page
-
-1. [404](/404.html)
-2. [Meditation](dev/meditation)
-3. [Loading](dev/loading)
-4. [Typing](dev/typing)
-5. [Story](dev/story)
-6. [Fallout](dev/fallout)

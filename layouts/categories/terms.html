@@ -31,35 +31,29 @@
     <div class="wrapper">
         <ul class="posts-list">
             {{ range .Site.Taxonomies.categories }}
-                <li class="post-item">
-                    <a href="{{ .Page.Permalink }}" style="padding-bottom: 0px; padding-top: 15px; display: block;">
+                <li class="post-item" onclick="location.href='{{ .Page.Permalink }}';" style="cursor: pointer;">
+                    <a href="{{ .Page.Permalink }}" style="display:block;">
                         <span class="post-title">{{.Page.Title}}</span>
                     </a>
-
-                        <span class="count">
-
-                            #
-                            {{ .Count }}
-                            stories
                         
-                        </span>
+                    <span class="count">#&nbsp;{{ .Count }}&nbsp;stories</span>
 
-                        <br>
-                        
-                            <span class="count" style="opacity:1">                               
+                    <br>
+                
+                    <span class="count" style="opacity:1">                               
 
-                                {{ if eq .Page.Title "Hugo" }}
-                                    Blogging tips
-                                {{else if eq .Page.Title "Hypnotherapy" }}
-                                    Therapy kinds
-                                {{else if eq .Page.Title "Semesta" }}
-                                    Universe wisdom
-                                {{else if eq .Page.Title "Soul" }}    
-                                    Soul Journey
-                                {{end}}
+                        {{ if eq .Page.Title "Hugo" }}
+                            Blogging tips
+                        {{else if eq .Page.Title "Hypnotherapy" }}
+                            Therapy kinds
+                        {{else if eq .Page.Title "Semesta" }}
+                            Universe wisdom
+                        {{else if eq .Page.Title "Soul" }}    
+                            Soul Journey
+                        {{end}}
 
-                            </span>
-                        
+                    </span>
+
                 </li>
             {{ end }}
         </ul>  

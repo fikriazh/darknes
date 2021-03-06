@@ -1,8 +1,7 @@
 +++
 title = "Services"
+lottie = "therapy"
 +++
-
-{{< lottie therapy >}}
 
 Mahasemesta serves various type of therapy, including hypnotherapy and mesmerism. Basiclly, we divide our services into two branch, thus for those who need recreational journey or maybe wanna feel relaxation and calmness. The second one is for those who have some ill, either physically or on mind realm.
 
