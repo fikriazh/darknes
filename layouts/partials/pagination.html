@@ -1,5 +1,18 @@
 {{ $paginator := .Paginator }}
 
+{{ if gt $paginator.TotalPages 2 }}
+<style>
+    .dropbtn:hover {
+    cursor: pointer;
+    background: #5c5ca2;    
+    box-shadow: 0 0 5px #5c5ca2,
+              0 0 25px #5c5ca2,
+              0 0 50px #5c5ca2,
+              0 0 100px #5c5ca2;
+  }
+</style>
+{{end}}
+
 {{ if gt $paginator.TotalPages 1 }}
   
 <div class="pagination">
