@@ -1,6 +1,7 @@
 +++
 title = "Brief"
 lottie = "hello"
+description = "Brief page of Mahasemesta"
 +++
 
 Hello, I'm Mahasemesta, I do hypnotherapy with focus on Past Life Regression and Life between Lives Hypnotherapy. With this methode, I can make you observe, even feel and live your previous memory from since your birth or even deepr into previous life (for those who believe in reincarnation).

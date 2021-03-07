@@ -45,6 +45,8 @@ disableHugoGeneratorInject = false
   
 [params]
 
+  keyword = "mahasemesta, hypnotherapy, hypnosis"
+
   homeSubtitle1 = "Mahasemesta Hypnotherapy"
   homeSubtitle2 = "Heal you past to embrace your future"
   homeButton = "TOUCH THE CAT TO BEGIN"

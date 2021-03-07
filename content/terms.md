@@ -3,6 +3,7 @@ title = "Terms of Services"
 lottie = "privacy"
 linkTo = "/privacy-policy"
 linkText = "Privacy Policy"
+description = "Terms of Services page of Mahasemesta"
 +++
 
 By accessing this web site, you are agreeing to be bound by these web site Terms and Conditions of Use, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this web site are protected by applicable copyright and trade mark law.

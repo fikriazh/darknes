@@ -3,6 +3,7 @@ title = "Privacy & Policy"
 lottie = "privacy"
 linkTo = "/terms"
 linkText = "Terms of Services"
+description = "Privacy & Policy page of Mahasemesta"
 +++
 
 Mahasemesta.xyz ("we" or "us") is committed to protecting your privacy. This Privacy Policy explains the methods and reasons we collect, use, disclose, transfer, and store your information. If you have any questions about the contents of this policy, don’t hesitate to contact us.
