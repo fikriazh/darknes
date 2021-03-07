@@ -28,9 +28,8 @@ description = "Backend page of Mahasemesta"
 
 ## Material
 
-1. Web Framewok by [Hugo](https://gohugo.io "Hugo : The best SSG (Static Site Generator) platform")
-2. Theme by [Hello Fiend NG](https://github.com/rhazdon/hugo-theme-hello-friend-ng "Theme that covers all of the essentials. All you have to do is start typing!")
-3. Animation and Script by [Lottie](https://lottiefiles.com/ "Lottie : The new standar for web animation")
-4. RawHTML shortcode by [Anulin.org](https://anaulin.org/blog/hugo-raw-html-shortcode/ "Simple Shortcode to Insert Raw HTML in Hugo")
-5. Logo typing animation [Justin Windle](https://codepen.io/soulwire/pen/mErPAK)
-6. Hosted on [GitHub](https://github.com/), domain by [RumahWeb](https://www.rumahweb.com/)
+1. Web Framewok by [Hugo](https://gohugo.io)
+2. Base theme by [Hello Fiend NG](https://github.com/rhazdon/hugo-theme-hello-friend-ng) (a lot of modification)
+3. Animation by [Lottie](https://lottiefiles.com/)
+4. Footer typing animation [Justin Windle](https://codepen.io/soulwire/pen/mErPAK)
+5. Hosted on [GitHub](https://github.com/), deploy action script by [Peace Iris](https://github.com/peaceiris/actions-hugo)
