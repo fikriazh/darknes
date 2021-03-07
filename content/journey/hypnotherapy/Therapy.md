@@ -4,6 +4,7 @@ title: "Therapy"
 categories: ["Hypnotherapy"]
 description:  Such a nice apple to be enjoy with our weekend.
 Cover: "https://source.unsplash.com/1600x900/?animal"
+author: "Akasha"
 ---
 
 Egestas fringilla phasellus faucibus scelerisque eleifend. Quam nulla porttitor massa id neque aliquam vestibulum morbi blandit. Senectus et netus et malesuada fames ac turpis egestas. Auctor augue mauris augue neque gravida in fermentum et sollicitudin. Aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque[^1]. Praesent tristique magna sit amet purus.

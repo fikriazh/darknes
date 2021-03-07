@@ -54,9 +54,10 @@
                                     {{ end }}
                                     {{ end }}
 
-                                    <i class="fas fa-pen-nib" style="color:currentColor"></i>&nbsp;<span class="tag">{{.WordCount}} words</span>&nbsp;
+                                    <i class="fas fa-user-circle" style="color:currentColor"></i>&nbsp;<span class="tag">{{ if .Page.Params.author }}{{.Page.Params.author}}{{else}}Mahasemesta{{end}}</span>
 
-                                    <i class="fas fa-clock" style="color:currentColor"></i>&nbsp;<span class="tag">{{ math.Round (div (countwords .Content) 220.0) }} min read</span>&nbsp;
+                                    <!-- <i class="fas fa-pen-nib" style="color:currentColor"></i>&nbsp;<span class="tag">{{.WordCount}} words</span>&nbsp;
+                                    <i class="fas fa-clock" style="color:currentColor"></i>&nbsp;<span class="tag">{{ math.Round (div (countwords .Content) 220.0) }} min read</span>&nbsp; -->
 
                                 </div>
 
