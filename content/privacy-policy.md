@@ -1,54 +1,34 @@
 +++
 title = "Privacy & Policy"
 lottie = "privacy"
+linkTo = "/terms"
+linkText = "Terms of Services"
 +++
 
-This privacy policy ("policy") will help you understand how Mahasemesta ("us", "we", "our") uses and protects the data you provide to us when you visit and use Mahasemesta.xyz ("website", "service").
+Mahasemesta.xyz ("we" or "us") is committed to protecting your privacy. This Privacy Policy explains the methods and reasons we collect, use, disclose, transfer, and store your information. If you have any questions about the contents of this policy, don’t hesitate to contact us.
 
-We reserve the right to change this policy at any given time, of which you will be promptly updated. If you want to make sure that you are up to date with the latest changes, we advise you to frequently visit this page.
+If you do not consent to the collection and use of information from or about you in accordance with this Privacy Policy, then you are not permitted to use Fireship or any services provided on [Mahasemesta.xyz](https://mahasemesta.xyz).
 
-### What User Data We Collect
+### Applicable Law
+Fireship is headquartered in the United States of America in the state of Nevada. By viewing any content or otherwise using the services offered by Fireship, you consent to the transfer of information to the United States of America to the extent applicable, and the collection, storage, and processing of information under Nevada, USA law.
 
-When you visit the website, we may collect the following data:
+### Information We Collect
+Information you Submit: We store information you provide on this site via forms, surveys, or any other interactive content. This information commonly includes, but is not limited to, name, mailing address, email address, and uploaded files.
 
-- Your IP address.
-- Your contact information and email address.
-- Other information such as interests and preferences.
-- Data profile regarding your online behavior on our website.
+> Log Files: We collect information when you use services provided on our site. This information may include your IP address, device and software characteristics (such as type and operating system), page views, referral URLs, device identifiers or other unique identifiers such as advertising identifiers (e.g., "ad-ID" or "IDFA"), and carrier information. Log files are primarily used for the purpose of enhancing the user experience.
 
-### Why We Collect Your Data
+> Cookies: We use cookies and related technologies to keep track of user preferences and activity. Cookies are small text files created by a web server, delivered through a web browser, and stored on your computer. Most Internet browsers automatically accept cookies. You can instruct your browser, by changing its settings, to stop accepting cookies or to prompt you before accepting a cookie from the websites you visit.
 
-We are collecting your data for several reasons:
+### Third Party Services
+This site contains links to other websites not owned by Fireship. In general, the third-party services used by us will only collect, use and disclose your information to the extent necessary to allow them to perform their intended services. Please be aware that we are not responsible for the privacy policies of third-party services. Below is a list of third-party services used on this site.
 
-- To better understand your needs.
-- To improve our services and products.
-- To send you promotional emails containing the information we think you will find interesting.
-- To contact you to fill out surveys and participate in other types of market research.
-- To customize our website according to your online behavior and personal preferences.
+### Children and COPPA
+Fireship is committed to complying with the Children’s Online Privacy Protection Act (COPPA). We do not use our services to intentionally solicit data from or market to children under the age of 13. We encourage parents and guardians to report any suspicions that a child has provided us with information without their consent. We will take reasonable action to remove this information.
 
-### Safeguarding and Securing the Data
+### Your Choices
+Opt-Out of Third Party Advertisement Cookies: You may opt out of a third-party vendor's use of cookies for interest based advertising by visiting aboutads.info.
+Do Not Track Browser settings: If you enable Do Not Track settings in the browser you are using, Fireship will not use information about websites you visit, other than our site. Learn more about Do Not Track by visiting allaboutdnt.com
+Email Communication Opt-Out If you receive promotional emails from Fireship, you can unsubscribe by clicking the bottom Unsubscribe or Opt-Out link at the bottom of every email.
 
-Mahasemesta is committed to securing your data and keeping it confidential. Mahasemesta has done all in its power to prevent data theft, unauthorized access, and disclosure by implementing the latest technologies and software, which help us safeguard all the information we collect online.
-
-### Our Cookie Policy
-
-Once you agree to allow our website to use cookies, you also agree to use the data it collects regarding your online behavior (analyze web traffic, web pages you spend the most time on, and websites you visit).
-
-The data we collect by using cookies is used to customize our website to your needs. After we use the data for statistical analysis, the data is completely removed from our systems.
-
-Please note that cookies don't allow us to gain control of your computer in any way. They are strictly used to monitor which pages you find useful and which you do not so that we can provide a better experience for you.
-
-If you want to disable cookies, you can do it by accessing the settings of your internet browser. (Provide links for cookie settings for major internet browsers).
-
-### Links to Other Websites
-
-Our website contains links that lead to other websites. If you click on these links Mahasemesta is not held responsible for your data and privacy protection. Visiting those websites is not governed by this privacy policy agreement. Make sure to read the privacy policy documentation of the website you go to from our website.
-
-### Restricting the Collection of your Personal Data
-
-At some point, you might wish to restrict the use and collection of your personal data. You can achieve this by doing the following:
-
-- When you are filling the forms on the website, make sure to check if there is a box which you can leave unchecked, if you don't want to disclose your personal information.
-- If you have already agreed to share your information with us, feel free to contact us via email and we will be more than happy to change this for you.
-
-Mahasemesta will not lease, sell or distribute your personal information to any third parties, unless we have your permission. We might do so if the law forces us. Your personal information will be used when we need to send you promotional materials if you agree to this privacy policy.
+### Contact Us
+At Fireship, we believe our talented customer service staff will be able to resolve any issues you may have using the our services. If you would like additional information about this privacy policy, please visit our homepage at [Mahasemesta.xyz](https://mahasemesta.xyz) or contact us at [Contact](https://mahasemesta.xyz/contact).
