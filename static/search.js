@@ -50,7 +50,7 @@ function executeSearch(searchQuery) {
     if (result.length > 0) {
       populateResults(result);
     } else {
-      document.getElementById('search-results').innerHTML = "<p class=\"no-results\">No matches found</p>";
+      document.getElementById('search-results').innerHTML = "<p class=\"no-results\">Data tidak ditemukan</p>";
     }
   });
 }

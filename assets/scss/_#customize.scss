@@ -306,8 +306,8 @@ select {
     padding: 8px 0;
     position: absolute;
     z-index: 1;
-    bottom: -114px;
-    left: 70px;
+    bottom: -141px;
+    left: 49px;
     margin-left: -80px;
     background-color: #555;
     color: #fff;
@@ -315,16 +315,59 @@ select {
     font-weight:normal ;
     border-radius: 6px;    
   }
-  
-  @media screen and (max-width: 684px){
-    .popup .popuptext {
-        bottom: -110px;
-        left: -40px;
-      }
-  }
-  
-  /* Toggle this class - hide and show the popup */
+
   .popup .show {
     visibility: visible;
     display: block;
+  }
+
+  @media screen and (max-width: 684px){
+    .popup .popuptext {
+        bottom: -76px;
+        left: -38px;
+      }
+  }
+
+  // search popup
+
+  .container_cari {
+    position: relative;
+    cursor:pointer;
+  }
+
+  .container_cari:hover {
+    text-decoration: underline;
+  }
+
+  #carii {  
+    display:none;
+    position: absolute;
+    top: 30px;
+    right: -20px;
+  }
+
+  .input_cari {
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    height:30px;
+  }
+
+  #close_cari {
+    display: block;
+    position: absolute;
+    top: 7px;
+    left: 107px;
+    color:currentColor;
+  }
+
+  @media screen and (max-width: 684px){
+    #carii {
+        top: 2px;
+        right: 50px;
+    }
+
+    #close_cari {
+        left : -20px;
+    }
   }

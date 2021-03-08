@@ -22,13 +22,13 @@ Inspirasi terbesar saya adalah `Michael Newton` dan `Dolores Canon`. Mereka mamp
 
 Situs ini terdiri dari beberapa bagian, sebagai berikut :
 - Selamat Datang (halaman ini) : merupakan halaman pertama para pengunjung bisa membaca sekilas mengenai Mahasemesta.
-- [Layanan](/layanan) : halaman yang berisi daftar dan penjelasan layanan yang Mahasemesta lakukan.
+- [Terapi](/terapi) : halaman yang berisi daftar dan penjelasan layanan yang Mahasemesta lakukan.
 - [Blog](/blog) : halaman blog berisikan tulisan dan testimoni dari para client. Terbagi atas 3 kategori :
     - [Coretan](/kategori/coretan) (tulisan cerita keseharian)
     - [Kisah](/kategori/kisah) (testimoni dan cerita para client)
     - [Semesta](/kategori/semesta) (artikel tentang dunia energi dan semesta).
 - [Kontak](/kontak) : halaman mengenai kontak Mahasemesta yang bisa dihubungi untuk sesi terapi.
-- Tentang : menu ini berisi beberapa submenu sebagai berikut :    
+- Info : menu ini berisi beberapa submenu sebagai berikut :    
     - [Jadwal](https://calendar.google.com/calendar/embed?src=fikriazh%40gmail.com&ctz=Asia%2FJakarta) : melihat kalender jadwal sesi terapi Mahasemesta.
     - [FAQ](/faq) : halaman berisikan pertanyaan yang sering ditanyakan.
     - [Ketentuan](/ketentuan) : halaman yang menjelaskan berbagai ketentuan yang harus disetujui dalam semua aktifitas Mahasemesta.

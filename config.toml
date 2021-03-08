@@ -64,9 +64,9 @@ disableHugoGeneratorInject = false
 
 [menu]
     [[menu.main]]
-    identifier = "layaan"
-    name = "Layanan"
-    url = "layanan/"
+    identifier = "terapi"
+    name = "Terapi"
+    url = "terapi/"
     weight = "1"
 
     [[menu.main]]
@@ -74,9 +74,3 @@ disableHugoGeneratorInject = false
     name = "Blog"
     url = "blog/"
     weight = "2"
-
-    [[menu.main]]
-    identifier = "kontak"
-    name = "Kontak"
-    url = "kontak/"
-    weight = "3"   
