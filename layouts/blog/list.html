@@ -12,16 +12,16 @@
                     
                     {{ .Title }}</h2>
 
-                <a href="/categories">
-                <span class="post-info">List of Categories</span>
+                <a href="/kategori">
+                <span class="post-info">List Kategori</span>
                 </a>
 
                 <br>
 
-                <button id="tombol" onclick="location.href='/search';" style="margin-top: 10px;">
+                <button id="tombol" onclick="location.href='/pencarian';" style="margin-top: 10px; display:initial">
                     <i class="fas fa-search" style="color:currentColor"></i>
                     &nbsp;
-                    Search Articles
+                    Pencarian
                 </button>
 
             </div>
@@ -43,21 +43,18 @@
                             </a>
 
                             <a href="{{.Permalink}}">
-                            <img src="{{ .Params.Cover | absURL }}" alt="{{ .Title }}" style="border-radius: 5px;" />
+                            <img src="{{ .Params.Cover | relURL }}" alt="{{ .Title }}" style="border-radius: 5px;" />
                             </a>
                             
                                 <div align="Center" class="post-meta">
 
-                                    {{ with .Params.categories }}
+                                    {{ with .Params.kategori }}
                                     {{ range . -}}
                                     <i class="fas fa-folder-open" style="color:currentColor"></i>&nbsp;<span class="tag">{{.}}</span>&nbsp;
                                     {{ end }}
                                     {{ end }}
 
                                     <i class="fas fa-user-circle" style="color:currentColor"></i>&nbsp;<span class="tag">{{ if .Page.Params.author }}{{.Page.Params.author}}{{else}}Mahasemesta{{end}}</span>
-
-                                    <!-- <i class="fas fa-pen-nib" style="color:currentColor"></i>&nbsp;<span class="tag">{{.WordCount}} words</span>&nbsp;
-                                    <i class="fas fa-clock" style="color:currentColor"></i>&nbsp;<span class="tag">{{ math.Round (div (countwords .Content) 220.0) }} min read</span>&nbsp; -->
 
                                 </div>
 

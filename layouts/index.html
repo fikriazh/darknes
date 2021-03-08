@@ -1,17 +1,14 @@
 {{ define "main" }}
 
-<div onclick="location.href='brief';" style="cursor: grabbing;" title="Meoow, touch me to begin our journey">
-<lottie-player src="/lottie/cat.json"  background="transparent"  speed="0.3" loop autoplay style="width:150px;height:150px" ></lottie-player>
-</div>
-
 <div align="Center">
+<lottie-player src="/lottie/cat.json"  background="transparent"  speed="0.3" loop autoplay style="width:150px;height:150px" ></lottie-player>
 
 {{ .Site.Params.homeSubtitle1 }}
 <br>
 {{ .Site.Params.homeSubtitle2 }}
 <br>
 <br>
-<button id="tombol" style="font-size: small; transition: 1s;">{{ .Site.Params.homeButton }}</button>
+<button onclick="location.href='selamat-datang';"  id="tombol" style="font-size: small; transition: 1s;">{{ .Site.Params.homeButton }}</button>
 
 </div>
 

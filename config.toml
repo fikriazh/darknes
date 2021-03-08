@@ -32,7 +32,7 @@ disable404     = false
 disableHugoGeneratorInject = false
 
 [permalinks]
-  journey = "/journey/:title/"
+  blog = "/blog/:title/"
 
 [author]
   name = "Mahasemesta"
@@ -41,15 +41,15 @@ disableHugoGeneratorInject = false
   hrefTargetBlank = true
 
 [taxonomies]
-  category = "categories"
+  kategori = "kategori"
   
 [params]
 
   keyword = "mahasemesta, hypnotherapy, hypnosis"
 
-  homeSubtitle1 = "Mahasemesta Hypnotherapy"
+  homeSubtitle1 = "MAHASEMESTA"
   homeSubtitle2 = "Heal you past to embrace your future"
-  homeButton = "TOUCH THE CAT TO BEGIN"
+  homeButton = "MULAI PERJALANAN"
 
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
@@ -64,19 +64,19 @@ disableHugoGeneratorInject = false
 
 [menu]
     [[menu.main]]
-    identifier = "services"
-    name = "Services"
-    url = "services/"
+    identifier = "layaan"
+    name = "Layanan"
+    url = "layanan/"
     weight = "1"
 
     [[menu.main]]
-    identifier = "journey"
-    name = "Journey"
-    url = "journey/"
+    identifier = "blog"
+    name = "Blog"
+    url = "blog/"
     weight = "2"
 
     [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "contact/"
+    identifier = "kontak"
+    name = "Kontak"
+    url = "kontak/"
     weight = "3"   

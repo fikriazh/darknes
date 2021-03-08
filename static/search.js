@@ -35,7 +35,7 @@ if(searchQuery){
 } 
 
 else {
-  document.getElementById('search-results').innerHTML = "<p class=\"no-results\">Search Title, Content etc.</p>";
+  document.getElementById('search-results').innerHTML = "<p class=\"no-results\">Cari judul atau isi halaman</p>";
 }
 
 function executeSearch(searchQuery) {

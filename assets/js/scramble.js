@@ -58,11 +58,11 @@ class TextScramble {
     
     const phrases = [
     'Mahasemesta',    
-    'Hypnotherapy',
+    'Hipnoterapi',
     'Life Regression',
     'Mesmerism',
     'Soul Healing',
-    'Meditation'
+    'Meditasi'
     
     ]
     

@@ -14,13 +14,6 @@
                 <div style="text-align:center; margin:20px 0;">
                             
                     <h3 class="post-title" style="display: initial;">{{ .Page.Title }}</h3>
-
-                    <br>
-
-                    {{ if (and .Page.Params.linkTo .Page.Params.linkText) }}
-                    <p style="display: initial;"><a href="{{ .Page.Params.linkTo }}">{{.Page.Params.linkText}}</a></p>
-                    {{end}}
-                
                 </div>
 
                 {{ .Content }}

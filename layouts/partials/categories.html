@@ -1,8 +1,8 @@
-{{ with .Params.categories }}
+{{ with .Params.kategori }}
     <span>
         
         {{ range . -}}
-        <i class="fas fa-folder-open" style="color:currentColor"></i>&nbsp;<span class="tag"><a href="{{ "categories/" | relLangURL }}{{ . | urlize }}">{{.}}</a></span>
+        <i class="fas fa-folder-open" style="color:currentColor"></i>&nbsp;<span class="tag"><a href="{{ "kategori/" | relLangURL }}{{ . | urlize }}">{{.}}</a></span>
         {{ end }}
 
     </span>
