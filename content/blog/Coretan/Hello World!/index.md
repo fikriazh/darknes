@@ -4,7 +4,7 @@ title: "Hello World"
 kategori: ["Coretan"]
 description:  Awal dari perjalanan menelusuri bagaimana Sang Pencipta memprogram semua ini.
 Cover: "https://unsplash.com/photos/FXFz-sW0uwo/download?force=true&w=1920"
-author: "Lanteerha"
+author: "Fikri"
 ---
 
 The universe has it's own language. The programmer of all of the whole is sitting in front of his super computer to watch us, as his creature in simulation. His words are not really there at all and cannot be processed even though he reads them (for example: "I'm reading my text!").

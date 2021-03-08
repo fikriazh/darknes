@@ -4,11 +4,25 @@ lottie = "hello"
 description = "Halaman selamat datang di Mahasemesta"
 +++
 
-Hello, I'm Mahasemesta, I do hypnotherapy with focus on Past Life Regression and Life between Lives Hypnotherapy. With this methode, I can make you observe, even feel and live your previous memory from since your birth or even deepr into previous life (for those who believe in reincarnation).
+Selamat datang di situs Mahasemesta. Perkenalkan saya Fikri Azhar Novianto, sebagai owner dari Mahasemesta. Saya melayani terapi yang berbasis pada hipnosis atau lebih dikenal sebagai hipnoterapi.
 
-I inspired from `Michael Newton` and `Dolores Cannon` with the same purpose, to connect to our past memories, to collect and relive again that moment in the now. Either you wanna get some recreational journey to the past or perhaps you wanna relief your unhealable wounds? Both we do.
+### Sekapur Sirih
 
->I got certified with non-academic title **CH** (Certified Hypnosis) and **CHt** (Certified Hypnotherapy) from The Indonesian Board of Hypnotherapy (IBH). Another certificate is from RHI (Rumah Hipnotis Indonesia) with **CRM** (Certified Radical Mesmerism), btw mesmerism is kind of old brother of it's modern, Hypnosis and hypnotherapy.
+Latar belakang saya adalah berasal dari lulusan Teknik Geologi di salah satu universitas di Yogyakarta. Ketertarikan saya pada dunia energi dan fikiran sebenarnya sudah bermula sejak dari bangku SMA. Berawal dari tayangan Dua Dunia (Trans 7), cerita lengkap silahkan baca di [Awal Mula](https://mahasemesta.xyz/blog/awal-mula).
 
+Keilmuan ini saya dapat dari beberapa pelatihan, di antaranya :
+- Sertifikasi Hipnosis (CH) pada IBH (Indonesian Board of Hypnotherapy)
+- Sertifikasi Hipnoterapis (CHt) pada IBH (Indonesian Board of Hypnotherapy)
+- Sertifikasi Radical Mesmerism (CRM) pada RHI (Rumah Hipnosis Indonesia)
+- Praktisi Ruqyah Syarr'iyah dari Quranic Healing Indonesia
 
-Interested enough? Let's jump to contact page, here the link [**Contact us**](/contact). Or wanna continue reading my brief story? You decide...
+Inspirasi terbesar saya adalah `Michael Newton` dan `Dolores Canon`. Mereka mampu dengan mudah dimengerti mendefinisikan dunia energi melalui media hipnosis dan menjelaskan bagaimana alam semesta bekerja dengan segala sistem yang menyertainya. Lengkapnya saya ceritakan pada laman [Inspirasi](https://mahasemesta.xyz/blog/inspirasi).
+
+### Navigasi situs Mahasemesta
+
+Situs ini terdiri dari beberapa bagian, sebagai berikut :
+- Selamat Datang (halaman ini) : merupakan halaman pertama para pengunjung bisa membaca sekilas mengenai Mahasemesta.
+- [Layanan](https://mahasemesta.xyz/layanan) : halaman yang berisi daftar dan penjelasan layanan yang Mahasemesta lakukan.
+- [Blog](https://mahasemesta.xyz/blog) : halaman blog berisikan tulisan dan testimoni dari para client. Terbagi atas 3 kategori : [Coretan](https://mahasemesta.xyz/kategori/coretan) (tulisan cerita keseharian), [Kisah](https://mahasemesta.xyz/kategori/kisah) (testimoni dan cerita para client), dan [Semesta](https://mahasemesta.xyz/kategori/semesta) (artikel tentang dunia energi dan semesta).
+- [Kontak](https://mahasemesta.xyz/kontak) : halaman mengenai kontak Mahasemesta yang bisa dihubungi untuk sesi terapi.
+- [Kebijakan Privasi](https://mahasemesta.xyz/kebijakan-privasi) : halaman persetujuan dan ketentuan mengenai penggunaan data pengunjung situs Mahasemesta. Halaman ini dapat diakses dengan mengklik footer.
