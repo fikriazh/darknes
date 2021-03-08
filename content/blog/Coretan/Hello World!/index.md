@@ -20,4 +20,4 @@ But since when was code written so human readable no matter how hard he tries! S
 
 ***
 ### Pustaka
-- Gambar cover [Markus Spiske](https://unsplash.com/photos/uPXs5Vx5bIg)
+- Gambar over diambil dari [Markus Spiske](https://unsplash.com/photos/uPXs5Vx5bIg)

@@ -45,11 +45,11 @@ disableHugoGeneratorInject = false
   
 [params]
 
-  keyword = "mahasemesta, hypnotherapy, hypnosis"
+  keyword = "mahasemesta, hipnoterapi, hipnosis, hipnotis"
 
   homeSubtitle1 = "MAHASEMESTA"
   homeSubtitle2 = "Heal you past to embrace your future"
-  homeButton = "MULAI PERJALANAN"
+  homeButton = "BEGIN JOURNEY"
 
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"

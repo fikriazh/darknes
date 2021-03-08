@@ -1,5 +1,5 @@
 +++
-title = "Layanan"
+title = "Pelayanan"
 lottie = "therapy"
 description = "Services page of Mahasemesta"
 +++
