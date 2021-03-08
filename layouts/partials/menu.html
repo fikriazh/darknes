@@ -5,17 +5,9 @@
             <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
         {{- end }}
 
-        <div class="container_cari">
-            <li onclick="openForm()">Cari</li>
-            <div id="carii">
-                <form action="/pencarian">
-                    <input type="text" name="q" class="input_cari">  
-                </form>                   
-                <i class="far fa-times-circle" onclick="closeForm()" id="close_cari"></i>         
-            </div>
-        </div>
+            <li><a href="{{ "pencarian" | relURL }}">Pencarian</a></li>
 
-        <div class="popup" onclick="myFunction()"><li>Info</li>
+        <div class="popup" onclick="myFunction()"><li>Informasi</li>
             <ul class="popuptext" id="myPopup">
                 <li><a href="{{ "/kontak" | relURL }}">Kontak</a></li>
                 <li><a target="_blank" href="https://calendar.google.com/calendar/embed?src=fikriazh%40gmail.com&ctz=Asia%2FJakarta">Jadwal</a></li>
