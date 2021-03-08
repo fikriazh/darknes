@@ -129,6 +129,10 @@ select {
   }
 
   @media screen and (max-width: 684px){
+    #theme_toggle {
+        margin-top: 10px;
+    }
+
     .malam{
       font-weight:bold;
       background: #5c5ca2;
@@ -276,3 +280,51 @@ select {
     font-size: .75rem;
     margin:10px;
 }
+
+// tentang
+
+/* Popup container - can be anything you want */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+.popup:hover {
+    text-decoration: underline;
+}
+  
+  /* The actual popup */
+  .popup .popuptext {
+    list-style-type:none;
+    visibility: hidden;
+    width: 114px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: -114px;
+    left: 70px;
+    margin-left: -80px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    font-weight:normal ;
+    border-radius: 6px;    
+  }
+  
+  @media screen and (max-width: 684px){
+    .popup .popuptext {
+        bottom: -110px;
+        left: -40px;
+      }
+  }
+  
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+    visibility: visible;
+    display: block;
+  }

@@ -2,8 +2,16 @@
     <ul class="menu__inner">
         {{- $currentPage := . -}}
         {{ range .Site.Menus.main -}}
-            <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+            <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
         {{- end }}
+        <div class="popup" onclick="myFunction()"><li>Tentang</li>
+            <ul class="popuptext" id="myPopup">
+                <li><a target="_blank" href="https://calendar.google.com/calendar/embed?src=fikriazh%40gmail.com&ctz=Asia%2FJakarta">Jadwal</a></li>
+                <li><a href="{{ "/faq" | relURL }}">FAQ</a></li>
+                <li><a href="{{ "/ketentuan" | relURL }}">Ketentuan</a></li>
+                <li><a href="{{ "/kebijakan-privasi" | relURL }}">Privasi</a></li>
+            </ul>
+        </div>
        
         <span id="pemisah"> &nbsp;|</span>
 
@@ -11,3 +19,11 @@
 
     </ul>
 </nav>
+
+<script>
+    // When the user clicks on div, open the popup
+    function myFunction() {
+      var popup = document.getElementById("myPopup");
+      popup.classList.toggle("show");
+    }
+</script>
