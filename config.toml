@@ -47,9 +47,9 @@ disableHugoGeneratorInject = false
 
   keyword = "mahasemesta, hipnoterapi, hipnosis, hipnotis"
 
-  homeSubtitle1 = "MAHASEMESTA"
+  homeSubtitle1 = "Mahasemesta Hipnoterapi"
   homeSubtitle2 = "Heal you past to embrace your future"
-  homeButton = "BEGIN JOURNEY"
+  homeButton = "INTRODUCTION"
 
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
@@ -74,3 +74,9 @@ disableHugoGeneratorInject = false
     name = "Blog"
     url = "blog/"
     weight = "2"
+
+    [[menu.main]]
+    identifier = "pencarian"
+    name = "Pencarian"
+    url = "pencarian/"
+    weight = "3"

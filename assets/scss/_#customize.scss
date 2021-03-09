@@ -136,7 +136,7 @@ select {
     .malam{
       font-weight:bold;
       background: #5c5ca2;
-      color: currentColor;
+      color: white;
       box-shadow: 0 0 5px #5c5ca2,
               0 0 25px #5c5ca2,
               0 0 50px #5c5ca2,
@@ -306,8 +306,8 @@ select {
     padding: 8px 0;
     position: absolute;
     z-index: 1;
-    bottom: -141px;
-    left: 49px;
+    bottom: -140px;
+    left: 70px;
     margin-left: -80px;
     background-color: #555;
     color: #fff;
@@ -326,48 +326,4 @@ select {
         bottom: -76px;
         left: -38px;
       }
-  }
-
-  // search popup
-
-  .container_cari {
-    position: relative;
-    cursor:pointer;
-  }
-
-  .container_cari:hover {
-    text-decoration: underline;
-  }
-
-  #carii {  
-    display:none;
-    position: absolute;
-    top: 30px;
-    right: -20px;
-  }
-
-  .input_cari {
-    width: 100px;
-    text-align: center;
-    border-radius: 5px;
-    height:30px;
-  }
-
-  #close_cari {
-    display: block;
-    position: absolute;
-    top: 7px;
-    left: 107px;
-    color:currentColor;
-  }
-
-  @media screen and (max-width: 684px){
-    #carii {
-        top: 2px;
-        right: 50px;
-    }
-
-    #close_cari {
-        left : -20px;
-    }
   }

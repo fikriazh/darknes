@@ -1,20 +1,19 @@
 {{ define "main" }}
 
-<div align="center" onclick="location.href='/search';">
+<div align="center">
   <lottie-player src="/lottie/list.json"  background="transparent"  speed="0.3"  loop  autoplay class="lottie_search"></lottie-player>
 </div>
 
 <div class="search">
   <header class="search_header">
     <h1>{{ .Title }}</h1>
-    {{/* partial "debugprint.html" (site.GetPage "/search") */}}
   </header>
 
   <form action="{{ .Permalink }}" class="search_input">
     <input id="search-query" name="q" placeholder="Masukkan kata kunci..."></input>
   </form>
   
-  <div id="search-results"><strong> Hasil pencarian :</strong></div>
+  <div id="search-results">Hasil pencarian :</div>
 </div>
 
 <template id="search-result-template">
