@@ -327,3 +327,20 @@ select {
         left: -38px;
       }
   }
+
+// home icon
+
+.home-icon {
+    display:inline-block;
+    text-align: center;
+    padding: 10px;
+}
+
+#fa-home {
+    color: currentColor;
+}
+
+.home-subtitle {
+    text-transform: uppercase;
+    margin:0;
+}

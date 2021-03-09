@@ -3,12 +3,29 @@
 <div align="Center">
 <lottie-player src="/lottie/cat.json"  background="transparent"  speed="0.3" loop autoplay style="width:150px;height:150px" ></lottie-player>
 
-{{ .Site.Params.homeSubtitle1 }}
-<br>
-{{ .Site.Params.homeSubtitle2 }}
-<br>
-<br>
-<button onclick="location.href='selamat-datang';"  id="tombol" style="font-size: small; transition: 1s;">{{ .Site.Params.homeButton }}</button>
+    <div style="margin:10px 0">
+       
+
+        <div class="home-icon">
+            <i id="fa-home" class="fas fa-cloud-meatball fa-2x"></i> <br>
+            Hipnoterapi
+        </div>
+
+        <div class="home-icon" style="margin:0 5px">
+            <i id="fa-home" class="fas fa-campground fa-2x"></i> <br>
+            Meditasi
+        </div>
+
+        <div class="home-icon">
+            <i id="fa-home" class="fas fa-history fa-2x"></i> <br>
+            Life Regresi
+        </div>
+            
+    </div>
+
+    <h5 class="home-subtitle">"{{ .Site.Params.homeSubtitle }}"</h5>
+
+<button onclick="location.href='selamat-datang';"  id="tombol" style="font-size: small; transition: 1s; margin: 20px 0">{{ .Site.Params.homeButton }}</button>
 
 </div>
 
