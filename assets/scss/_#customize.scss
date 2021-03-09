@@ -108,12 +108,14 @@ select {
 // theme toggle
 
 .malam {
+    cursor:pointer;
     display:flex;
     border-radius: 50%;
     width: 30px;
     height: 30px;
     align-items: center;
     justify-content: center;
+    transition: 1s;
     
     
   }
@@ -129,11 +131,12 @@ select {
   }
 
   @media screen and (max-width: 684px){
-    #theme_toggle {
-        margin-top: 10px;
+    
+    #malam {
+        margin: 10px 0; 
     }
 
-    .malam{
+    .malam {       
       font-weight:bold;
       background: #5c5ca2;
       color: white;
@@ -305,7 +308,7 @@ select {
     width: 114px;
     padding: 8px 0;
     position: absolute;
-    z-index: 1;
+    z-index: 10;
     bottom: -140px;
     left: 70px;
     margin-left: -80px;
@@ -319,6 +322,7 @@ select {
   .popup .show {
     visibility: visible;
     display: block;
+    transition: 1s;
   }
 
   @media screen and (max-width: 684px){
@@ -346,7 +350,7 @@ z-index: -10;
 .home-logo {
 width: 10%;
 position: 50% 50%;
-z-index: 50;
+z-index: -1;
 }
 
 @media screen and (max-width: 684px) {

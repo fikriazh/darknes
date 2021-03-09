@@ -75,7 +75,7 @@ disableHugoGeneratorInject = false
     weight = "2"
 
     [[menu.main]]
-    identifier = "pencarian"
-    name = "Pencarian"
-    url = "pencarian/"
+    identifier = "kontak"
+    name = "Kontak"
+    url = "kontak/"
     weight = "3"
