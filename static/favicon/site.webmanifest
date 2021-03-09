@@ -15,6 +15,7 @@
     ],
     "theme_color": "#1b1c1d",
     "background_color": "#1b1c1d",
-    "start_url": "https://mahasemesta.xyz",
-    "display": "standalone"
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait"
 }

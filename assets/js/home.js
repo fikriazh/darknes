@@ -1,40 +1,4 @@
-{{ define "main" }}
-
-<style>
-    canvas {
-display: block;
-vertical-align: bottom;   
-z-index: -10; 
-}
-
-#particles-js {
-position: fixed;
-width: 100%;
-height: 100%;
-z-index: -10; 
-} 
-
-.home-logo {
-width: 10%;
-position: 50% 50%;
-z-index: 50;
-}
-
-@media screen and (max-width: 684px) {
-.home-logo {
-width: 40%;
-}
-}
-</style>
-
-<div id="particles-js"></div>
-
-<img class="home-logo" src="/favicon/android-chrome-512x512.png">
-
-<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-
-<script>
-    particlesJS("particles-js", {
+particlesJS("particles-js", {
     particles: {
         number: { value: 260, density: { enable: false, value_area: 4419.226793140727 } },
         color: { value: "#ffffff" },
@@ -74,7 +38,3 @@ update = function () {
     requestAnimationFrame(update);
 };
 requestAnimationFrame(update);
-
-</script>
-
-{{ end }}
