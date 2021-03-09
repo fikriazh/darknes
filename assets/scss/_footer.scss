@@ -17,16 +17,12 @@
   }
 
   &__content {
-    display: flex;
-    flex-direction: row;
     align-items: center;
     font-size: 1rem;
-    color: $light-color-secondary;
-
-    @media #{$media-size-tablet} {
-      flex-direction: column;
-      margin-top: 10px;
-    }
-    
+    color: currentColor;
+    font-size:small;
+    display: inline;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
   }
 }
