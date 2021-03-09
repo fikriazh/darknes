@@ -2,6 +2,18 @@
 
 <div id="particles-js"></div>
 
-<img onclick="location.href='selamat-datang';" class="home-logo" src="/favicon/android-chrome-512x512.png" title="Introduction">
+<div class="home-container" align="Center" >
+
+    <img class="home-logo" src="/logo.png" alt="Mahasemesta">
+
+    <div class="glass-home">
+        <h3 class="home-title">{{ .Site.Params.homeTitle }}</h3>
+        <br>
+        <h4 class="home-subtitle">"{{ .Site.Params.homeSubtitle }}"</h4>
+    </div>
+
+</div>
+
+<button class="tombol-home" onclick="location.href='selamat-datang';"  id="tombol">{{ .Site.Params.homeButton }}</button>
 
 {{ end }}
