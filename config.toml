@@ -37,9 +37,6 @@ disableHugoGeneratorInject = false
 [author]
   name = "Mahasemesta"
 
-[blackfriday]
-  hrefTargetBlank = true
-
 [taxonomies]
   kategori = "kategori"
   
