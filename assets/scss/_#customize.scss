@@ -336,7 +336,6 @@ select {
 
 .home-container {
     position: relative;
-    top: 5%;
     z-index: 1;
 }
 
@@ -401,10 +400,10 @@ z-index: -10;
 
 
 @keyframes logo {
-    0% { box-shadow: 0 0 0px #5c5ca2; }    
+    0% { box-shadow: 0 0 5px #5c5ca2; }    
     40% { box-shadow: 0 0 150px #5c5ca2; }
     60% { box-shadow: 0 0 150px #5c5ca2; }   
-    100% { box-shadow: 0 0 0px #5c5ca2; }
+    100% { box-shadow: 0 0 5px #5c5ca2; }
   }
 
 @media screen and (max-width: 684px) {
