@@ -1,6 +1,7 @@
 {{ define "main" }}
 
 <div id="particles-js"></div>
+<div id="particles-js2"></div>
 
 <div class="home-container" align="Center" >
 
@@ -12,8 +13,8 @@
         <h4 class="home-subtitle">"{{ .Site.Params.homeSubtitle }}"</h4>
     </div>
 
-</div>
+    <button class="tombol-home" id="tombol"><a href="/selamat-datang" style="text-decoration: none;">{{ .Site.Params.homeButton }}</a></button>
 
-<button class="tombol-home" onclick="location.href='selamat-datang';"  id="tombol">{{ .Site.Params.homeButton }}</button>
+</div>
 
 {{ end }}
